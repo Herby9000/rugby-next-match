@@ -93,7 +93,7 @@
         <div class="countdown" role="timer">
           ${['days','hours','mins','secs'].map(k => `<div class="unit"><span class="num" id="${k}">—</span><span class="label">${k}</span></div>`).join('')}
         </div>
-        <div class="empty">Saracens: no upcoming fixture was available from the checked sources when this was generated.</div>
+        ${(data.notes || []).length ? `<div class="empty">${data.notes.map(note => `<div>${note}</div>`).join('')}</div>` : ''}
         <div class="footer">
           <span>Updated: ${fmtDate.format(new Date(data.generated_at_utc))}</span>
           <span>Source: ${next.source}</span>

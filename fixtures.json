@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-03T21:02:13Z",
+  "generated_at_utc": "2026-07-03T21:24:19.792758Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -11,13 +11,14 @@
       "opponent": "South Africa Rugby",
       "title": "South Africa Rugby vs England Rugby",
       "competition": "Nations Championship",
-      "venue": "Ellis Park Stadium, Johannesburg",
+      "venue": "Ellis Park Stadium, Johannesburg, South Africa",
       "start_utc": "2026-07-04T15:40:00Z",
       "home_away": "Away",
       "source": "TheSportsDB"
     }
   ],
   "notes": [
-    "TheSportsDB and Saracens official fixtures page returned no upcoming Saracens fixture at generation time."
+    "Saracens: no future TheSportsDB fixture returned.",
+    "Saracens: official fixtures page returned no future fixture."
   ]
 }
