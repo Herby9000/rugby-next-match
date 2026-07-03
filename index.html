@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Next Rugby Match</title>
+  <meta name="description" content="Next Saracens or England Rugby match." />
+  <style>
+    :root {
+      --bg: #080b12; --card: rgba(255,255,255,.08); --card2: rgba(255,255,255,.12);
+      --text: #f4f7fb; --muted: #9eaac0; --accent: #e61b2e; --accent2: #64d2ff;
+      --good: #4ade80; --line: rgba(255,255,255,.16);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; display: grid; place-items: center;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(230,27,46,.35), transparent 34rem),
+        radial-gradient(circle at bottom right, rgba(100,210,255,.22), transparent 32rem),
+        linear-gradient(135deg, #080b12 0%, #111827 55%, #05070b 100%);
+      padding: 28px;
+    }
+    main { width: min(920px, 100%); }
+    .eyebrow { color: var(--accent2); text-transform: uppercase; letter-spacing: .16em; font-size: .78rem; font-weight: 800; }
+    h1 { font-size: clamp(2.2rem, 7vw, 5.2rem); line-height: .94; margin: 14px 0 24px; }
+    .card {
+      border: 1px solid var(--line); border-radius: 30px; padding: clamp(22px, 5vw, 44px);
+      background: linear-gradient(145deg, var(--card), rgba(255,255,255,.045));
+      box-shadow: 0 24px 80px rgba(0,0,0,.42); backdrop-filter: blur(16px);
+    }
+    .team { display: inline-flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 999px; background: var(--card2); color: #fff; font-weight: 800; }
+    .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--good); box-shadow: 0 0 24px var(--good); }
+    .match { font-size: clamp(1.7rem, 4vw, 3.25rem); font-weight: 900; letter-spacing: -.04em; margin: 20px 0 10px; }
+    .meta { color: var(--muted); font-size: clamp(1rem, 2.2vw, 1.25rem); line-height: 1.65; }
+    .countdown { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 28px 0; }
+    .unit { background: rgba(255,255,255,.09); border: 1px solid var(--line); border-radius: 20px; padding: 18px 12px; text-align: center; }
+    .num { display:block; font-size: clamp(2rem, 5vw, 4rem); font-weight: 950; letter-spacing: -.06em; }
+    .label { color: var(--muted); text-transform: uppercase; letter-spacing: .12em; font-size: .7rem; font-weight: 800; }
+    .footer { display:flex; flex-wrap:wrap; gap: 12px; justify-content: space-between; align-items:center; margin-top: 18px; color: var(--muted); font-size: .92rem; }
+    a { color: #b9ecff; }
+    .empty { margin-top: 18px; padding: 16px; border: 1px dashed var(--line); border-radius: 18px; color: var(--muted); }
+    @media (max-width: 620px) { .countdown { grid-template-columns: repeat(2, 1fr); } }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="eyebrow">Saracens / England rugby tracker</div>
+    <h1>Next match</h1>
+    <section class="card" id="app" aria-live="polite">Loading fixture…</section>
+  </main>
+
+  <script>
+    const fmtDate = new Intl.DateTimeFormat(undefined, {
+      weekday: 'long', year: 'numeric', month: 'long', day: 'numeric',
+      hour: 'numeric', minute: '2-digit', timeZoneName: 'short'
+    });
+
+    function parts(ms) {
+      const s = Math.max(0, Math.floor(ms / 1000));
+      return {
+        days: Math.floor(s / 86400),
+        hours: Math.floor((s % 86400) / 3600),
+        mins: Math.floor((s % 3600) / 60),
+        secs: s % 60
+      };
+    }
+
+    async function load() {
+      const res = await fetch('./fixtures.json', { cache: 'no-store' });
+      const data = await res.json();
+      const now = Date.now();
+      const next = data.matches
+        .map(m => ({...m, date: new Date(m.start_utc)}))
+        .filter(m => m.date.getTime() > now - 3 * 60 * 60 * 1000)
+        .sort((a,b) => a.date - b.date)[0];
+
+      const app = document.getElementById('app');
+      if (!next) {
+        app.innerHTML = `<div class="match">No upcoming match found</div><p class="meta">Sources checked, but nothing future-dated is currently available.</p>`;
+        return;
+      }
+
+      app.innerHTML = `
+        <div class="team"><span class="dot"></span>${next.team}</div>
+        <div class="match">${next.title}</div>
+        <div class="meta">
+          <strong>${next.competition}</strong><br>
+          ${next.venue}<br>
+          <span id="kickoff"></span>
+        </div>
+        <div class="countdown" role="timer">
+          ${['days','hours','mins','secs'].map(k => `<div class="unit"><span class="num" id="${k}">—</span><span class="label">${k}</span></div>`).join('')}
+        </div>
+        <div class="empty">Saracens: no upcoming fixture was available from the checked sources when this was generated.</div>
+        <div class="footer">
+          <span>Updated: ${fmtDate.format(new Date(data.generated_at_utc))}</span>
+          <span>Source: ${next.source}</span>
+        </div>`;
+
+      document.getElementById('kickoff').textContent = `Kick-off: ${fmtDate.format(next.date)}`;
+      function tick() {
+        const p = parts(next.date - new Date());
+        for (const [k,v] of Object.entries(p)) document.getElementById(k).textContent = String(v).padStart(2,'0');
+      }
+      tick(); setInterval(tick, 1000);
+    }
+    load().catch(err => {
+      document.getElementById('app').innerHTML = `<div class="match">Could not load fixture</div><p class="meta">${err.message}</p>`;
+    });
+  </script>
+</body>
+</html>
