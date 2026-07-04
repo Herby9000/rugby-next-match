@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-04T00:32:30.814738Z",
+  "generated_at_utc": "2026-07-04T11:13:48.927001Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -280,9 +280,9 @@
         }
       },
       "preview": {
-        "title": "Nations Championship 2026 preview: South Africa vs England",
-        "summary": "Nations Championship 2026 preview: South Africa vs England",
-        "url": "https://www.englandrugby.com/follow/news-and-media/nations-championship-2026-preview-south-africa-vs-england",
+        "title": "Nations Championship 2026: South Africa vs England | Rugby Football Union",
+        "summary": "Nations Championship 2026: South Africa vs England | Rugby Football Union",
+        "url": "https://www.englandrugby.com/fixtures-and-results/match-centre/nations-championship-2026-south-africa-vs-england",
         "lineup_note": "Team sheets are available below."
       }
     }
