@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-04T11:13:48.927001Z",
+  "generated_at_utc": "2026-07-05T11:49:56.674474Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -9,13 +9,13 @@
   ],
   "matches": [
     {
-      "event_id": "2449589",
+      "event_id": "2449594",
       "team": "England Rugby",
-      "opponent": "South Africa Rugby",
-      "title": "South Africa Rugby vs England Rugby",
+      "opponent": "Fiji Rugby",
+      "title": "Fiji Rugby vs England Rugby",
       "competition": "Nations Championship",
-      "venue": "Ellis Park Stadium, Johannesburg, South Africa",
-      "start_utc": "2026-07-04T15:40:00Z",
+      "venue": "Hill Dickinson Stadium, Liverpool, England",
+      "start_utc": "2026-07-11T13:10:00Z",
       "home_away": "Away",
       "source": "TheSportsDB",
       "source_url": "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
@@ -25,265 +25,20 @@
           "channel": "ITV"
         },
         {
-          "country": "South Africa",
-          "channel": "SuperSport Grandstand"
+          "country": "Czechia",
+          "channel": "Nova Sport 1 CZ"
         }
       ],
-      "espn_event_id": "603979",
       "lineup": {
-        "available": true,
-        "source": "ESPN public API",
-        "source_url": "https://www.espn.co.uk/rugby/lineups/_/gameId/603979/league/17567",
-        "teams": {
-          "South Africa": {
-            "starters": [
-              {
-                "number": "15",
-                "name": "Damian Willemse",
-                "position": "FB"
-              },
-              {
-                "number": "14",
-                "name": "Cheslin Kolbe",
-                "position": "W"
-              },
-              {
-                "number": "13",
-                "name": "Jesse Kriel",
-                "position": "C"
-              },
-              {
-                "number": "12",
-                "name": "Damian de Allende",
-                "position": "C"
-              },
-              {
-                "number": "11",
-                "name": "Kurt-Lee Arendse",
-                "position": "W"
-              },
-              {
-                "number": "10",
-                "name": "Manie Libbok",
-                "position": "FH"
-              },
-              {
-                "number": "9",
-                "name": "Grant Williams",
-                "position": "SH"
-              },
-              {
-                "number": "1",
-                "name": "Ox Nche",
-                "position": "P"
-              },
-              {
-                "number": "2",
-                "name": "Malcolm Marx",
-                "position": "H"
-              },
-              {
-                "number": "3",
-                "name": "Thomas du Toit",
-                "position": "P"
-              },
-              {
-                "number": "4",
-                "name": "Eben Etzebeth",
-                "position": "L"
-              },
-              {
-                "number": "5",
-                "name": "Ruan Nortje",
-                "position": "L"
-              },
-              {
-                "number": "6",
-                "name": "Siya Kolisi",
-                "position": "FL"
-              },
-              {
-                "number": "7",
-                "name": "Pieter-Steph du Toit",
-                "position": "FL"
-              },
-              {
-                "number": "8",
-                "name": "Jasper Wiese",
-                "position": "N8"
-              }
-            ],
-            "replacements": [
-              {
-                "number": "16",
-                "name": "Jan-Hendrik Wessels",
-                "position": "R"
-              },
-              {
-                "number": "17",
-                "name": "Gerhard Steenekamp",
-                "position": "R"
-              },
-              {
-                "number": "18",
-                "name": "Zachary Porthen",
-                "position": "R"
-              },
-              {
-                "number": "19",
-                "name": "Marco van Staden",
-                "position": "R"
-              },
-              {
-                "number": "20",
-                "name": "Cameron Hanekom",
-                "position": "R"
-              },
-              {
-                "number": "21",
-                "name": "Cobus Reinach",
-                "position": "R"
-              },
-              {
-                "number": "22",
-                "name": "Andre Esterhuizen",
-                "position": "R"
-              },
-              {
-                "number": "23",
-                "name": "Canan Moodie",
-                "position": "R"
-              }
-            ]
-          },
-          "England": {
-            "starters": [
-              {
-                "number": "15",
-                "name": "George Furbank",
-                "position": "FB"
-              },
-              {
-                "number": "14",
-                "name": "Immanuel Feyi-Waboso",
-                "position": "W"
-              },
-              {
-                "number": "13",
-                "name": "Tommy Freeman",
-                "position": "C"
-              },
-              {
-                "number": "12",
-                "name": "Seb Atkinson",
-                "position": "C"
-              },
-              {
-                "number": "11",
-                "name": "Cadan Murley",
-                "position": "W"
-              },
-              {
-                "number": "10",
-                "name": "Fin Smith",
-                "position": "FH"
-              },
-              {
-                "number": "9",
-                "name": "Jack van Poortvliet",
-                "position": "SH"
-              },
-              {
-                "number": "1",
-                "name": "Ellis Genge",
-                "position": "P"
-              },
-              {
-                "number": "2",
-                "name": "Jamie George",
-                "position": "H"
-              },
-              {
-                "number": "3",
-                "name": "Joe Heyes",
-                "position": "P"
-              },
-              {
-                "number": "4",
-                "name": "Alex Coles",
-                "position": "L"
-              },
-              {
-                "number": "5",
-                "name": "George Martin",
-                "position": "L"
-              },
-              {
-                "number": "6",
-                "name": "Ollie Chessum",
-                "position": "FL"
-              },
-              {
-                "number": "7",
-                "name": "Tom Curry",
-                "position": "FL"
-              },
-              {
-                "number": "8",
-                "name": "Ben Earl",
-                "position": "N8"
-              }
-            ],
-            "replacements": [
-              {
-                "number": "16",
-                "name": "Luke Cowan-Dickie",
-                "position": "R"
-              },
-              {
-                "number": "17",
-                "name": "Beno Obano",
-                "position": "R"
-              },
-              {
-                "number": "18",
-                "name": "Asher Opoku-Fordjour",
-                "position": "R"
-              },
-              {
-                "number": "19",
-                "name": "Charlie Ewels",
-                "position": "R"
-              },
-              {
-                "number": "20",
-                "name": "Guy Pepper",
-                "position": "R"
-              },
-              {
-                "number": "21",
-                "name": "Henry Pollock",
-                "position": "R"
-              },
-              {
-                "number": "22",
-                "name": "Alex Mitchell",
-                "position": "R"
-              },
-              {
-                "number": "23",
-                "name": "Marcus Smith",
-                "position": "R"
-              }
-            ]
-          }
-        }
+        "available": false,
+        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
+        "search_url": "https://duckduckgo.com/?q=Fiji%20Rugby%20vs%20England%20Rugby%202026-07-11%20rugby%20lineups%20ESPN"
       },
       "preview": {
-        "title": "Nations Championship 2026: South Africa vs England | Rugby Football Union",
-        "summary": "Nations Championship 2026: South Africa vs England | Rugby Football Union",
-        "url": "https://www.englandrugby.com/fixtures-and-results/match-centre/nations-championship-2026-south-africa-vs-england",
-        "lineup_note": "Team sheets are available below."
+        "title": "Fiji vs England - Summary - Nations Championship 2026 - 11 Jul, 2026 - ESPN",
+        "summary": "Fiji vs England - Summary - Nations Championship 2026 - 11 Jul, 2026 - ESPN",
+        "url": "https://www.espn.co.uk/rugby/match/_/gameId/603984/league/17567",
+        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       }
     }
   ],
