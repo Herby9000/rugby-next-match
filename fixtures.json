@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-09T16:13:35.881478Z",
+  "generated_at_utc": "2026-07-10T13:30:15.979668Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -35,6 +35,127 @@
         "source": "ESPN public API",
         "source_url": "https://www.espn.co.uk/rugby/lineups/_/gameId/603984/league/17567",
         "teams": {
+          "Fiji": {
+            "starters": [
+              {
+                "number": "15",
+                "name": "Salesi Rayasi",
+                "position": "FB"
+              },
+              {
+                "number": "14",
+                "name": "Vuate Karawalevu",
+                "position": "W"
+              },
+              {
+                "number": "13",
+                "name": "Kalaveti Ravouvou",
+                "position": "C"
+              },
+              {
+                "number": "12",
+                "name": "Josua Tuisova",
+                "position": "C"
+              },
+              {
+                "number": "11",
+                "name": "Jiuta Wainiqolo",
+                "position": "W"
+              },
+              {
+                "number": "10",
+                "name": "Caleb Muntz",
+                "position": "FH"
+              },
+              {
+                "number": "9",
+                "name": "Simione Kuruvoli",
+                "position": "SH"
+              },
+              {
+                "number": "1",
+                "name": "Eroni Mawi",
+                "position": "P"
+              },
+              {
+                "number": "2",
+                "name": "Tevita Ikanivere",
+                "position": "H"
+              },
+              {
+                "number": "3",
+                "name": "Mesake Doge",
+                "position": "P"
+              },
+              {
+                "number": "4",
+                "name": "Tevita Ratuva",
+                "position": "L"
+              },
+              {
+                "number": "5",
+                "name": "Isoa Nasilasila",
+                "position": "L"
+              },
+              {
+                "number": "6",
+                "name": "Peceli Yato",
+                "position": "FL"
+              },
+              {
+                "number": "7",
+                "name": "Lekima Tagitagivalu",
+                "position": "FL"
+              },
+              {
+                "number": "8",
+                "name": "Levani Botia",
+                "position": "N8"
+              }
+            ],
+            "replacements": [
+              {
+                "number": "16",
+                "name": "Sam Matavesi",
+                "position": "R"
+              },
+              {
+                "number": "17",
+                "name": "Livai Natave",
+                "position": "R"
+              },
+              {
+                "number": "18",
+                "name": "Peni Ravai",
+                "position": "R"
+              },
+              {
+                "number": "19",
+                "name": "Temo Mayanavanua",
+                "position": "R"
+              },
+              {
+                "number": "20",
+                "name": "Elia Canakaivata",
+                "position": "R"
+              },
+              {
+                "number": "21",
+                "name": "Pita-Gus Sowakula",
+                "position": "R"
+              },
+              {
+                "number": "22",
+                "name": "Frank Lomani",
+                "position": "R"
+              },
+              {
+                "number": "23",
+                "name": "Isaiah Armstrong-Ravula",
+                "position": "R"
+              }
+            ]
+          },
           "England": {
             "starters": [
               {
