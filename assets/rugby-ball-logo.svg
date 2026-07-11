@@ -1,32 +1,58 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
-  <title id="title">Rugby ball logo</title>
-  <desc id="desc">A stylized rugby ball on a dark gradient background</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Rugby Next</title>
+  <desc id="desc">A neon red rugby ball with white laces on a black background</desc>
   <defs>
-    <radialGradient id="bg" cx="35%" cy="20%" r="85%">
-      <stop offset="0" stop-color="#64d2ff" stop-opacity="0.95"/>
-      <stop offset="0.42" stop-color="#243b63"/>
-      <stop offset="1" stop-color="#080b12"/>
+    <radialGradient id="bg" cx="42%" cy="32%" r="78%">
+      <stop offset="0" stop-color="#17181d"/>
+      <stop offset="0.55" stop-color="#08090c"/>
+      <stop offset="1" stop-color="#020204"/>
     </radialGradient>
-    <linearGradient id="ball" x1="130" y1="130" x2="390" y2="380">
-      <stop offset="0" stop-color="#fff7e7"/>
-      <stop offset="0.46" stop-color="#d9913d"/>
-      <stop offset="1" stop-color="#7a3c19"/>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff5964"/>
+      <stop offset="0.48" stop-color="#f10f2b"/>
+      <stop offset="1" stop-color="#a90019"/>
     </linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000" flood-opacity="0.45"/>
+    <filter id="redGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="24" result="wide"/>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="7" result="near"/>
+      <feMerge><feMergeNode in="wide"/><feMergeNode in="near"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-30%" y="-40%" width="180%" height="200%">
+      <feDropShadow dx="0" dy="34" stdDeviation="28" flood-color="#000" flood-opacity=".9"/>
     </filter>
   </defs>
-  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
-  <path d="M72 373c45-121 156-230 302-292 33-14 61 14 47 47-62 146-171 257-292 302-45 17-74-12-57-57Z" fill="url(#ball)" stroke="#fff7e7" stroke-width="14" filter="url(#shadow)"/>
-  <path d="M114 397c44-110 151-216 277-273" fill="none" stroke="#5b2b15" stroke-width="10" stroke-linecap="round" opacity="0.42"/>
-  <path d="M120 322c54 32 102 78 141 135" fill="none" stroke="#fff1d6" stroke-width="11" stroke-linecap="round" opacity="0.88"/>
-  <path d="M191 248c52 29 97 73 133 130" fill="none" stroke="#fff1d6" stroke-width="11" stroke-linecap="round" opacity="0.88"/>
-  <path d="M262 176c48 28 90 70 124 124" fill="none" stroke="#fff1d6" stroke-width="11" stroke-linecap="round" opacity="0.88"/>
-  <g transform="translate(196 282) rotate(43)" stroke="#111827" stroke-width="9" stroke-linecap="round">
-    <path d="M0 0h118" stroke="#ffffff"/>
-    <path d="M18-21v42M42-21v42M66-21v42M90-21v42" stroke="#ffffff"/>
-    <path d="M0 0h118" stroke="#7a3c19" stroke-width="3" opacity="0.45"/>
+
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+
+  <!-- restrained speed arcs -->
+  <path d="M148 276 C270 130 474 82 656 130" fill="none" stroke="#50e8ff" stroke-width="18" stroke-linecap="round" opacity=".16"/>
+  <path d="M872 748 C754 894 550 942 368 894" fill="none" stroke="#50e8ff" stroke-width="11" stroke-linecap="round" opacity=".12"/>
+
+  <g transform="rotate(-24 512 512)" filter="url(#softShadow)">
+    <!-- ball body and electric outline -->
+    <path d="M184 512 C273 310 751 310 840 512 C751 714 273 714 184 512 Z" fill="#0c0d11" stroke="#f10f2b" stroke-width="34" filter="url(#redGlow)"/>
+    <path d="M207 512 C291 342 733 342 817 512 C733 682 291 682 207 512 Z" fill="#101116" stroke="url(#red)" stroke-width="13"/>
+    <path d="M251 512 C329 390 695 390 773 512 C695 634 329 634 251 512 Z" fill="none" stroke="#ffffff" stroke-width="5" opacity=".32"/>
+
+    <!-- end seams -->
+    <path d="M292 388 C330 462 330 562 292 636" fill="none" stroke="#f10f2b" stroke-width="15" stroke-linecap="round" opacity=".86"/>
+    <path d="M732 388 C694 462 694 562 732 636" fill="none" stroke="#f10f2b" stroke-width="15" stroke-linecap="round" opacity=".86"/>
+
+    <!-- white center seam and laces -->
+    <path d="M390 512 H634" fill="none" stroke="#f7f8fb" stroke-width="22" stroke-linecap="round"/>
+    <g stroke="#f7f8fb" stroke-width="20" stroke-linecap="round">
+      <path d="M424 472 V552"/>
+      <path d="M468 464 V560"/>
+      <path d="M512 460 V564"/>
+      <path d="M556 464 V560"/>
+      <path d="M600 472 V552"/>
+    </g>
+
+    <!-- crisp highlight -->
+    <path d="M337 402 C420 354 597 348 690 382" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" opacity=".42"/>
   </g>
-  <path d="M89 92c53-31 104-41 154-31" stroke="#ffffff" stroke-width="12" stroke-linecap="round" opacity="0.16"/>
-  <path d="M352 434c33-18 58-42 76-73" stroke="#64d2ff" stroke-width="10" stroke-linecap="round" opacity="0.35"/>
+
+  <!-- small tracker pulse -->
+  <circle cx="806" cy="245" r="10" fill="#50e8ff"/>
+  <circle cx="806" cy="245" r="30" fill="none" stroke="#50e8ff" stroke-width="5" opacity=".28"/>
 </svg>
