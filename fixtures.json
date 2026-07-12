@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-11T10:39:41.354269Z",
+  "generated_at_utc": "2026-07-12T11:07:57.599069Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -9,13 +9,13 @@
   ],
   "matches": [
     {
-      "event_id": "2449594",
+      "event_id": "2449602",
       "team": "England Rugby",
-      "opponent": "Fiji Rugby",
-      "title": "Fiji Rugby vs England Rugby",
+      "opponent": "Argentina Rugby",
+      "title": "Argentina Rugby vs England Rugby",
       "competition": "Nations Championship",
-      "venue": "Hill Dickinson Stadium, Liverpool, England",
-      "start_utc": "2026-07-11T13:10:00Z",
+      "venue": "Estadio Único Madre de Ciudades, Santiago del Estero, Argentina",
+      "start_utc": "2026-07-18T19:10:00Z",
       "home_away": "Away",
       "source": "TheSportsDB",
       "source_url": "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
@@ -25,265 +25,20 @@
           "channel": "ITV"
         },
         {
-          "country": "Czechia",
-          "channel": "Nova Sport 1 CZ"
+          "country": "United Kingdom",
+          "channel": "STV"
         }
       ],
-      "espn_event_id": "603984",
       "lineup": {
-        "available": true,
-        "source": "ESPN public API",
-        "source_url": "https://www.espn.co.uk/rugby/lineups/_/gameId/603984/league/17567",
-        "teams": {
-          "Fiji": {
-            "starters": [
-              {
-                "number": "15",
-                "name": "Salesi Rayasi",
-                "position": "FB"
-              },
-              {
-                "number": "14",
-                "name": "Vuate Karawalevu",
-                "position": "W"
-              },
-              {
-                "number": "13",
-                "name": "Kalaveti Ravouvou",
-                "position": "C"
-              },
-              {
-                "number": "12",
-                "name": "Josua Tuisova",
-                "position": "C"
-              },
-              {
-                "number": "11",
-                "name": "Jiuta Wainiqolo",
-                "position": "W"
-              },
-              {
-                "number": "10",
-                "name": "Caleb Muntz",
-                "position": "FH"
-              },
-              {
-                "number": "9",
-                "name": "Simione Kuruvoli",
-                "position": "SH"
-              },
-              {
-                "number": "1",
-                "name": "Eroni Mawi",
-                "position": "P"
-              },
-              {
-                "number": "2",
-                "name": "Tevita Ikanivere",
-                "position": "H"
-              },
-              {
-                "number": "3",
-                "name": "Mesake Doge",
-                "position": "P"
-              },
-              {
-                "number": "4",
-                "name": "Tevita Ratuva",
-                "position": "L"
-              },
-              {
-                "number": "5",
-                "name": "Isoa Nasilasila",
-                "position": "L"
-              },
-              {
-                "number": "6",
-                "name": "Peceli Yato",
-                "position": "FL"
-              },
-              {
-                "number": "7",
-                "name": "Lekima Tagitagivalu",
-                "position": "FL"
-              },
-              {
-                "number": "8",
-                "name": "Levani Botia",
-                "position": "N8"
-              }
-            ],
-            "replacements": [
-              {
-                "number": "16",
-                "name": "Sam Matavesi",
-                "position": "R"
-              },
-              {
-                "number": "17",
-                "name": "Livai Natave",
-                "position": "R"
-              },
-              {
-                "number": "18",
-                "name": "Peni Ravai",
-                "position": "R"
-              },
-              {
-                "number": "19",
-                "name": "Temo Mayanavanua",
-                "position": "R"
-              },
-              {
-                "number": "20",
-                "name": "Elia Canakaivata",
-                "position": "R"
-              },
-              {
-                "number": "21",
-                "name": "Pita-Gus Sowakula",
-                "position": "R"
-              },
-              {
-                "number": "22",
-                "name": "Frank Lomani",
-                "position": "R"
-              },
-              {
-                "number": "23",
-                "name": "Isaiah Armstrong-Ravula",
-                "position": "R"
-              }
-            ]
-          },
-          "England": {
-            "starters": [
-              {
-                "number": "15",
-                "name": "Marcus Smith",
-                "position": "FB"
-              },
-              {
-                "number": "14",
-                "name": "Tommy Freeman",
-                "position": "W"
-              },
-              {
-                "number": "13",
-                "name": "Henry Slade",
-                "position": "C"
-              },
-              {
-                "number": "12",
-                "name": "Seb Atkinson",
-                "position": "C"
-              },
-              {
-                "number": "11",
-                "name": "Immanuel Feyi-Waboso",
-                "position": "W"
-              },
-              {
-                "number": "10",
-                "name": "Fin Smith",
-                "position": "FH"
-              },
-              {
-                "number": "9",
-                "name": "Jack van Poortvliet",
-                "position": "SH"
-              },
-              {
-                "number": "1",
-                "name": "Ellis Genge",
-                "position": "P"
-              },
-              {
-                "number": "2",
-                "name": "Jamie George",
-                "position": "H"
-              },
-              {
-                "number": "3",
-                "name": "Joe Heyes",
-                "position": "P"
-              },
-              {
-                "number": "4",
-                "name": "Alex Coles",
-                "position": "L"
-              },
-              {
-                "number": "5",
-                "name": "George Martin",
-                "position": "L"
-              },
-              {
-                "number": "6",
-                "name": "Ollie Chessum",
-                "position": "FL"
-              },
-              {
-                "number": "7",
-                "name": "Guy Pepper",
-                "position": "FL"
-              },
-              {
-                "number": "8",
-                "name": "Ben Earl",
-                "position": "N8"
-              }
-            ],
-            "replacements": [
-              {
-                "number": "16",
-                "name": "Luke Cowan-Dickie",
-                "position": "R"
-              },
-              {
-                "number": "17",
-                "name": "Asher Opoku-Fordjour",
-                "position": "R"
-              },
-              {
-                "number": "18",
-                "name": "George Kloska",
-                "position": "R"
-              },
-              {
-                "number": "19",
-                "name": "Tom Curry",
-                "position": "R"
-              },
-              {
-                "number": "20",
-                "name": "Henry Pollock",
-                "position": "R"
-              },
-              {
-                "number": "21",
-                "name": "Alex Mitchell",
-                "position": "R"
-              },
-              {
-                "number": "22",
-                "name": "Benhard Janse van Rensburg",
-                "position": "R"
-              },
-              {
-                "number": "23",
-                "name": "Noah Caluori",
-                "position": "R"
-              }
-            ]
-          }
-        }
+        "available": false,
+        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
+        "search_url": "https://duckduckgo.com/?q=Argentina%20Rugby%20vs%20England%20Rugby%202026-07-18%20rugby%20lineups%20ESPN"
       },
       "preview": {
-        "title": "Nations Championship 2026: Fiji vs England | Rugby Football Union",
-        "summary": "Nations Championship 2026: Fiji vs England | Rugby Football Union",
-        "url": "https://www.englandrugby.com/fixtures-and-results/match-centre/nations-championship-2026-fiji-vs-england",
-        "lineup_note": "Team sheets are available below."
+        "title": "Argentina vs England - Summary - Nations Championship 2026 - 18 Jul, 2026 - ESPN",
+        "summary": "Get a summary of the Argentina vs England, Nations Championship 2026 18 Jul, 2026 rugby match.",
+        "url": "https://www.espn.com/rugby/match/_/gameId/603992/league/17567",
+        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       }
     }
   ],
