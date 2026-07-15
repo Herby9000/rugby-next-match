@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-14T11:13:31.287582Z",
+  "generated_at_utc": "2026-07-15T11:53:32.698420Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -35,15 +35,102 @@
         "search_url": "https://duckduckgo.com/?q=Argentina%20Rugby%20vs%20England%20Rugby%202026-07-18%20rugby%20lineups%20ESPN"
       },
       "preview": {
-        "title": "Argentina vs England - Summary - Nations Championship 2026 - 18 Jul, 2026 - ESPN",
-        "summary": "Get a summary of the Argentina vs England, Nations Championship 2026 18 Jul, 2026 rugby match.",
-        "url": "https://www.espn.com/rugby/match/_/gameId/603992/league/17567",
+        "title": "2026 Nations Championship Preview : Argentina vs England",
+        "summary": "2026 Nations Championship Preview : Argentina vs England",
+        "url": "https://www.englandrugby.com/follow/news-and-media/2026-nations-championship-preview-argentina-vs-england",
+        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
+      }
+    },
+    {
+      "team": "Saracens Men",
+      "opponent": "Northampton Saints",
+      "title": "Saracens Men vs Northampton Saints",
+      "competition": "Prem Rugby Cup",
+      "venue": "StoneX Stadium",
+      "start_utc": "2026-09-05T15:00:00Z",
+      "home_away": "Home",
+      "source": "Saracens official fixtures",
+      "source_url": "https://saracens.com/fixtures-results/",
+      "lineup": {
+        "available": false,
+        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
+        "search_url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Northampton%20Saints%202026-09-05%20rugby%20lineups%20ESPN"
+      },
+      "preview": {
+        "title": "Saracens Men vs Northampton Saints preview",
+        "summary": "Saracens Men face Northampton Saints in Prem Rugby Cup at StoneX Stadium.",
+        "url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Northampton%20Saints%20rugby%20match%20preview%202026-09-05",
+        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
+      }
+    },
+    {
+      "team": "Saracens Men",
+      "opponent": "Newcastle Red Bulls",
+      "title": "Saracens Men vs Newcastle Red Bulls",
+      "competition": "Prem Rugby Cup",
+      "venue": "StoneX Stadium",
+      "start_utc": "2026-11-07T15:00:00Z",
+      "home_away": "Home",
+      "source": "Saracens official fixtures",
+      "source_url": "https://saracens.com/fixtures-results/",
+      "lineup": {
+        "available": false,
+        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
+        "search_url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Newcastle%20Red%20Bulls%202026-11-07%20rugby%20lineups%20ESPN"
+      },
+      "preview": {
+        "title": "Saracens Men vs Newcastle Red Bulls preview",
+        "summary": "Saracens Men face Newcastle Red Bulls in Prem Rugby Cup at StoneX Stadium.",
+        "url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Newcastle%20Red%20Bulls%20rugby%20match%20preview%202026-11-07",
+        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
+      }
+    },
+    {
+      "team": "Saracens Men",
+      "opponent": "Leicester Tigers",
+      "title": "Leicester Tigers vs Saracens Men",
+      "competition": "Prem Rugby Cup",
+      "venue": " Mattioli Woods Welford Road",
+      "start_utc": "2026-11-15T15:00:00Z",
+      "home_away": "Away",
+      "source": "Saracens official fixtures",
+      "source_url": "https://saracens.com/fixtures-results/",
+      "lineup": {
+        "available": false,
+        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
+        "search_url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%20Men%202026-11-15%20rugby%20lineups%20ESPN"
+      },
+      "preview": {
+        "title": "Leicester Tigers vs Saracens Men preview",
+        "summary": "Saracens Men face Leicester Tigers in Prem Rugby Cup at  Mattioli Woods Welford Road.",
+        "url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%20Men%20rugby%20match%20preview%202026-11-15",
+        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
+      }
+    },
+    {
+      "team": "Saracens Men",
+      "opponent": "Harlequins",
+      "title": "Saracens Men vs Harlequins",
+      "competition": "Prem Rugby Cup",
+      "venue": "StoneX Stadium",
+      "start_utc": "2026-11-21T12:00:00Z",
+      "home_away": "Home",
+      "source": "Saracens official fixtures",
+      "source_url": "https://saracens.com/fixtures-results/",
+      "lineup": {
+        "available": false,
+        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
+        "search_url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Harlequins%202026-11-21%20rugby%20lineups%20ESPN"
+      },
+      "preview": {
+        "title": "Saracens Men vs Harlequins preview",
+        "summary": "Saracens Men face Harlequins in Prem Rugby Cup at StoneX Stadium.",
+        "url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Harlequins%20rugby%20match%20preview%202026-11-21",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       }
     }
   ],
   "notes": [
-    "Saracens: no future TheSportsDB fixture returned.",
-    "Saracens: official fixtures page returned no future fixture."
+    "Saracens: no future TheSportsDB fixture returned."
   ]
 }
