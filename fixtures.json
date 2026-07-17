@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-16T11:56:47.501833Z",
+  "generated_at_utc": "2026-07-17T11:10:23.357283Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -29,16 +29,261 @@
           "channel": "STV"
         }
       ],
+      "espn_event_id": "603992",
       "lineup": {
-        "available": false,
-        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
-        "search_url": "https://duckduckgo.com/?q=Argentina%20Rugby%20vs%20England%20Rugby%202026-07-18%20rugby%20lineups%20ESPN"
+        "available": true,
+        "source": "ESPN public API",
+        "source_url": "https://www.espn.co.uk/rugby/lineups/_/gameId/603992/league/17567",
+        "teams": {
+          "Argentina": {
+            "starters": [
+              {
+                "number": "15",
+                "name": "Santiago Carreras",
+                "position": "FB"
+              },
+              {
+                "number": "14",
+                "name": "Bautista Delguy",
+                "position": "W"
+              },
+              {
+                "number": "13",
+                "name": "Matias Moroni",
+                "position": "C"
+              },
+              {
+                "number": "12",
+                "name": "Justo Piccardo",
+                "position": "C"
+              },
+              {
+                "number": "11",
+                "name": "Mateo Carreras",
+                "position": "W"
+              },
+              {
+                "number": "10",
+                "name": "Tomas Albornoz",
+                "position": "FH"
+              },
+              {
+                "number": "9",
+                "name": "Gonzalo Garcia",
+                "position": "SH"
+              },
+              {
+                "number": "1",
+                "name": "Mayco Vivas",
+                "position": "P"
+              },
+              {
+                "number": "2",
+                "name": "Julian Montoya",
+                "position": "H"
+              },
+              {
+                "number": "3",
+                "name": "Tomas Rapetti",
+                "position": "P"
+              },
+              {
+                "number": "4",
+                "name": "Guido Petti",
+                "position": "L"
+              },
+              {
+                "number": "5",
+                "name": "Matias Alemanno",
+                "position": "L"
+              },
+              {
+                "number": "6",
+                "name": "Santiago Grondona",
+                "position": "FL"
+              },
+              {
+                "number": "7",
+                "name": "Marcos Kremer",
+                "position": "FL"
+              },
+              {
+                "number": "8",
+                "name": "Joaquin Oviedo",
+                "position": "N8"
+              }
+            ],
+            "replacements": [
+              {
+                "number": "16",
+                "name": "Ignacio Ruiz",
+                "position": "R"
+              },
+              {
+                "number": "17",
+                "name": "Boris Wenger",
+                "position": "R"
+              },
+              {
+                "number": "18",
+                "name": "Pedro Delgado",
+                "position": "R"
+              },
+              {
+                "number": "19",
+                "name": "Efrain Elias",
+                "position": "R"
+              },
+              {
+                "number": "20",
+                "name": "Pablo Matera",
+                "position": "R"
+              },
+              {
+                "number": "21",
+                "name": "Joaquin Moro",
+                "position": "R"
+              },
+              {
+                "number": "22",
+                "name": "Simon Benitez Cruz",
+                "position": "R"
+              },
+              {
+                "number": "23",
+                "name": "Lucio Cinti",
+                "position": "R"
+              }
+            ]
+          },
+          "England": {
+            "starters": [
+              {
+                "number": "15",
+                "name": "Marcus Smith",
+                "position": "FB"
+              },
+              {
+                "number": "14",
+                "name": "Tommy Freeman",
+                "position": "W"
+              },
+              {
+                "number": "13",
+                "name": "Henry Slade",
+                "position": "C"
+              },
+              {
+                "number": "12",
+                "name": "Seb Atkinson",
+                "position": "C"
+              },
+              {
+                "number": "11",
+                "name": "Immanuel Feyi-Waboso",
+                "position": "W"
+              },
+              {
+                "number": "10",
+                "name": "Fin Smith",
+                "position": "FH"
+              },
+              {
+                "number": "9",
+                "name": "Jack van Poortvliet",
+                "position": "SH"
+              },
+              {
+                "number": "1",
+                "name": "Ellis Genge",
+                "position": "P"
+              },
+              {
+                "number": "2",
+                "name": "Jamie George",
+                "position": "H"
+              },
+              {
+                "number": "3",
+                "name": "Joe Heyes",
+                "position": "P"
+              },
+              {
+                "number": "4",
+                "name": "Alex Coles",
+                "position": "L"
+              },
+              {
+                "number": "5",
+                "name": "George Martin",
+                "position": "L"
+              },
+              {
+                "number": "6",
+                "name": "Ollie Chessum",
+                "position": "FL"
+              },
+              {
+                "number": "7",
+                "name": "Guy Pepper",
+                "position": "FL"
+              },
+              {
+                "number": "8",
+                "name": "Ben Earl",
+                "position": "N8"
+              }
+            ],
+            "replacements": [
+              {
+                "number": "16",
+                "name": "Luke Cowan-Dickie",
+                "position": "R"
+              },
+              {
+                "number": "17",
+                "name": "Emmanuel Iyogun",
+                "position": "R"
+              },
+              {
+                "number": "18",
+                "name": "Asher Opoku-Fordjour",
+                "position": "R"
+              },
+              {
+                "number": "19",
+                "name": "Tom Curry",
+                "position": "R"
+              },
+              {
+                "number": "20",
+                "name": "Henry Pollock",
+                "position": "R"
+              },
+              {
+                "number": "21",
+                "name": "Ben Spencer",
+                "position": "R"
+              },
+              {
+                "number": "22",
+                "name": "Benhard Janse van Rensburg",
+                "position": "R"
+              },
+              {
+                "number": "23",
+                "name": "Noah Caluori",
+                "position": "R"
+              }
+            ]
+          }
+        }
       },
       "preview": {
         "title": "2026 Nations Championship Preview : Argentina vs England",
         "summary": "2026 Nations Championship Preview : Argentina vs England",
         "url": "https://www.englandrugby.com/follow/news-and-media/2026-nations-championship-preview-argentina-vs-england",
-        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
+        "lineup_note": "Team sheets are available below."
       }
     },
     {
