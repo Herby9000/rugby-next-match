@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-26T11:10:06.244746Z",
+  "generated_at_utc": "2026-07-27T15:57:08.643706Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -24,98 +24,97 @@
         "search_url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Northampton%20Saints%202026-09-05%20rugby%20lineups%20ESPN"
       },
       "preview": {
-        "title": "Saracens Men vs Northampton Saints preview",
-        "summary": "Saracens Men face Northampton Saints in Prem Rugby Cup at StoneX Stadium.",
-        "url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Northampton%20Saints%20rugby%20match%20preview%202026-09-05",
+        "title": "PREM Cup Fixtures confirmed for 2026/27 campaign - Saracens",
+        "summary": "Saracens Men have been drawn in Pool B of the 2026/27 PREM Rugby Cup. The Original Club of North London will face Northampton Saints, Newcastle Red Bulls, Lei",
+        "url": "https://saracens.com/prem-cup-fixtures-confirmed-for-2026-27-campaign/",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       }
     },
     {
-      "team": "Saracens Men",
-      "opponent": "Connacht Rugby",
-      "title": "Connacht Rugby vs Saracens Men",
-      "competition": "Investec Champions Cup",
-      "venue": "Dexcom Stadium",
-      "start_utc": "2026-10-17T17:30:00Z",
-      "home_away": "Away",
-      "source": "Saracens official fixtures",
-      "source_url": "https://saracens.com/fixtures-results/",
-      "lineup": {
-        "available": false,
-        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
-        "search_url": "https://duckduckgo.com/?q=Connacht%20Rugby%20vs%20Saracens%20Men%202026-10-17%20rugby%20lineups%20ESPN"
-      },
-      "preview": {
-        "title": "Connacht Rugby vs Saracens Men preview",
-        "summary": "Saracens Men face Connacht Rugby in Investec Champions Cup at Dexcom Stadium.",
-        "url": "https://duckduckgo.com/?q=Connacht%20Rugby%20vs%20Saracens%20Men%20rugby%20match%20preview%202026-10-17",
-        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
-      }
-    },
-    {
-      "team": "Saracens Men",
-      "opponent": "Newcastle Red Bulls",
-      "title": "Saracens Men vs Newcastle Red Bulls",
-      "competition": "Prem Rugby Cup",
-      "venue": "StoneX Stadium",
-      "start_utc": "2026-11-07T15:00:00Z",
-      "home_away": "Home",
-      "source": "Saracens official fixtures",
-      "source_url": "https://saracens.com/fixtures-results/",
-      "lineup": {
-        "available": false,
-        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
-        "search_url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Newcastle%20Red%20Bulls%202026-11-07%20rugby%20lineups%20ESPN"
-      },
-      "preview": {
-        "title": "Saracens Men vs Newcastle Red Bulls preview",
-        "summary": "Saracens Men face Newcastle Red Bulls in Prem Rugby Cup at StoneX Stadium.",
-        "url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Newcastle%20Red%20Bulls%20rugby%20match%20preview%202026-11-07",
-        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
-      }
-    },
-    {
-      "event_id": "2449608",
-      "team": "England Rugby",
-      "opponent": "Australia Rugby",
-      "title": "England Rugby vs Australia Rugby",
-      "competition": "Nations Championship",
-      "venue": "Twickenham Stadium, London, England",
-      "start_utc": "2026-11-08T15:10:00Z",
-      "home_away": "Home",
-      "source": "TheSportsDB",
-      "source_url": "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
-      "lineup": {
-        "available": false,
-        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
-        "search_url": "https://duckduckgo.com/?q=England%20Rugby%20vs%20Australia%20Rugby%202026-11-08%20rugby%20lineups%20ESPN"
-      },
-      "preview": {
-        "title": "England Rugby vs Australia Rugby preview",
-        "summary": "England Rugby face Australia Rugby in Nations Championship at Twickenham Stadium, London, England.",
-        "url": "https://duckduckgo.com/?q=England%20Rugby%20vs%20Australia%20Rugby%20rugby%20match%20preview%202026-11-08",
-        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
-      }
-    },
-    {
-      "team": "Saracens Men",
+      "team": "Saracens Women",
       "opponent": "Leicester Tigers",
-      "title": "Leicester Tigers vs Saracens Men",
-      "competition": "Prem Rugby Cup",
+      "title": "Leicester Tigers vs Saracens Women",
+      "competition": "JAECOO PWR NEXT GEN CUP",
       "venue": " Mattioli Woods Welford Road",
-      "start_utc": "2026-11-15T15:00:00Z",
+      "start_utc": "2026-09-19T14:00:00Z",
       "home_away": "Away",
       "source": "Saracens official fixtures",
       "source_url": "https://saracens.com/fixtures-results/",
       "lineup": {
         "available": false,
         "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
-        "search_url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%20Men%202026-11-15%20rugby%20lineups%20ESPN"
+        "search_url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%20Women%202026-09-19%20rugby%20lineups%20ESPN"
       },
       "preview": {
-        "title": "Leicester Tigers vs Saracens Men preview",
-        "summary": "Saracens Men face Leicester Tigers in Prem Rugby Cup at  Mattioli Woods Welford Road.",
-        "url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%20Men%20rugby%20match%20preview%202026-11-15",
+        "title": "Leicester Tigers vs Saracens Women preview",
+        "summary": "Saracens Women face Leicester Tigers in JAECOO PWR NEXT GEN CUP at  Mattioli Woods Welford Road.",
+        "url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%20Women%20rugby%20match%20preview%202026-09-19",
+        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
+      }
+    },
+    {
+      "team": "Saracens Women",
+      "opponent": "Sale Sharks",
+      "title": "Saracens Women vs Sale Sharks",
+      "competition": "JAECOO PWR NEXT GEN CUP",
+      "venue": "StoneX Stadium",
+      "start_utc": "2026-09-27T14:00:00Z",
+      "home_away": "Home",
+      "source": "Saracens official fixtures",
+      "source_url": "https://saracens.com/fixtures-results/",
+      "lineup": {
+        "available": false,
+        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
+        "search_url": "https://duckduckgo.com/?q=Saracens%20Women%20vs%20Sale%20Sharks%202026-09-27%20rugby%20lineups%20ESPN"
+      },
+      "preview": {
+        "title": "Saracens Women vs Sale Sharks preview",
+        "summary": "Saracens Women face Sale Sharks in JAECOO PWR NEXT GEN CUP at StoneX Stadium.",
+        "url": "https://duckduckgo.com/?q=Saracens%20Women%20vs%20Sale%20Sharks%20rugby%20match%20preview%202026-09-27",
+        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
+      }
+    },
+    {
+      "team": "Saracens Women",
+      "opponent": "Loughborough Lightning",
+      "title": "Loughborough Lightning vs Saracens Women",
+      "competition": "JAECOO PWR NEXT GEN CUP",
+      "venue": "Goldington Road",
+      "start_utc": "2026-10-02T19:30:00Z",
+      "home_away": "Away",
+      "source": "Saracens official fixtures",
+      "source_url": "https://saracens.com/fixtures-results/",
+      "lineup": {
+        "available": false,
+        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
+        "search_url": "https://duckduckgo.com/?q=Loughborough%20Lightning%20vs%20Saracens%20Women%202026-10-02%20rugby%20lineups%20ESPN"
+      },
+      "preview": {
+        "title": "Loughborough Lightning vs Saracens Women preview",
+        "summary": "Saracens Women face Loughborough Lightning in JAECOO PWR NEXT GEN CUP at Goldington Road.",
+        "url": "https://duckduckgo.com/?q=Loughborough%20Lightning%20vs%20Saracens%20Women%20rugby%20match%20preview%202026-10-02",
+        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
+      }
+    },
+    {
+      "team": "Saracens Women",
+      "opponent": "Exeter Chiefs",
+      "title": "Saracens Women vs Exeter Chiefs",
+      "competition": "JAECOO PWR NEXT GEN CUP",
+      "venue": "StoneX Stadium",
+      "start_utc": "2026-10-17T14:00:00Z",
+      "home_away": "Home",
+      "source": "Saracens official fixtures",
+      "source_url": "https://saracens.com/fixtures-results/",
+      "lineup": {
+        "available": false,
+        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
+        "search_url": "https://duckduckgo.com/?q=Saracens%20Women%20vs%20Exeter%20Chiefs%202026-10-17%20rugby%20lineups%20ESPN"
+      },
+      "preview": {
+        "title": "Saracens Women vs Exeter Chiefs preview",
+        "summary": "Saracens Women face Exeter Chiefs in JAECOO PWR NEXT GEN CUP at StoneX Stadium.",
+        "url": "https://duckduckgo.com/?q=Saracens%20Women%20vs%20Exeter%20Chiefs%20rugby%20match%20preview%202026-10-17",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       }
     }
