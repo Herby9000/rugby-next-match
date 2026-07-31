@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-30T12:13:51.967663Z",
+  "generated_at_utc": "2026-07-31T12:31:45.746081Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -53,6 +53,29 @@
       }
     },
     {
+      "event_id": "2553386",
+      "team": "Saracens",
+      "opponent": "Leicester Tigers",
+      "title": "Leicester Tigers vs Saracens",
+      "competition": "English Prem Rugby",
+      "venue": "Welford Road, England",
+      "start_utc": "2026-09-27T14:00:00Z",
+      "home_away": "Away",
+      "source": "TheSportsDB",
+      "source_url": "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
+      "lineup": {
+        "available": false,
+        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
+        "search_url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%202026-09-27%20rugby%20lineups%20ESPN"
+      },
+      "preview": {
+        "title": "Leicester Tigers vs Saracens preview",
+        "summary": "Saracens face Leicester Tigers in English Prem Rugby at Welford Road, England.",
+        "url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%20rugby%20match%20preview%202026-09-27",
+        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
+      }
+    },
+    {
       "team": "Saracens Women",
       "opponent": "Sale Sharks",
       "title": "Saracens Women vs Sale Sharks",
@@ -93,28 +116,6 @@
         "title": "Leicester Tigers vs Saracens Men preview",
         "summary": "Saracens Men face Leicester Tigers in Gallagher Prem at  Mattioli Woods Welford Road.",
         "url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%20Men%20rugby%20match%20preview%202026-09-27",
-        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
-      }
-    },
-    {
-      "team": "Saracens Women",
-      "opponent": "Loughborough Lightning",
-      "title": "Loughborough Lightning vs Saracens Women",
-      "competition": "JAECOO PWR NEXT GEN CUP",
-      "venue": "Goldington Road",
-      "start_utc": "2026-10-02T19:30:00Z",
-      "home_away": "Away",
-      "source": "Saracens official fixtures",
-      "source_url": "https://saracens.com/fixtures-results/",
-      "lineup": {
-        "available": false,
-        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
-        "search_url": "https://duckduckgo.com/?q=Loughborough%20Lightning%20vs%20Saracens%20Women%202026-10-02%20rugby%20lineups%20ESPN"
-      },
-      "preview": {
-        "title": "Loughborough Lightning vs Saracens Women preview",
-        "summary": "Saracens Women face Loughborough Lightning in JAECOO PWR NEXT GEN CUP at Goldington Road.",
-        "url": "https://duckduckgo.com/?q=Loughborough%20Lightning%20vs%20Saracens%20Women%20rugby%20match%20preview%202026-10-02",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       }
     }
