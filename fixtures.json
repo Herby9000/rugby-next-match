@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-04T08:51:14.957142Z",
+  "generated_at_utc": "2026-08-05T08:48:49.480700Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -8,6 +8,94 @@
     "DuckDuckGo Lite search for ESPN/RugbyPass/official previews"
   ],
   "matches": [
+    {
+      "team": "Saracens Men's Academy ",
+      "opponent": "Leicester Tigers",
+      "title": "Leicester Tigers vs Saracens Men's Academy ",
+      "competition": "Academy Rugby",
+      "venue": "Malvern School",
+      "start_utc": "2026-08-05T15:30:00Z",
+      "home_away": "Away",
+      "source": "Saracens official fixtures",
+      "source_url": "https://saracens.com/fixtures-results/",
+      "lineup": {
+        "available": false,
+        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
+        "search_url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%20Men%27s%20Academy%20%202026-08-05%20rugby%20lineups%20ESPN"
+      },
+      "preview": {
+        "title": "Leicester Tigers vs Saracens Men's Academy  preview",
+        "summary": "Saracens Men's Academy  face Leicester Tigers in Academy Rugby at Malvern School.",
+        "url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%20Men%27s%20Academy%20%20rugby%20match%20preview%202026-08-05",
+        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
+      }
+    },
+    {
+      "team": "Saracens Men's Academy ",
+      "opponent": "Yorkshire Rugby Academy U18",
+      "title": "Saracens Men's Academy  vs Yorkshire Rugby Academy U18",
+      "competition": "Academy Rugby",
+      "venue": "StoneX Stadium",
+      "start_utc": "2026-08-15T13:00:00Z",
+      "home_away": "Home",
+      "source": "Saracens official fixtures",
+      "source_url": "https://saracens.com/fixtures-results/",
+      "lineup": {
+        "available": false,
+        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
+        "search_url": "https://duckduckgo.com/?q=Saracens%20Men%27s%20Academy%20%20vs%20Yorkshire%20Rugby%20Academy%20U18%202026-08-15%20rugby%20lineups%20ESPN"
+      },
+      "preview": {
+        "title": "Saracens Men's Academy  vs Yorkshire Rugby Academy U18 preview",
+        "summary": "Saracens Men's Academy  face Yorkshire Rugby Academy U18 in Academy Rugby at StoneX Stadium.",
+        "url": "https://duckduckgo.com/?q=Saracens%20Men%27s%20Academy%20%20vs%20Yorkshire%20Rugby%20Academy%20U18%20rugby%20match%20preview%202026-08-15",
+        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
+      }
+    },
+    {
+      "team": "Saracens Men's Academy ",
+      "opponent": "Yorkhire Rugby Academy U17s",
+      "title": "Saracens Men's Academy  vs Yorkhire Rugby Academy U17s",
+      "competition": "Academy Rugby",
+      "venue": "StoneX Stadium",
+      "start_utc": "2026-08-15T15:00:00Z",
+      "home_away": "Home",
+      "source": "Saracens official fixtures",
+      "source_url": "https://saracens.com/fixtures-results/",
+      "lineup": {
+        "available": false,
+        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
+        "search_url": "https://duckduckgo.com/?q=Saracens%20Men%27s%20Academy%20%20vs%20Yorkhire%20Rugby%20Academy%20U17s%202026-08-15%20rugby%20lineups%20ESPN"
+      },
+      "preview": {
+        "title": "Saracens Men's Academy  vs Yorkhire Rugby Academy U17s preview",
+        "summary": "Saracens Men's Academy  face Yorkhire Rugby Academy U17s in Academy Rugby at StoneX Stadium.",
+        "url": "https://duckduckgo.com/?q=Saracens%20Men%27s%20Academy%20%20vs%20Yorkhire%20Rugby%20Academy%20U17s%20rugby%20match%20preview%202026-08-15",
+        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
+      }
+    },
+    {
+      "team": "Saracens Men's Academy ",
+      "opponent": "Bristol Bears",
+      "title": "Saracens Men's Academy  vs Bristol Bears",
+      "competition": "Academy Rugby",
+      "venue": "StoneX Stadium",
+      "start_utc": "2026-08-21T13:00:00Z",
+      "home_away": "Home",
+      "source": "Saracens official fixtures",
+      "source_url": "https://saracens.com/fixtures-results/",
+      "lineup": {
+        "available": false,
+        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
+        "search_url": "https://duckduckgo.com/?q=Saracens%20Men%27s%20Academy%20%20vs%20Bristol%20Bears%202026-08-21%20rugby%20lineups%20ESPN"
+      },
+      "preview": {
+        "title": "Saracens Men's Academy  vs Bristol Bears preview",
+        "summary": "Saracens Men's Academy  face Bristol Bears in Academy Rugby at StoneX Stadium.",
+        "url": "https://duckduckgo.com/?q=Saracens%20Men%27s%20Academy%20%20vs%20Bristol%20Bears%20rugby%20match%20preview%202026-08-21",
+        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
+      }
+    },
     {
       "team": "Saracens Men",
       "opponent": "Northampton Saints",
@@ -27,95 +115,6 @@
         "title": "Saracens Men vs Northampton Saints preview",
         "summary": "Saracens Men face Northampton Saints in Prem Rugby Cup at StoneX Stadium.",
         "url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Northampton%20Saints%20rugby%20match%20preview%202026-09-05",
-        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
-      }
-    },
-    {
-      "team": "Saracens Women",
-      "opponent": "Leicester Tigers",
-      "title": "Leicester Tigers vs Saracens Women",
-      "competition": "JAECOO PWR NEXT GEN CUP",
-      "venue": " Mattioli Woods Welford Road",
-      "start_utc": "2026-09-19T14:00:00Z",
-      "home_away": "Away",
-      "source": "Saracens official fixtures",
-      "source_url": "https://saracens.com/fixtures-results/",
-      "lineup": {
-        "available": false,
-        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
-        "search_url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%20Women%202026-09-19%20rugby%20lineups%20ESPN"
-      },
-      "preview": {
-        "title": "Leicester Tigers vs Saracens Women preview",
-        "summary": "Saracens Women face Leicester Tigers in JAECOO PWR NEXT GEN CUP at  Mattioli Woods Welford Road.",
-        "url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%20Women%20rugby%20match%20preview%202026-09-19",
-        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
-      }
-    },
-    {
-      "event_id": "2553386",
-      "team": "Saracens",
-      "opponent": "Leicester Tigers",
-      "title": "Leicester Tigers vs Saracens",
-      "competition": "English Prem Rugby",
-      "venue": "Welford Road, England",
-      "start_utc": "2026-09-27T14:00:00Z",
-      "home_away": "Away",
-      "source": "TheSportsDB",
-      "source_url": "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
-      "lineup": {
-        "available": false,
-        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
-        "search_url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%202026-09-27%20rugby%20lineups%20ESPN"
-      },
-      "preview": {
-        "title": "Leicester Tigers vs Saracens preview",
-        "summary": "Saracens face Leicester Tigers in English Prem Rugby at Welford Road, England.",
-        "url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%20rugby%20match%20preview%202026-09-27",
-        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
-      }
-    },
-    {
-      "team": "Saracens Women",
-      "opponent": "Sale Sharks",
-      "title": "Saracens Women vs Sale Sharks",
-      "competition": "JAECOO PWR NEXT GEN CUP",
-      "venue": "StoneX Stadium",
-      "start_utc": "2026-09-27T14:00:00Z",
-      "home_away": "Home",
-      "source": "Saracens official fixtures",
-      "source_url": "https://saracens.com/fixtures-results/",
-      "lineup": {
-        "available": false,
-        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
-        "search_url": "https://duckduckgo.com/?q=Saracens%20Women%20vs%20Sale%20Sharks%202026-09-27%20rugby%20lineups%20ESPN"
-      },
-      "preview": {
-        "title": "Saracens Women vs Sale Sharks preview",
-        "summary": "Saracens Women face Sale Sharks in JAECOO PWR NEXT GEN CUP at StoneX Stadium.",
-        "url": "https://duckduckgo.com/?q=Saracens%20Women%20vs%20Sale%20Sharks%20rugby%20match%20preview%202026-09-27",
-        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
-      }
-    },
-    {
-      "team": "Saracens Men",
-      "opponent": "Leicester Tigers",
-      "title": "Leicester Tigers vs Saracens Men",
-      "competition": "Gallagher Prem",
-      "venue": " Mattioli Woods Welford Road",
-      "start_utc": "2026-09-27T15:00:00Z",
-      "home_away": "Away",
-      "source": "Saracens official fixtures",
-      "source_url": "https://saracens.com/fixtures-results/",
-      "lineup": {
-        "available": false,
-        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
-        "search_url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%20Men%202026-09-27%20rugby%20lineups%20ESPN"
-      },
-      "preview": {
-        "title": "Leicester Tigers vs Saracens Men preview",
-        "summary": "Saracens Men face Leicester Tigers in Gallagher Prem at  Mattioli Woods Welford Road.",
-        "url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%20Men%20rugby%20match%20preview%202026-09-27",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       }
     }
