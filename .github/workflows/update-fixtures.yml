@@ -17,6 +17,9 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
+      - name: Run tests
+        run: python3 -m unittest discover -s tests -v
+
       - name: Update fixtures.json
         run: python3 scripts/update_fixtures.py
 

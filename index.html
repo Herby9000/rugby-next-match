@@ -50,6 +50,15 @@
     .num { display:block; font-size: clamp(2rem, 5vw, 4rem); font-weight: 950; letter-spacing: -.06em; }
     .label { color: var(--muted); text-transform: uppercase; letter-spacing: .12em; font-size: .7rem; font-weight: 800; }
     .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px; }
+    .ai-briefing {
+      position: relative; overflow: hidden; margin: 8px 0 20px; padding: clamp(20px, 4vw, 30px);
+      border: 1px solid rgba(100,210,255,.32); border-radius: 24px;
+      background: linear-gradient(135deg, rgba(100,210,255,.13), rgba(230,27,46,.11));
+    }
+    .ai-briefing::after { content: "AI"; position: absolute; right: 16px; top: 4px; color: rgba(255,255,255,.05); font-size: 5.6rem; font-weight: 950; }
+    .ai-kicker { position: relative; z-index: 1; color: var(--accent2); text-transform: uppercase; letter-spacing: .14em; font-size: .72rem; font-weight: 900; }
+    .ai-copy { position: relative; z-index: 1; max-width: 900px; margin: 10px 0 8px; font-size: clamp(1.05rem, 2.5vw, 1.35rem); line-height: 1.55; font-weight: 650; }
+    .ai-byline { position: relative; z-index: 1; color: var(--muted); font-size: .82rem; }
     .lineups { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
     .squad { background: rgba(255,255,255,.06); border: 1px solid var(--line); border-radius: 18px; padding: 16px; }
     .squad h3 { margin: 0 0 12px; }
@@ -115,6 +124,15 @@
       </div><div class="footer"><span>Lineup source: ${lineup.source_url ? `<a href="${esc(lineup.source_url)}">${esc(lineup.source)}</a>` : esc(lineup.source || '')}</span></div></section>`;
     }
 
+    function renderAiBriefing(briefing) {
+      if (!briefing?.text) return '';
+      return `<section class="ai-briefing" aria-labelledby="ai-briefing-title">
+        <div class="ai-kicker" id="ai-briefing-title">AI pre-match briefing</div>
+        <p class="ai-copy">“${esc(briefing.text)}”</p>
+        <div class="ai-byline">Strong opinions · no playing experience</div>
+      </section>`;
+    }
+
     function renderPreview(preview, tv) {
       return `<section class="panel"><h2>Match preview</h2>
         <p class="meta"><strong>${esc(preview?.title || 'Preview')}</strong><br>${esc(preview?.summary || 'Preview not available yet.')}</p>
@@ -146,6 +164,7 @@
         <div class="countdown" role="timer">
           ${['days','hours','mins','secs'].map(k => `<div class="unit"><span class="num" id="${k}">—</span><span class="label">${k}</span></div>`).join('')}
         </div>
+        ${renderAiBriefing(next.ai_briefing)}
         <div class="grid">
           ${renderPreview(next.preview, next.tv)}
           ${renderLineups(next.lineup)}

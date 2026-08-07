@@ -62,6 +62,55 @@ def clean_text(value: str) -> str:
     return re.sub(r"\s+", " ", value).strip()
 
 
+def official_recent_results(
+    fixtures: list[dict[str, Any]], team_name: str, limit: int = 3
+) -> list[dict[str, str]]:
+    """Return scored official results from the named team's perspective."""
+    results: list[dict[str, str]] = []
+    for item in fixtures:
+        teams = item.get("teams") or {}
+        home = ((teams.get("team_home") or {}).get("alt") or "").strip()
+        away = ((teams.get("team_away") or {}).get("alt") or "").strip()
+        wanted = team_name.strip()
+        if wanted not in {home, away}:
+            continue
+        score_text = clean_text(teams.get("score") or "")
+        score_match = re.fullmatch(r"(\d+)\s*-\s*(\d+)", score_text)
+        if not score_match:
+            continue
+        home_score, away_score = map(int, score_match.groups())
+        team_score, opponent_score = (
+            (home_score, away_score) if wanted == home else (away_score, home_score)
+        )
+        result = "W" if team_score > opponent_score else "L" if team_score < opponent_score else "D"
+        timestamp = int(item.get("date_time") or 0)
+        results.append(
+            {
+                "date": datetime.fromtimestamp(timestamp, tz=timezone.utc).date().isoformat(),
+                "competition": item.get("event_name") or "Rugby",
+                "result": result,
+                "score": f"{home} {home_score}–{away_score} {away}",
+            }
+        )
+    results.sort(key=lambda result: result["date"], reverse=True)
+    return results[:limit]
+
+
+def preserve_ai_briefings(
+    matches: list[dict[str, Any]], existing: dict[str, Any]
+) -> None:
+    """Keep an AI briefing until the local generator refreshes that fixture."""
+    saved = {
+        (match.get("title"), match.get("start_utc")): match.get("ai_briefing")
+        for match in existing.get("matches") or []
+        if match.get("ai_briefing")
+    }
+    for match in matches:
+        briefing = saved.get((match.get("title"), match.get("start_utc")))
+        if briefing:
+            match["ai_briefing"] = briefing
+
+
 def sportsdb_matches(team_id: str, team_name: str) -> tuple[list[dict[str, Any]], str | None]:
     url = f"https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id={team_id}"
     try:
@@ -144,6 +193,9 @@ def saracens_official_matches() -> tuple[list[dict[str, Any]], str | None]:
                 "home_away": home_away,
                 "source": "Saracens official fixtures",
                 "source_url": url,
+                "recent_results": official_recent_results(
+                    payload.get("fixtures") or [], team, limit=3
+                ),
             }
         )
     return matches, None if matches else "Saracens: official fixtures page returned no future fixture."
@@ -414,6 +466,10 @@ def enrich_match(match: dict[str, Any]) -> dict[str, Any]:
 def main() -> int:
     all_matches: list[dict[str, Any]] = []
     notes: list[str] = []
+    try:
+        existing = json.loads(OUT.read_text()) if OUT.exists() else {}
+    except (OSError, json.JSONDecodeError):
+        existing = {}
 
     for matches, note in [
         sportsdb_matches("137123", "England Rugby"),
@@ -437,6 +493,7 @@ def main() -> int:
     # Enrich the next few events. Lineups/previews are most useful close to kick-off,
     # but running daily means the data will appear automatically once sources publish it.
     enriched = [enrich_match(m) for m in deduped[:5]]
+    preserve_ai_briefings(enriched, existing)
 
     output = {
         "generated_at_utc": NOW.isoformat().replace("+00:00", "Z"),

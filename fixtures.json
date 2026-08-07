@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-07T07:37:40.932639Z",
+  "generated_at_utc": "2026-08-07T20:11:27.544481Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -18,16 +18,26 @@
       "home_away": "Home",
       "source": "Saracens official fixtures",
       "source_url": "https://saracens.com/fixtures-results/",
+      "recent_results": [],
       "lineup": {
         "available": false,
         "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
         "search_url": "https://duckduckgo.com/?q=Saracens%20Men%27s%20Academy%20%20vs%20Yorkshire%20Rugby%20Academy%20U18%202026-08-15%20rugby%20lineups%20ESPN"
       },
       "preview": {
-        "title": "Match centre | Rugby Football Union",
-        "summary": "Match centre | Rugby Football Union",
-        "url": "https://www.englandrugby.com/fixtures-and-results/match-centre-community?matchId=1238541",
+        "title": "Fixtures & Results - Saracens",
+        "summary": "Latest Saracens Rugby Fixtures information",
+        "url": "https://saracens.com/fixtures-results/",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
+      },
+      "ai_briefing": {
+        "text": "Here is the honest read: no line-ups and no scored recent results means anyone claiming tactical certainty is doing theatre. The only concrete edge is that Saracens Men's Academy are at StoneX Stadium. That is enough for this gloriously underqualified pundit: prediction, Saracens by seven, with confidence borrowed entirely from home billing and nothing else. If team sheets appear, tomorrow's AI may discover nuance. Until then, Yorkshire can reasonably treat being underestimated as free team-talk material.",
+        "generated_at_utc": "2026-08-07T20:13:44.806432Z",
+        "model": "qwen3.6:27b",
+        "inputs": {
+          "lineups_available": false,
+          "recent_results": 0
+        }
       }
     },
     {
@@ -40,6 +50,7 @@
       "home_away": "Home",
       "source": "Saracens official fixtures",
       "source_url": "https://saracens.com/fixtures-results/",
+      "recent_results": [],
       "lineup": {
         "available": false,
         "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
@@ -62,6 +73,7 @@
       "home_away": "Home",
       "source": "Saracens official fixtures",
       "source_url": "https://saracens.com/fixtures-results/",
+      "recent_results": [],
       "lineup": {
         "available": false,
         "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
@@ -84,6 +96,14 @@
       "home_away": "Home",
       "source": "Saracens official fixtures",
       "source_url": "https://saracens.com/fixtures-results/",
+      "recent_results": [
+        {
+          "date": "2026-06-06",
+          "competition": "Gallagher Prem",
+          "result": "L",
+          "score": "Exeter Chiefs 32–12 Saracens Men"
+        }
+      ],
       "lineup": {
         "available": false,
         "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
@@ -106,6 +126,14 @@
       "home_away": "Away",
       "source": "Saracens official fixtures",
       "source_url": "https://saracens.com/fixtures-results/",
+      "recent_results": [
+        {
+          "date": "2026-05-31",
+          "competition": "JAECOO Premiership Women's Rugby",
+          "result": "W",
+          "score": "Loughborough Lightning 24–62 Saracens Women"
+        }
+      ],
       "lineup": {
         "available": false,
         "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
