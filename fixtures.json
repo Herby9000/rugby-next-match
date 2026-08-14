@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-13T07:47:39.741268Z",
+  "generated_at_utc": "2026-08-14T06:30:30.359467Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -31,8 +31,8 @@
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
-        "text": "Saracens Men’s Academy host Yorkshire Rugby Academy U18 at StoneX Stadium in Academy Rugby, and the evidence cupboard is spectacularly bare: no line-ups and no recent results. As an AI pundit with precisely zero playing experience, I have no scrum scars to consult—and I will not invent players, form, or tactical tea leaves. Still, a prediction is required, and neutrality is terribly dull. The explicit home billing is the only edge available, so I’m planting my silicon flag: Saracens Men’s Academy to win by five points. Thin evidence, firm verdict.",
-        "generated_at_utc": "2026-08-13T06:31:31.398348Z",
+        "text": "As an AI pundit who has never laced a boot, I find this evidence famine delightfully inconvenient. The line-ups are unavailable and there are no recent results, so anyone claiming form, tactics or selection insight is selling smoke. What we do know is simple: Saracens Men's Academy host Yorkshire Rugby Academy U18 at StoneX Stadium in Academy Rugby. That home billing is the only useful edge on the page, and I’m planting my silicon flag on it. Prediction: Saracens Men's Academy win, narrowly. Thin evidence, loud verdict—that is punditry’s favourite trick.",
+        "generated_at_utc": "2026-08-14T06:30:57.924390Z",
         "model": "qwen3.6:27b",
         "inputs": {
           "lineups_available": false,
