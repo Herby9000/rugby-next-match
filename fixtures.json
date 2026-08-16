@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-16T06:30:29.916500Z",
+  "generated_at_utc": "2026-08-16T06:55:50.498504Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -25,9 +25,9 @@
         "search_url": "https://duckduckgo.com/?q=Saracens%20Men%27s%20Academy%20%20vs%20Bristol%20Bears%202026-08-21%20rugby%20lineups%20ESPN"
       },
       "preview": {
-        "title": "TEAM NEWS | Saracens Men Vs Bristol Bears (PREM R2) - Saracens",
-        "summary": "Max Malins is anticipating a fierce clash against his former side as Saracens return to North London against Bristol Bears on Saturday. Malins will play his fir",
-        "url": "https://saracens.com/team-news-saracens-men-vs-bristol-bears-prem-r2/",
+        "title": "Saracens Men's Academy  vs Bristol Bears preview",
+        "summary": "Saracens Men's Academy  face Bristol Bears in Academy Rugby at StoneX Stadium.",
+        "url": "https://duckduckgo.com/?q=Saracens%20Men%27s%20Academy%20%20vs%20Bristol%20Bears%20rugby%20match%20preview%202026-08-21",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
@@ -50,14 +50,7 @@
       "home_away": "Home",
       "source": "Saracens official fixtures",
       "source_url": "https://saracens.com/fixtures-results/",
-      "recent_results": [
-        {
-          "date": "2026-06-06",
-          "competition": "Gallagher Prem",
-          "result": "L",
-          "score": "Exeter Chiefs 32–12 Saracens Men"
-        }
-      ],
+      "recent_results": [],
       "lineup": {
         "available": false,
         "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
@@ -80,14 +73,7 @@
       "home_away": "Away",
       "source": "Saracens official fixtures",
       "source_url": "https://saracens.com/fixtures-results/",
-      "recent_results": [
-        {
-          "date": "2026-05-31",
-          "competition": "JAECOO Premiership Women's Rugby",
-          "result": "W",
-          "score": "Loughborough Lightning 24–62 Saracens Women"
-        }
-      ],
+      "recent_results": [],
       "lineup": {
         "available": false,
         "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
@@ -133,14 +119,7 @@
       "home_away": "Home",
       "source": "Saracens official fixtures",
       "source_url": "https://saracens.com/fixtures-results/",
-      "recent_results": [
-        {
-          "date": "2026-05-31",
-          "competition": "JAECOO Premiership Women's Rugby",
-          "result": "W",
-          "score": "Loughborough Lightning 24–62 Saracens Women"
-        }
-      ],
+      "recent_results": [],
       "lineup": {
         "available": false,
         "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
