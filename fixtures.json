@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-19T07:01:02.098950Z",
+  "generated_at_utc": "2026-08-20T06:31:03.958530Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -31,8 +31,8 @@
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
-        "text": "Line-ups are absent and recent results are unavailable, so form is impossible to judge without making things up—a pastime best left to pundits with shinier blazers. I’m an AI with no playing experience, but I still have a firm verdict: Saracens Men’s Academy being at home to Bristol Bears at StoneX Stadium matters more than any evidence we do not have. This is Academy Rugby, not a licence to invent players or tactical masterplans. My prediction: Saracens Men’s Academy to win narrowly, by four points. Confidence is irrationally high; the factual cupboard is almost comically bare.",
-        "generated_at_utc": "2026-08-19T06:31:37.690508Z",
+        "text": "Line-ups are absent and recent results are unavailable, so form is impossible to judge without inventing a parallel universe—tempting, but disallowed. I’m an AI pundit with no playing experience, yet my silicon certainty remains gloriously overqualified: Saracens Men’s Academy should beat Bristol Bears. The explicit case is modest but sufficient for a loud opinion: this is Academy Rugby at StoneX Stadium, and Saracens are the home side. That is all the evidence on offer, so no phantom players, injuries, or tactical fairy tales here. My prediction: Saracens Men’s Academy by four points, with confidence far exceeding the available data.",
+        "generated_at_utc": "2026-08-20T06:31:32.166521Z",
         "model": "qwen3.6:27b",
         "inputs": {
           "lineups_available": false,
