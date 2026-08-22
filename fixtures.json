@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-21T07:03:21.337661Z",
+  "generated_at_utc": "2026-08-22T06:30:57.704956Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -8,38 +8,6 @@
     "DuckDuckGo Lite search for ESPN/RugbyPass/official previews"
   ],
   "matches": [
-    {
-      "team": "Saracens Men's Academy ",
-      "opponent": "Bristol Bears",
-      "title": "Saracens Men's Academy  vs Bristol Bears",
-      "competition": "Academy Rugby",
-      "venue": "StoneX Stadium",
-      "start_utc": "2026-08-21T13:00:00Z",
-      "home_away": "Home",
-      "source": "Saracens official fixtures",
-      "source_url": "https://saracens.com/fixtures-results/",
-      "recent_results": [],
-      "lineup": {
-        "available": false,
-        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
-        "search_url": "https://duckduckgo.com/?q=Saracens%20Men%27s%20Academy%20%20vs%20Bristol%20Bears%202026-08-21%20rugby%20lineups%20ESPN"
-      },
-      "preview": {
-        "title": "TEAM NEWS | Saracens Men Vs Bristol Bears (PREM R2) - Saracens",
-        "summary": "Max Malins is anticipating a fierce clash against his former side as Saracens return to North London against Bristol Bears on Saturday. Malins will play his fir",
-        "url": "https://saracens.com/team-news-saracens-men-vs-bristol-bears-prem-r2/",
-        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
-      },
-      "ai_briefing": {
-        "text": "As an AI pundit with precisely zero playing experience, I’m not pretending there’s a secret teamsheet under my virtual keyboard. No line-up is available and there are no recent results, so the evidence is gloriously thin: Saracens Men’s Academy are at home to Bristol Bears at StoneX Stadium in Academy Rugby. That is enough for me to plant a flag anyway. StoneX tips my entirely silicon judgement toward the hosts, and I strongly fancy Saracens Men’s Academy to win. Prediction: Saracens Men’s Academy by five points—confidently delivered, responsibly under-informed, and impossible to blame on muddy boots.",
-        "generated_at_utc": "2026-08-21T06:31:20.733434Z",
-        "model": "qwen3.6:27b",
-        "inputs": {
-          "lineups_available": false,
-          "recent_results": 0
-        }
-      }
-    },
     {
       "team": "Saracens Men",
       "opponent": "Northampton Saints",
@@ -61,6 +29,15 @@
         "summary": "Saracens Men face Northampton Saints in Prem Rugby Cup at StoneX Stadium.",
         "url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Northampton%20Saints%20rugby%20match%20preview%202026-09-05",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
+      },
+      "ai_briefing": {
+        "text": "As an AI pundit with no playing experience—my boots are strictly theoretical—I have gloriously little evidence here. The line-ups are unavailable, and there are no recent results, so form is impossible to judge without making things up. What is explicit: Saracens Men host Northampton Saints at StoneX Stadium in the Prem Rugby Cup. That home billing is the only pebble on my digital scales, but I’m planting my flag anyway. I strongly fancy Saracens Men to take it. Prediction: Saracens Men by six points. Confident? Absolutely. Well informed? Only by the fixture card, which is still more homework than some pundits manage.",
+        "generated_at_utc": "2026-08-22T06:31:25.766545Z",
+        "model": "qwen3.6:27b",
+        "inputs": {
+          "lineups_available": false,
+          "recent_results": 0
+        }
       }
     },
     {
@@ -129,6 +106,29 @@
         "title": "Saracens Women vs Sale Sharks preview",
         "summary": "Saracens Women face Sale Sharks in JAECOO PWR NEXT GEN CUP at StoneX Stadium.",
         "url": "https://duckduckgo.com/?q=Saracens%20Women%20vs%20Sale%20Sharks%20rugby%20match%20preview%202026-09-27",
+        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
+      }
+    },
+    {
+      "team": "Saracens Men",
+      "opponent": "Leicester Tigers",
+      "title": "Leicester Tigers vs Saracens Men",
+      "competition": "Gallagher Prem",
+      "venue": " Mattioli Woods Welford Road",
+      "start_utc": "2026-09-27T15:00:00Z",
+      "home_away": "Away",
+      "source": "Saracens official fixtures",
+      "source_url": "https://saracens.com/fixtures-results/",
+      "recent_results": [],
+      "lineup": {
+        "available": false,
+        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
+        "search_url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%20Men%202026-09-27%20rugby%20lineups%20ESPN"
+      },
+      "preview": {
+        "title": "Leicester Tigers vs Saracens Men preview",
+        "summary": "Saracens Men face Leicester Tigers in Gallagher Prem at  Mattioli Woods Welford Road.",
+        "url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%20Men%20rugby%20match%20preview%202026-09-27",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       }
     }
