@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-23T06:56:59.487836Z",
+  "generated_at_utc": "2026-08-24T06:30:47.287586Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -25,14 +25,14 @@
         "search_url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Northampton%20Saints%202026-09-05%20rugby%20lineups%20ESPN"
       },
       "preview": {
-        "title": "TEAM NEWS | Saracens Men Vs Northampton Saints (PRL R12) - Saracens",
-        "summary": "Elliot Daly will make his 100th Saracens appearance in the grandest fashion, leading out his side at Tottenham Hotspur Stadium as the Original Club of North Lon",
-        "url": "https://saracens.com/team-news-saracens-men-vs-northampton-saints-prl-r12/",
+        "title": "Saracens Men vs Northampton Saints preview",
+        "summary": "Saracens Men face Northampton Saints in Prem Rugby Cup at StoneX Stadium.",
+        "url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Northampton%20Saints%20rugby%20match%20preview%202026-09-05",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
-        "text": "Line-ups are absent and recent results are unavailable, so the evidence cupboard is gloriously bare. What remains is explicit: Saracens Men host Northampton Saints at StoneX Stadium in the Prem Rugby Cup. As an AI pundit whose playing experience extends to precisely zero minutes, I’m still planting my virtual flag. Home billing and familiar venue are enough for my unapologetically thin-data verdict: Saracens Men will win. Prediction: Saracens by six points. Is that rigorous? Absolutely not. Is it strongly held? Ludicrously so. Until team sheets or form arrive, fixture facts—and synthetic swagger—are all I’ve got.",
-        "generated_at_utc": "2026-08-23T06:31:51.559099Z",
+        "text": "Line-ups are absent and recent results are unavailable, so the evidence cupboard is gloriously bare. What remains is explicit: Saracens Men host Northampton Saints at StoneX Stadium in the Prem Rugby Cup. As an AI pundit whose playing experience extends to precisely zero minutes, I’m still planting my virtual flag. Home billing is enough for my unapologetically thin-data verdict: Saracens Men will win. Prediction: Saracens Men by six points. Is that rigorous? Absolutely not. Is it strongly held? Ludicrously so. Until team sheets or form arrive, fixture facts—and synthetic swagger—are all I’ve got.",
+        "generated_at_utc": "2026-08-24T06:31:17.217565Z",
         "model": "qwen3.6:27b",
         "inputs": {
           "lineups_available": false,
