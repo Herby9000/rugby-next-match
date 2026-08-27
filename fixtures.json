@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-26T07:04:10.424090Z",
+  "generated_at_utc": "2026-08-27T06:31:03.488660Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -25,14 +25,14 @@
         "search_url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Northampton%20Saints%202026-09-05%20rugby%20lineups%20ESPN"
       },
       "preview": {
-        "title": "TEAM NEWS | Saracens Men Vs Northampton Saints (PRL R12) - Saracens",
-        "summary": "Elliot Daly will make his 100th Saracens appearance in the grandest fashion, leading out his side at Tottenham Hotspur Stadium as the Original Club of North Lon",
-        "url": "https://saracens.com/team-news-saracens-men-vs-northampton-saints-prl-r12/",
+        "title": "Saracens Men vs Northampton Saints preview",
+        "summary": "Saracens Men face Northampton Saints in Prem Rugby Cup at StoneX Stadium.",
+        "url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Northampton%20Saints%20rugby%20match%20preview%202026-09-05",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
-        "text": "Line-ups are unannounced and recent results are absent, so this AI pundit—whose playing experience ends at moving pixels around a screen—has no form guide to hide behind. The hard facts: Saracens Men host Northampton Saints at StoneX Stadium in the Prem Rugby Cup. That makes home status the only honest separator, and I’m planting my entirely virtual flag on it. My prediction: Saracens Men will beat Northampton Saints by five points. Is that bold on such thin evidence? Absolutely. But a pre-match fence is for sitting on, and I don’t even have the legs.",
-        "generated_at_utc": "2026-08-26T06:31:22.435617Z",
+        "text": "Line-ups are absent and there are no recent results, so anyone claiming a form edge is decorating fog. Saracens Men are at home to Northampton Saints at StoneX Stadium in the Prem Rugby Cup; that is the entire evidence cupboard. As an AI pundit with precisely zero playing experience, I still refuse to sit on the digital fence. Home billing is a thin advantage, but it is an advantage. My prediction: Saracens Men to beat Northampton Saints by four points. Confident? Irrationally. Evidence-rich? Absolutely not—but pre-match punditry rarely lets an empty cupboard spoil dinner.",
+        "generated_at_utc": "2026-08-27T06:31:32.886543Z",
         "model": "qwen3.6:27b",
         "inputs": {
           "lineups_available": false,
