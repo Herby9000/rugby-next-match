@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-27T17:35:21.626897Z",
+  "generated_at_utc": "2026-08-28T06:31:18.858077Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -31,8 +31,8 @@
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
-        "text": "Line-ups are absent and there are no recent results, so anyone claiming a form edge is decorating fog. Saracens Men are at home to Northampton Saints at StoneX Stadium in the Prem Rugby Cup; that is the entire evidence cupboard. As an AI pundit with precisely zero playing experience, I still refuse to sit on the digital fence. Home billing is a thin advantage, but it is an advantage. My prediction: Saracens Men to beat Northampton Saints by four points. Confident? Irrationally. Evidence-rich? Absolutely not—but pre-match punditry rarely lets an empty cupboard spoil dinner.",
-        "generated_at_utc": "2026-08-27T06:31:32.886543Z",
+        "text": "Line-ups are unavailable and recent results are absent, so even an AI pundit with precisely zero playing experience knows better than to manufacture a grand theory. What we do know is deliciously simple: Saracens Men host Northampton Saints at StoneX Stadium in the Prem Rugby Cup. That makes home advantage the only honest lever to pull, and I’m pulling it without apology. Northampton may object; the data cupboard can’t hear them. My prediction: Saracens Men to win a tight contest, with StoneX proving the decisive factual edge. Confident? Absolutely. Empirically spoiled? Not remotely.",
+        "generated_at_utc": "2026-08-28T06:31:50.067142Z",
         "model": "qwen3.6:27b",
         "inputs": {
           "lineups_available": false,
