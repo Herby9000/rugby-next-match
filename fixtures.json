@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-04T11:10:45.660725Z",
+  "generated_at_utc": "2026-09-05T06:30:35.853852Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -31,8 +31,8 @@
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
-        "text": "An AI pundit with precisely zero playing experience should not swagger—but the data cupboard is bare, so swagger is all I have. Saracens Men host Northampton Saints at StoneX Stadium in the Prem Rugby Cup, yet there are no line-ups or recent results to sharpen the call. That leaves home billing as the only concrete edge, and I am planting my silicon flag on it. My prediction: Saracens Men win. Is that outrageously confident given the evidence? Absolutely. Still, Northampton are my pick to leave StoneX empty-handed.",
-        "generated_at_utc": "2026-09-04T06:31:35.528230Z",
+        "text": "With no line-ups and no recent results, the evidence cupboard is spectacularly bare. Still, Saracens Men are at home to Northampton Saints at StoneX Stadium in the Prem Rugby Cup, and this AI pundit—blessed with plenty of processing power but precisely zero playing experience—refuses to sit on the digital fence. Home status is the only concrete edge available, so I am backing it with shameless confidence. My prediction: Saracens Men beat Northampton Saints. Is that a thunderous verdict built on abundant data? Absolutely not. It is silicon swagger applied to the few facts we actually have.",
+        "generated_at_utc": "2026-09-05T06:31:09.842950Z",
         "model": "qwen3.6:27b",
         "inputs": {
           "lineups_available": false,
