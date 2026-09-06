@@ -15,6 +15,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+from rugby_scope import is_womens_fixture, mens_matches
+
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "fixtures.json"
 NOW = datetime.now(timezone.utc)
@@ -120,6 +122,16 @@ def sportsdb_matches(team_id: str, team_name: str) -> tuple[list[dict[str, Any]]
 
     matches: list[dict[str, Any]] = []
     for event in payload.get("events") or []:
+        if is_womens_fixture(
+            {
+                "title": event.get("strEvent"),
+                "team": event.get("strHomeTeam"),
+                "opponent": event.get("strAwayTeam"),
+                "competition": event.get("strLeague"),
+                "gender": event.get("strGender"),
+            }
+        ):
+            continue
         start = parse_timestamp(event.get("strTimestamp"))
         if not start or start <= NOW:
             continue
@@ -170,6 +182,18 @@ def saracens_official_matches() -> tuple[list[dict[str, Any]], str | None]:
         teams = item.get("teams") or {}
         home = ((teams.get("team_home") or {}).get("alt")) or "TBC"
         away = ((teams.get("team_away") or {}).get("alt")) or "TBC"
+        if is_womens_fixture(
+            {
+                "title": f"{home} vs {away}",
+                "team": home,
+                "opponent": away,
+                "competition": item.get("event_name"),
+                "gender": item.get("gender"),
+                "division": item.get("division"),
+                "category": item.get("category"),
+            }
+        ):
+            continue
         if "Saracens" in home:
             team = home
             opponent = away
@@ -479,6 +503,10 @@ def main() -> int:
         all_matches.extend(matches)
         if note:
             notes.append(note)
+
+    # Apply the scope rule again at the aggregation boundary so a newly added
+    # source cannot publish a women's fixture without explicitly passing it.
+    all_matches = mens_matches(all_matches)
 
     # Deduplicate by title/start/source-ish, then sort future matches.
     seen: set[tuple[str, str]] = set()

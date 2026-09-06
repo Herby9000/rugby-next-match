@@ -10,6 +10,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+from rugby_scope import is_womens_fixture
+
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_FIXTURES = ROOT / "fixtures.json"
 DEFAULT_MODEL = "qwen3.6:27b"
@@ -20,6 +22,8 @@ def next_match(data: dict[str, Any]) -> dict[str, Any]:
     now = datetime.now(timezone.utc)
     candidates = []
     for match in data.get("matches") or []:
+        if is_womens_fixture(match):
+            continue
         value = str(match.get("start_utc") or "").replace("Z", "+00:00")
         try:
             start = datetime.fromisoformat(value)

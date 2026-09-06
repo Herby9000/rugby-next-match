@@ -13,6 +13,23 @@ import generate_ai_briefing  # noqa: E402
 
 
 class RecentResultsTests(unittest.TestCase):
+    def test_womens_fixtures_are_excluded_without_removing_mens_or_neutral_fixtures(self):
+        fixtures = [
+            {"title": "Saracens Women vs Harlequins"},
+            {"team": "SARACENS WOMEN'S", "title": "Saracens vs Bristol"},
+            {"opponent": "Exeter Womens", "title": "Saracens vs Exeter"},
+            {"competition": "Ladies Cup", "title": "Saracens vs Bath"},
+            {"title": "England Female U18 vs Wales"},
+            {"title": "England U16 Girls vs France"},
+            {"team": "Saracens Men", "title": "Saracens Men vs Harlequins"},
+            {"team": "England Rugby", "title": "England vs Wales", "home_away": "Neutral"},
+        ]
+
+        self.assertEqual(
+            update_fixtures.mens_matches(fixtures),
+            fixtures[-2:],
+        )
+
     def test_official_results_are_filtered_to_team_and_labelled_from_its_perspective(self):
         fixtures = [
             {
@@ -103,6 +120,18 @@ class AIBriefingTests(unittest.TestCase):
         self.assertIn("70 to 110 words", prompt)
         self.assertIn("Do not infer age, size, experience", prompt)
         self.assertIn("Label the winner or margin as your prediction", prompt)
+
+    def test_next_match_skips_an_earlier_womens_fixture(self):
+        data = self.sample_data()
+        mens_match = data["matches"][0]
+        womens_match = {
+            "title": "Saracens Women vs Harlequins",
+            "team": "Saracens Women",
+            "start_utc": "2099-08-01T12:00:00Z",
+        }
+        data["matches"].insert(0, womens_match)
+
+        self.assertIs(generate_ai_briefing.next_match(data), mens_match)
 
     def test_request_disables_hidden_thinking_so_tokens_are_reserved_for_preview(self):
         class FakeResponse:
