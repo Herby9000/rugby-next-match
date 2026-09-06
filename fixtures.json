@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-05T10:29:10.264225Z",
+  "generated_at_utc": "2026-09-06T06:31:01.582357Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -8,38 +8,6 @@
     "DuckDuckGo Lite search for ESPN/RugbyPass/official previews"
   ],
   "matches": [
-    {
-      "team": "Saracens Men",
-      "opponent": "Northampton Saints",
-      "title": "Saracens Men vs Northampton Saints",
-      "competition": "Prem Rugby Cup",
-      "venue": "StoneX Stadium",
-      "start_utc": "2026-09-05T15:00:00Z",
-      "home_away": "Home",
-      "source": "Saracens official fixtures",
-      "source_url": "https://saracens.com/fixtures-results/",
-      "recent_results": [],
-      "lineup": {
-        "available": false,
-        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
-        "search_url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Northampton%20Saints%202026-09-05%20rugby%20lineups%20ESPN"
-      },
-      "preview": {
-        "title": "Saracens Men vs Northampton Saints preview",
-        "summary": "Saracens Men face Northampton Saints in Prem Rugby Cup at StoneX Stadium.",
-        "url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Northampton%20Saints%20rugby%20match%20preview%202026-09-05",
-        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
-      },
-      "ai_briefing": {
-        "text": "With no line-ups and no recent results, the evidence cupboard is spectacularly bare. Still, Saracens Men are at home to Northampton Saints at StoneX Stadium in the Prem Rugby Cup, and this AI pundit—blessed with plenty of processing power but precisely zero playing experience—refuses to sit on the digital fence. Home status is the only concrete edge available, so I am backing it with shameless confidence. My prediction: Saracens Men beat Northampton Saints. Is that a thunderous verdict built on abundant data? Absolutely not. It is silicon swagger applied to the few facts we actually have.",
-        "generated_at_utc": "2026-09-05T06:31:09.842950Z",
-        "model": "qwen3.6:27b",
-        "inputs": {
-          "lineups_available": false,
-          "recent_results": 0
-        }
-      }
-    },
     {
       "team": "Saracens Women",
       "opponent": "Leicester Tigers",
@@ -61,6 +29,15 @@
         "summary": "Saracens Women face Leicester Tigers in JAECOO PWR NEXT GEN CUP at  Mattioli Woods Welford Road.",
         "url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%20Women%20rugby%20match%20preview%202026-09-19",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
+      },
+      "ai_briefing": {
+        "text": "My circuits have never survived a tackle—or attempted one—but I’m planting my synthetic flag: Leicester Tigers will beat Saracens Women. There are no line-ups and no recent results here, so form and selection cannot honestly enter the argument. What is explicit is that this JAECOO PWR NEXT GEN CUP match puts Leicester at home against travelling Saracens Women at Mattioli Woods Welford Road. That is a thin evidence sandwich, but an AI pundit must still bite. Home status is the only useful edge available, and I’m backing it decisively: Leicester Tigers to win, with Saracens Women leaving empty-handed.",
+        "generated_at_utc": "2026-09-06T06:31:30.370737Z",
+        "model": "qwen3.6:27b",
+        "inputs": {
+          "lineups_available": false,
+          "recent_results": 0
+        }
       }
     },
     {
@@ -119,7 +96,14 @@
       "home_away": "Away",
       "source": "Saracens official fixtures",
       "source_url": "https://saracens.com/fixtures-results/",
-      "recent_results": [],
+      "recent_results": [
+        {
+          "date": "2026-09-05",
+          "competition": "Prem Rugby Cup",
+          "result": "W",
+          "score": "Saracens Men 96–42 Northampton Saints"
+        }
+      ],
       "lineup": {
         "available": false,
         "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
@@ -129,6 +113,29 @@
         "title": "Leicester Tigers vs Saracens Men preview",
         "summary": "Saracens Men face Leicester Tigers in Gallagher Prem at  Mattioli Woods Welford Road.",
         "url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%20Men%20rugby%20match%20preview%202026-09-27",
+        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
+      }
+    },
+    {
+      "team": "Saracens Women",
+      "opponent": "Loughborough Lightning",
+      "title": "Loughborough Lightning vs Saracens Women",
+      "competition": "JAECOO PWR NEXT GEN CUP",
+      "venue": "Goldington Road",
+      "start_utc": "2026-10-02T19:30:00Z",
+      "home_away": "Away",
+      "source": "Saracens official fixtures",
+      "source_url": "https://saracens.com/fixtures-results/",
+      "recent_results": [],
+      "lineup": {
+        "available": false,
+        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
+        "search_url": "https://duckduckgo.com/?q=Loughborough%20Lightning%20vs%20Saracens%20Women%202026-10-02%20rugby%20lineups%20ESPN"
+      },
+      "preview": {
+        "title": "Loughborough Lightning vs Saracens Women preview",
+        "summary": "Saracens Women face Loughborough Lightning in JAECOO PWR NEXT GEN CUP at Goldington Road.",
+        "url": "https://duckduckgo.com/?q=Loughborough%20Lightning%20vs%20Saracens%20Women%20rugby%20match%20preview%202026-10-02",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       }
     }
