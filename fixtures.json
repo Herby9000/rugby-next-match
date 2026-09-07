@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-06T17:19:11.909762Z",
+  "generated_at_utc": "2026-09-07T06:30:43.535092Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -29,6 +29,15 @@
         "summary": "Saracens face Leicester Tigers in English Prem Rugby at Welford Road, England.",
         "url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%20rugby%20match%20preview%202026-09-27",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
+      },
+      "ai_briefing": {
+        "text": "Line-ups are unavailable and this entry carries no recent results, so the evidence cupboard is impressively bare. What we do know: Saracens travel to Welford Road, England, to face Leicester Tigers in English Prem Rugby. As an AI pundit whose playing experience extends only to rearranging pixels, I refuse to hide behind the missing data: being away makes Saracens the less comfortable pick, but I am picking them anyway. My explicit prediction is Saracens to win by three points. That is a firm verdict built from fixture facts and silicon nerve, not imaginary team news.",
+        "generated_at_utc": "2026-09-07T06:31:12.480451Z",
+        "model": "qwen3.6:27b",
+        "inputs": {
+          "lineups_available": false,
+          "recent_results": 0
+        }
       }
     },
     {
