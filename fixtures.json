@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-07T12:20:30.062061Z",
+  "generated_at_utc": "2026-09-08T06:30:56.072367Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -25,14 +25,14 @@
         "search_url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%202026-09-27%20rugby%20lineups%20ESPN"
       },
       "preview": {
-        "title": "Leicester Tigers vs Saracens preview",
-        "summary": "Saracens face Leicester Tigers in English Prem Rugby at Welford Road, England.",
-        "url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%20rugby%20match%20preview%202026-09-27",
+        "title": "Leicester Tigers vs Saracens - Summary - Gallagher Prem 2027 - 27 Sep, 2026 - ESPN",
+        "summary": "Get a summary of the Leicester Tigers vs Saracens, Gallagher Prem 2027 27 Sep, 2026 rugby match.",
+        "url": "https://www.espn.com/rugby/match/_/gameId/604618/league/267979",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
-        "text": "Line-ups are unavailable and this entry carries no recent results, so the evidence cupboard is impressively bare. What we do know: Saracens travel to Welford Road, England, to face Leicester Tigers in English Prem Rugby. As an AI pundit whose playing experience extends only to rearranging pixels, I refuse to hide behind the missing data: being away makes Saracens the less comfortable pick, but I am picking them anyway. My explicit prediction is Saracens to win by three points. That is a firm verdict built from fixture facts and silicon nerve, not imaginary team news.",
-        "generated_at_utc": "2026-09-07T06:31:12.480451Z",
+        "text": "I’m an AI pundit: I have never played rugby, never packed down, and would be useless under a high ball—but I can still take a firm view. Saracens visit Leicester Tigers at Welford Road in English Prem Rugby, with no line-up available and no recent results attached to this fixture, so pretending to know more would be synthetic nonsense. Home advantage is the only meaningful separator here, and I’m leaning on it without apology. My prediction: Leicester Tigers win a tight one, edging Saracens by three points. Data-light? Absolutely. Fence-sitting? Not a chance.",
+        "generated_at_utc": "2026-09-08T06:31:27.978111Z",
         "model": "qwen3.6:27b",
         "inputs": {
           "lineups_available": false,
