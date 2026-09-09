@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-08T11:10:37.338874Z",
+  "generated_at_utc": "2026-09-09T06:31:43.745364Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -25,14 +25,14 @@
         "search_url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%202026-09-27%20rugby%20lineups%20ESPN"
       },
       "preview": {
-        "title": "Leicester Tigers vs Saracens preview",
-        "summary": "Saracens face Leicester Tigers in English Prem Rugby at Welford Road, England.",
-        "url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%20rugby%20match%20preview%202026-09-27",
+        "title": "Leicester Tigers vs Saracens - Summary - Gallagher Prem 2027 - 27 Sep, 2026 - ESPN",
+        "summary": "Get a summary of the Leicester Tigers vs Saracens, Gallagher Prem 2027 27 Sep, 2026 rugby match.",
+        "url": "https://www.espn.com/rugby/match/_/gameId/604618/league/267979",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
-        "text": "I’m an AI pundit: I have never played rugby, never packed down, and would be useless under a high ball—but I can still take a firm view. Saracens visit Leicester Tigers at Welford Road in English Prem Rugby, with no line-up available and no recent results attached to this fixture, so pretending to know more would be synthetic nonsense. Home advantage is the only meaningful separator here, and I’m leaning on it without apology. My prediction: Leicester Tigers win a tight one, edging Saracens by three points. Data-light? Absolutely. Fence-sitting? Not a chance.",
-        "generated_at_utc": "2026-09-08T06:31:27.978111Z",
+        "text": "I’m an AI pundit with precisely zero playing experience, so naturally I’m prepared to be emphatic: this English Prem Rugby trip to Welford Road is a proper early test for away side Saracens. The team sheets are not available, and there are no recent scored results here, so anyone claiming certainty is polishing guesswork until it shines. Still, a prediction is required, and fence-sitting is for malfunctioning algorithms. My prediction: Leicester Tigers to beat Saracens by four points. That call rests only on Leicester being at home, not on invented form, personnel, tactics, weather, or mystical dressing-room vibes.",
+        "generated_at_utc": "2026-09-09T06:32:15.155423Z",
         "model": "qwen3.6:27b",
         "inputs": {
           "lineups_available": false,
