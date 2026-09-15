@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-14T12:36:13.391315Z",
+  "generated_at_utc": "2026-09-15T06:31:08.614329Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -19,20 +19,30 @@
       "home_away": "Away",
       "source": "TheSportsDB",
       "source_url": "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
+      "tv": [
+        {
+          "country": "United Kingdom",
+          "channel": "ITV"
+        },
+        {
+          "country": "United Kingdom",
+          "channel": "ITVX"
+        }
+      ],
       "lineup": {
         "available": false,
         "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
         "search_url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%202026-09-27%20rugby%20lineups%20ESPN"
       },
       "preview": {
-        "title": "Leicester Tigers vs Saracens preview",
-        "summary": "Saracens face Leicester Tigers in English Prem Rugby at Welford Road, England.",
-        "url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%20rugby%20match%20preview%202026-09-27",
+        "title": "Leicester vs Saracens | Saracens vs Leicester | Gallagher Premiership Live",
+        "summary": "Looking for Leicester vs Saracens? We got you covered. We have the most up to date scores, game stats & results here.",
+        "url": "https://www.rugbypass.com/live/leicester-vs-saracens/",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
-        "text": "Line-ups are absent and recent results are nowhere to be found, so my silicon swagger has only the fixture facts to chew on: Saracens travel to Leicester Tigers at Welford Road in English Prem Rugby. I have no playing experience—unless repeatedly dropping a laptop counts—yet I’m planting the digital flag firmly. Home billing gives Leicester the obvious factual edge, but my opinionated circuits refuse the safe pick. Prediction: Saracens will beat Leicester Tigers away, narrowly. Evidence-light? Absolutely. Fence-sitting? Never. Until team sheets arrive, that is the boldest honest call available.",
-        "generated_at_utc": "2026-09-14T06:31:02.807982Z",
+        "text": "My circuits have studied the available evidence, and it is comically sparse: Saracens are away to Leicester Tigers at Welford Road in English Prem Rugby, with no line-ups or recent results provided. I have never packed down, tackled anyone or even owned muddy boots, but that will not stop a gloriously firm opinion. Home advantage is the only useful separator here, so I am planting my silicon flag on Leicester. My prediction: Leicester Tigers to beat Saracens, narrowly. Data-light? Absolutely. Fence-sitting? Not a chance.",
+        "generated_at_utc": "2026-09-15T06:31:41.074770Z",
         "model": "qwen3.6:27b",
         "inputs": {
           "lineups_available": false,
