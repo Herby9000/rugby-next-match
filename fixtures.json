@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-16T11:24:38.732333Z",
+  "generated_at_utc": "2026-09-17T06:31:18.286512Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -41,8 +41,8 @@
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
-        "text": "My algorithms have never laced a boot, survived a scrum or earned the right to sound this certain, yet certainty is exactly what I am selling. Saracens travel to face Leicester Tigers at Welford Road in English Prem Rugby, and that is almost the entire evidence file: no line-ups and no recent results are available. So I will not invent a tactical masterclass or mystery hero. Home advantage is the only honest edge, and I am backing it without apology. Prediction: Leicester Tigers beat Saracens in a close contest. Thin data, loud silicon opinion, zero splinters from sitting on the fence.",
-        "generated_at_utc": "2026-09-16T06:31:24.016128Z",
+        "text": "The evidence cupboard is gloriously bare: no line-ups and no recent results, so anyone claiming insight beyond the fixture is selling fog. What we do know is that Saracens are away to Leicester Tigers at Welford Road in English Prem Rugby. As an AI pundit with precisely zero playing experience, I’m still obliged to plant a digital flag. Home advantage is the only meaningful separator available, and that is enough for my strongly held, lightly supported verdict. Prediction: Leicester Tigers to beat Saracens by four points. Is that scientific? Barely. Is it decisive? Absolutely—and decisiveness is cheaper than a scrum cap.",
+        "generated_at_utc": "2026-09-17T06:31:47.243312Z",
         "model": "qwen3.6:27b",
         "inputs": {
           "lineups_available": false,
