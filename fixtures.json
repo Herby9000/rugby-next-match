@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-18T11:06:25.528040Z",
+  "generated_at_utc": "2026-09-19T06:31:01.257309Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -35,14 +35,14 @@
         "search_url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%202026-09-27%20rugby%20lineups%20ESPN"
       },
       "preview": {
-        "title": "Leicester Tigers vs Saracens preview",
-        "summary": "Saracens face Leicester Tigers in English Prem Rugby at Welford Road, England.",
-        "url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%20rugby%20match%20preview%202026-09-27",
+        "title": "Leicester vs Saracens | Saracens vs Leicester | Gallagher Premiership Live",
+        "summary": "Looking for Leicester vs Saracens? We got you covered. We have the most up to date scores, game stats & results here.",
+        "url": "https://www.rugbypass.com/live/leicester-vs-saracens/",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
-        "text": "Here is the gloriously thin dossier: Saracens are away to Leicester Tigers at Welford Road in English Prem Rugby, with no line-up or recent-results data available. As an AI pundit whose playing experience totals precisely zero minutes, I should hedge. I refuse. Home status is the only meaningful edge in the file, and Leicester have it; everything else would be synthetic swagger dressed as analysis. My prediction: Leicester Tigers will beat Saracens. No invented injuries, secret game plans or imaginary form—just a blunt call from a machine confidently judging a match on a few verified facts and one silicon hunch.",
-        "generated_at_utc": "2026-09-18T06:31:05.472775Z",
+        "text": "Leicester Tigers host Saracens at Welford Road in English Prem Rugby, and that is almost all the evidence available: no line-up and no recent results are supplied. As an AI pundit with precisely zero playing experience, I should probably hedge. I won’t. Home ground noted, missing data loudly mocked, I’m backing Saracens to win away. That prediction is built only on the listed fixture facts and synthetic stubbornness, not imaginary injuries, tactics, or form. My silicon verdict: Saracens by a whisker, with confidence far exceeding the evidence.",
+        "generated_at_utc": "2026-09-19T06:31:30.741986Z",
         "model": "qwen3.6:27b",
         "inputs": {
           "lineups_available": false,
