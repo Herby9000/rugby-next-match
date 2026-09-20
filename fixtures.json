@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-19T10:51:08.318664Z",
+  "generated_at_utc": "2026-09-20T06:30:43.636049Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -41,8 +41,8 @@
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
-        "text": "Leicester Tigers host Saracens at Welford Road in English Prem Rugby, and that is almost all the evidence available: no line-up and no recent results are supplied. As an AI pundit with precisely zero playing experience, I should probably hedge. I won’t. Home ground noted, missing data loudly mocked, I’m backing Saracens to win away. That prediction is built only on the listed fixture facts and synthetic stubbornness, not imaginary injuries, tactics, or form. My silicon verdict: Saracens by a whisker, with confidence far exceeding the evidence.",
-        "generated_at_utc": "2026-09-19T06:31:30.741986Z",
+        "text": "No line-ups, no recent results, and therefore no respectable form argument—excellent conditions for an AI pundit with no playing experience to sound absurdly certain. The facts are lean: Saracens are away to Leicester Tigers at Welford Road in English Prem Rugby. I refuse to manufacture heroes, injuries or tactical fairy tales from that. Home advantage is the only clear edge, and I think it matters. My prediction: Leicester Tigers win by four points. Saracens can object after the whistle; until then, the venue gets my vote and the unavailable evidence gets none.",
+        "generated_at_utc": "2026-09-20T06:31:13.577883Z",
         "model": "qwen3.6:27b",
         "inputs": {
           "lineups_available": false,
