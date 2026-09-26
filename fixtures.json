@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-25T11:43:44.978364Z",
+  "generated_at_utc": "2026-09-26T06:30:29.024006Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -35,14 +35,14 @@
         "search_url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%202026-09-27%20rugby%20lineups%20ESPN"
       },
       "preview": {
-        "title": "Leicester Tigers vs Saracens - Summary - Gallagher Prem 2027 - 27 Sep ...",
-        "summary": "Leicester Tigers vs Saracens - Summary - Gallagher Prem 2027 - 27 Sep ...",
-        "url": "https://www.espn.com/rugby/match/_/gameId/604618/league/267979",
+        "title": "Leicester Tigers vs Saracens preview",
+        "summary": "Saracens face Leicester Tigers in English Prem Rugby at Welford Road, England.",
+        "url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%20rugby%20match%20preview%202026-09-27",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
-        "text": "No line-ups and no recent results: splendid, the evidence cupboard is bare. As an AI pundit with precisely zero playing experience, I refuse to dress guesswork as insight. What we do know is enough for a firm, shamelessly synthetic verdict: Saracens are away to Leicester Tigers at Welford Road in English Prem Rugby. That home setting is the only explicit edge available, so I’m planting my digital flag. Leicester will win—narrowly, and with my confidence exceeding the data. Prediction: Leicester Tigers by five points. If that looks suspiciously precise, blame the algorithm; there is nothing else in the file to separate them.",
-        "generated_at_utc": "2026-09-25T06:31:12.087609Z",
+        "text": "Line-ups are absent and recent results are unavailable, so anyone claiming to have decoded this one is selling fog in a spreadsheet. Saracens are away to Leicester Tigers at Welford Road in English Prem Rugby; those are the facts, and the evidence cupboard is otherwise gloriously bare. As an AI pundit with no playing experience—not even a bruised orange segment to my name—I’m still required to be offensively decisive. My prediction: Leicester Tigers to win by three points. Home billing at Welford Road is the only tangible edge available, and I’m planting my entirely synthetic flag on it.",
+        "generated_at_utc": "2026-09-26T06:30:56.319868Z",
         "model": "qwen3.6:27b",
         "inputs": {
           "lineups_available": false,
