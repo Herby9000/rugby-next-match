@@ -11,6 +11,7 @@ import json
 import re
 import urllib.parse
 import urllib.request
+from copy import deepcopy
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -20,11 +21,14 @@ from rugby_scope import is_womens_fixture, mens_matches
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "fixtures.json"
 NOW = datetime.now(timezone.utc)
+PREM_STANDINGS_URL = "https://www.premrugby.com/standings"
+PREM_FEED_BASE_URL = "https://rugby-union-feeds.incrowdsports.com"
 
 SOURCES = [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
     "https://saracens.com/fixtures-results/",
+    PREM_STANDINGS_URL,
     "TheSportsDB event TV/lineup endpoints",
     "DuckDuckGo Lite search for ESPN/RugbyPass/official previews",
 ]
@@ -62,6 +66,190 @@ def clean_text(value: str) -> str:
     value = re.sub(r"<[^>]+>", " ", value)
     value = html.unescape(value)
     return re.sub(r"\s+", " ", value).strip()
+
+
+PREM_TEAM_FIELDS = {
+    "position": "position",
+    "name": "team",
+    "played": "played",
+    "won": "won",
+    "drawn": "drawn",
+    "lost": "lost",
+    "pointsFor": "points_for",
+    "pointsAgainst": "points_against",
+    "pointsDiff": "points_difference",
+    "triesBonus": "try_bonus_points",
+    "losingBonus": "losing_bonus_points",
+    "bonus": "bonus_points",
+    "points": "points",
+}
+
+
+def normalize_prem_table(
+    payload: dict[str, Any], forms: dict[int, list[str]], retrieved_at_utc: str
+) -> dict[str, Any]:
+    """Normalize and strictly validate the official PREM standings response."""
+    data = payload.get("data") or {}
+    groups = data.get("groups") or []
+    source_teams = groups[0].get("teams") if groups else None
+    if not isinstance(source_teams, list) or not source_teams:
+        raise ValueError("Official PREM response contains no standings teams")
+
+    teams: list[dict[str, Any]] = []
+    for source_team in source_teams:
+        missing = [field for field in PREM_TEAM_FIELDS if field not in source_team]
+        if missing:
+            raise ValueError(f"Official PREM row is missing: {', '.join(missing)}")
+        row = {
+            normalized: source_team[source]
+            for source, normalized in PREM_TEAM_FIELDS.items()
+        }
+        if not row["team"] or any(
+            not isinstance(value, int) or isinstance(value, bool)
+            for key, value in row.items()
+            if key != "team"
+        ):
+            raise ValueError("Official PREM row contains an invalid name or statistic")
+        team_id = source_team.get("teamId")
+        row["form"] = [
+            result for result in forms.get(team_id, []) if result in {"W", "L", "D"}
+        ][:3]
+        teams.append(row)
+
+    teams.sort(key=lambda row: row["position"])
+    season_id = data.get("seasonId")
+    if not isinstance(season_id, int):
+        raise ValueError("Official PREM response has no valid season")
+    season_start = season_id // 100
+    table = {
+        "competition": ((data.get("competition") or {}).get("name") or "PREM Rugby"),
+        "competition_id": data.get("competitionId"),
+        "season": f"{season_start}/{(season_start + 1) % 100:02d}",
+        "season_id": season_id,
+        "status": "current",
+        "stale": False,
+        "retrieved_at_utc": retrieved_at_utc,
+        "source": "PREM Rugby official standings",
+        "source_url": PREM_STANDINGS_URL,
+        "teams": teams,
+    }
+    if not valid_prem_table(table):
+        raise ValueError("Normalized PREM table failed schema validation")
+    return table
+
+
+def valid_prem_table(table: Any) -> bool:
+    """Return whether a table is safe to preserve and publish as standings."""
+    if not isinstance(table, dict) or table.get("status") not in {"current", "stale"}:
+        return False
+    if not isinstance(table.get("retrieved_at_utc"), str) or not table.get("source_url"):
+        return False
+    teams = table.get("teams")
+    if not isinstance(teams, list) or not teams:
+        return False
+    required = set(PREM_TEAM_FIELDS.values()) | {"form"}
+    for row in teams:
+        if not isinstance(row, dict) or not required <= row.keys():
+            return False
+        if not isinstance(row["team"], str) or not row["team"]:
+            return False
+        if any(
+            not isinstance(row[key], int) or isinstance(row[key], bool)
+            for key in required - {"team", "form"}
+        ):
+            return False
+        if not isinstance(row["form"], list) or any(
+            result not in {"W", "L", "D"} for result in row["form"]
+        ):
+            return False
+    return True
+
+
+def _prem_public_config(page: str) -> dict[str, str]:
+    """Read the official site's public feed configuration without persisting keys."""
+    config: dict[str, str] = {}
+    for key in ("apiKey", "appId", "realmId", "dataProvider", "compId"):
+        match = re.search(rf"(?<![A-Za-z]){key}:\"([^\"]+)\"", page)
+        if not match:
+            raise ValueError(f"PREM site public configuration is missing {key}")
+        config[key] = match.group(1)
+    season = re.search(r"(?<![A-Za-z])season:(\d+)", page)
+    if not season:
+        raise ValueError("PREM site public configuration is missing season")
+    config["season"] = season.group(1)
+    return config
+
+
+def _prem_feed_json(
+    path: str, params: dict[str, Any], config: dict[str, str]
+) -> dict[str, Any]:
+    url = f"{PREM_FEED_BASE_URL}{path}?{urllib.parse.urlencode(params)}"
+    request = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": "Mozilla/5.0 (Herby rugby fixture bot; https://github.com/Herby9000/rugby-next-match)",
+            "Accept": "application/json",
+            "X-API-KEY": config["apiKey"],
+            "X-APP-ID": config["appId"],
+            "X-REALM": config["realmId"],
+        },
+    )
+    with urllib.request.urlopen(request, timeout=30) as response:
+        return json.loads(response.read().decode("utf-8"))
+
+
+def fetch_prem_table(retrieved_at_utc: str) -> dict[str, Any]:
+    """Fetch current standings and recent form from PREM Rugby's official feed."""
+    config = _prem_public_config(fetch_text(PREM_STANDINGS_URL))
+    params = {"provider": config["dataProvider"], "season": config["season"]}
+    payload = _prem_feed_json(f"/v1/tables/{config['compId']}", params, config)
+    data = payload.get("data") or {}
+    groups = data.get("groups") or []
+    teams = groups[0].get("teams") if groups else []
+    forms: dict[int, list[str]] = {}
+    for team in teams or []:
+        team_id = team.get("teamId")
+        if not isinstance(team_id, int):
+            continue
+        try:
+            form_payload = _prem_feed_json(
+                f"/v1/form/{team_id}",
+                {**params, "compId": config["compId"], "max": 3},
+                config,
+            )
+            forms[team_id] = [item.get("result") for item in form_payload.get("data") or []]
+        except Exception:
+            # Form is an enhancement; a valid official table remains publishable without it.
+            forms[team_id] = []
+    return normalize_prem_table(payload, forms, retrieved_at_utc)
+
+
+def refresh_prem_table(
+    existing: dict[str, Any], attempted_at_utc: str
+) -> tuple[dict[str, Any], str | None]:
+    """Fetch standings, preserving the last valid table on any source failure."""
+    try:
+        return fetch_prem_table(attempted_at_utc), None
+    except Exception as exc:
+        saved = existing.get("prem_table")
+        if valid_prem_table(saved):
+            assert isinstance(saved, dict)
+            table = deepcopy(saved)
+            table.update({
+                "status": "stale",
+                "stale": True,
+                "last_attempt_at_utc": attempted_at_utc,
+            })
+            return table, f"PREM standings refresh failed; preserved last valid table: {exc}"
+        return {
+            "competition": "PREM Rugby",
+            "status": "unavailable",
+            "stale": True,
+            "last_attempt_at_utc": attempted_at_utc,
+            "source": "PREM Rugby official standings",
+            "source_url": PREM_STANDINGS_URL,
+            "teams": [],
+        }, f"PREM standings unavailable: {exc}"
 
 
 def official_recent_results(
@@ -495,6 +683,11 @@ def main() -> int:
     except (OSError, json.JSONDecodeError):
         existing = {}
 
+    generated_at = NOW.isoformat().replace("+00:00", "Z")
+    prem_table, table_note = refresh_prem_table(existing, generated_at)
+    if table_note:
+        notes.append(table_note)
+
     for matches, note in [
         sportsdb_matches("137123", "England Rugby"),
         sportsdb_matches("135208", "Saracens"),
@@ -524,9 +717,10 @@ def main() -> int:
     preserve_ai_briefings(enriched, existing)
 
     output = {
-        "generated_at_utc": NOW.isoformat().replace("+00:00", "Z"),
+        "generated_at_utc": generated_at,
         "sources": SOURCES,
         "matches": enriched,
+        "prem_table": prem_table,
         "notes": notes,
     }
     OUT.write_text(json.dumps(output, indent=2, ensure_ascii=False) + "\n")

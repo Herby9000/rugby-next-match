@@ -1,82 +1,40 @@
 {
-  "generated_at_utc": "2026-09-27T11:56:14.835480Z",
+  "generated_at_utc": "2026-09-28T02:07:38.144033Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
     "https://saracens.com/fixtures-results/",
+    "https://www.premrugby.com/standings",
     "TheSportsDB event TV/lineup endpoints",
     "DuckDuckGo Lite search for ESPN/RugbyPass/official previews"
   ],
   "matches": [
     {
-      "event_id": "2553386",
+      "event_id": "2553391",
       "team": "Saracens",
-      "opponent": "Leicester Tigers",
-      "title": "Leicester Tigers vs Saracens",
+      "opponent": "Sale Sharks",
+      "title": "Saracens vs Sale Sharks",
       "competition": "English Prem Rugby",
-      "venue": "Welford Road, England",
-      "start_utc": "2026-09-27T14:00:00Z",
-      "home_away": "Away",
+      "venue": "StoneX Stadium, England",
+      "start_utc": "2026-10-04T14:00:00Z",
+      "home_away": "Home",
       "source": "TheSportsDB",
       "source_url": "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
       "tv": [
         {
           "country": "United Kingdom",
-          "channel": "ITV"
-        },
-        {
-          "country": "United Kingdom",
-          "channel": "ITVX"
+          "channel": "TNT Sports Ultimate"
         }
       ],
       "lineup": {
         "available": false,
         "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
-        "search_url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%202026-09-27%20rugby%20lineups%20ESPN"
+        "search_url": "https://duckduckgo.com/?q=Saracens%20vs%20Sale%20Sharks%202026-10-04%20rugby%20lineups%20ESPN"
       },
       "preview": {
-        "title": "Leicester Tigers vs Saracens preview",
-        "summary": "Saracens face Leicester Tigers in English Prem Rugby at Welford Road, England.",
-        "url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%20rugby%20match%20preview%202026-09-27",
-        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
-      },
-      "ai_briefing": {
-        "text": "I have never packed down, tackled anyone or survived a muddy team talk—I am an AI pundit armed only with the fixture sheet. Saracens visit Leicester Tigers at Welford Road in English Prem Rugby, and both starting line-ups are available: Maro Itoje and Fergus Burke are listed for Saracens, while Freddie Steward and Mako Vunipola start for Leicester. There are no recent results here, so form-based swagger would be pure invention. Even so, I am firmly planting my silicon flag: Saracens to win away, narrowly, by four points. Home advantage be damned; the algorithm has spoken.",
-        "generated_at_utc": "2026-09-27T06:31:21.886954Z",
-        "model": "qwen3.6:27b",
-        "inputs": {
-          "lineups_available": true,
-          "recent_results": 0
-        }
-      }
-    },
-    {
-      "team": "Saracens Men",
-      "opponent": "Leicester Tigers",
-      "title": "Leicester Tigers vs Saracens Men",
-      "competition": "Gallagher Prem",
-      "venue": " Mattioli Woods Welford Road",
-      "start_utc": "2026-09-27T15:00:00Z",
-      "home_away": "Away",
-      "source": "Saracens official fixtures",
-      "source_url": "https://saracens.com/fixtures-results/",
-      "recent_results": [
-        {
-          "date": "2026-09-05",
-          "competition": "Prem Rugby Cup",
-          "result": "W",
-          "score": "Saracens Men 96–42 Northampton Saints"
-        }
-      ],
-      "lineup": {
-        "available": false,
-        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
-        "search_url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%20Men%202026-09-27%20rugby%20lineups%20ESPN"
-      },
-      "preview": {
-        "title": "Leicester Tigers vs Saracens Men preview",
-        "summary": "Saracens Men face Leicester Tigers in Gallagher Prem at  Mattioli Woods Welford Road.",
-        "url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%20Men%20rugby%20match%20preview%202026-09-27",
+        "title": "Saracens vs Sale Sharks preview",
+        "summary": "Saracens face Sale Sharks in English Prem Rugby at StoneX Stadium, England.",
+        "url": "https://duckduckgo.com/?q=Saracens%20vs%20Sale%20Sharks%20rugby%20match%20preview%202026-10-04",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       }
     },
@@ -169,7 +127,230 @@
         "url": "https://duckduckgo.com/?q=Connacht%20Rugby%20vs%20Saracens%20Men%20rugby%20match%20preview%202026-10-17",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       }
+    },
+    {
+      "team": "Saracens Men",
+      "opponent": "Harlequins",
+      "title": "Harlequins vs Saracens Men",
+      "competition": "Gallagher Prem",
+      "venue": "Twickenham Stoop",
+      "start_utc": "2026-10-25T15:00:00Z",
+      "home_away": "Away",
+      "source": "Saracens official fixtures",
+      "source_url": "https://saracens.com/fixtures-results/",
+      "recent_results": [
+        {
+          "date": "2026-09-05",
+          "competition": "Prem Rugby Cup",
+          "result": "W",
+          "score": "Saracens Men 96–42 Northampton Saints"
+        }
+      ],
+      "lineup": {
+        "available": false,
+        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
+        "search_url": "https://duckduckgo.com/?q=Harlequins%20vs%20Saracens%20Men%202026-10-25%20rugby%20lineups%20ESPN"
+      },
+      "preview": {
+        "title": "Harlequins vs Saracens Men preview",
+        "summary": "Saracens Men face Harlequins in Gallagher Prem at Twickenham Stoop.",
+        "url": "https://duckduckgo.com/?q=Harlequins%20vs%20Saracens%20Men%20rugby%20match%20preview%202026-10-25",
+        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
+      }
     }
   ],
+  "prem_table": {
+    "competition": "Gallagher PREM",
+    "competition_id": 1011,
+    "season": "2026/27",
+    "season_id": 202601,
+    "status": "current",
+    "stale": false,
+    "retrieved_at_utc": "2026-09-28T02:07:38.144033Z",
+    "source": "PREM Rugby official standings",
+    "source_url": "https://www.premrugby.com/standings",
+    "teams": [
+      {
+        "position": 1,
+        "team": "Northampton Saints",
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "points_for": 59,
+        "points_against": 26,
+        "points_difference": 33,
+        "try_bonus_points": 1,
+        "losing_bonus_points": 0,
+        "bonus_points": 1,
+        "points": 5,
+        "form": [
+          "W"
+        ]
+      },
+      {
+        "position": 2,
+        "team": "Gloucester Rugby",
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "points_for": 45,
+        "points_against": 24,
+        "points_difference": 21,
+        "try_bonus_points": 1,
+        "losing_bonus_points": 0,
+        "bonus_points": 1,
+        "points": 5,
+        "form": [
+          "W"
+        ]
+      },
+      {
+        "position": 3,
+        "team": "Bath Rugby",
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "points_for": 33,
+        "points_against": 17,
+        "points_difference": 16,
+        "try_bonus_points": 1,
+        "losing_bonus_points": 0,
+        "bonus_points": 1,
+        "points": 5,
+        "form": [
+          "W"
+        ]
+      },
+      {
+        "position": 4,
+        "team": "Bristol Bears",
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "points_for": 34,
+        "points_against": 24,
+        "points_difference": 10,
+        "try_bonus_points": 1,
+        "losing_bonus_points": 0,
+        "bonus_points": 1,
+        "points": 5,
+        "form": [
+          "W"
+        ]
+      },
+      {
+        "position": 5,
+        "team": "Saracens",
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "points_for": 40,
+        "points_against": 38,
+        "points_difference": 2,
+        "try_bonus_points": 1,
+        "losing_bonus_points": 0,
+        "bonus_points": 1,
+        "points": 5,
+        "form": [
+          "W"
+        ]
+      },
+      {
+        "position": 6,
+        "team": "Leicester Tigers",
+        "played": 1,
+        "won": 0,
+        "drawn": 0,
+        "lost": 1,
+        "points_for": 38,
+        "points_against": 40,
+        "points_difference": -2,
+        "try_bonus_points": 1,
+        "losing_bonus_points": 1,
+        "bonus_points": 2,
+        "points": 2,
+        "form": [
+          "L"
+        ]
+      },
+      {
+        "position": 7,
+        "team": "Exeter Chiefs",
+        "played": 1,
+        "won": 0,
+        "drawn": 0,
+        "lost": 1,
+        "points_for": 24,
+        "points_against": 45,
+        "points_difference": -21,
+        "try_bonus_points": 1,
+        "losing_bonus_points": 0,
+        "bonus_points": 1,
+        "points": 1,
+        "form": [
+          "L"
+        ]
+      },
+      {
+        "position": 8,
+        "team": "Newcastle Red Bulls",
+        "played": 1,
+        "won": 0,
+        "drawn": 0,
+        "lost": 1,
+        "points_for": 26,
+        "points_against": 59,
+        "points_difference": -33,
+        "try_bonus_points": 1,
+        "losing_bonus_points": 0,
+        "bonus_points": 1,
+        "points": 1,
+        "form": [
+          "L"
+        ]
+      },
+      {
+        "position": 9,
+        "team": "Sale Sharks",
+        "played": 1,
+        "won": 0,
+        "drawn": 0,
+        "lost": 1,
+        "points_for": 24,
+        "points_against": 34,
+        "points_difference": -10,
+        "try_bonus_points": 0,
+        "losing_bonus_points": 0,
+        "bonus_points": 0,
+        "points": 0,
+        "form": [
+          "L"
+        ]
+      },
+      {
+        "position": 10,
+        "team": "Harlequins",
+        "played": 1,
+        "won": 0,
+        "drawn": 0,
+        "lost": 1,
+        "points_for": 17,
+        "points_against": 33,
+        "points_difference": -16,
+        "try_bonus_points": 0,
+        "losing_bonus_points": 0,
+        "bonus_points": 0,
+        "points": 0,
+        "form": [
+          "L"
+        ]
+      }
+    ]
+  },
   "notes": []
 }

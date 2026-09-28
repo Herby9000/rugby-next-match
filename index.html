@@ -73,6 +73,27 @@
     .footer { display:flex; flex-wrap:wrap; gap: 12px; justify-content: space-between; align-items:center; margin-top: 18px; color: var(--muted); font-size: .92rem; }
     a { color: #b9ecff; }
     .empty { margin-top: 18px; padding: 16px; border: 1px dashed var(--line); border-radius: 18px; color: var(--muted); }
+    .standings { margin-top: 22px; }
+    .standings-head { display: flex; gap: 12px; align-items: baseline; justify-content: space-between; flex-wrap: wrap; }
+    .standings-head h2 { font-size: clamp(1.45rem, 4vw, 2rem); margin: 0; }
+    .sarries-summary { display: flex; gap: 14px; align-items: center; justify-content: space-between; margin: 18px 0; padding: 16px; border: 1px solid rgba(230,27,46,.55); border-radius: 18px; background: rgba(230,27,46,.12); }
+    .sarries-summary strong { display: block; font-size: 1.15rem; }
+    .form { display: flex; gap: 6px; align-items: center; }
+    .form-badge { display: inline-grid; place-items: center; width: 28px; height: 28px; border-radius: 50%; color: #07110a; background: var(--good); font-size: .75rem; font-weight: 950; }
+    .form-badge.L { color: #fff; background: var(--accent); }
+    .form-badge.D { color: #111827; background: var(--warn); }
+    .table-hint { margin: 10px 0 8px; color: var(--muted); font-size: .82rem; }
+    .table-scroll { max-width: 100%; overflow-x: auto; border: 1px solid var(--line); border-radius: 18px; -webkit-overflow-scrolling: touch; }
+    .table-scroll:focus-visible { outline: 3px solid var(--accent2); outline-offset: 3px; }
+    .prem-table { width: 100%; min-width: 760px; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+    .prem-table caption { padding: 12px 14px; color: var(--muted); text-align: left; font-size: .85rem; }
+    .prem-table th, .prem-table td { padding: 11px 10px; border-bottom: 1px solid var(--line); text-align: center; white-space: nowrap; }
+    .prem-table th { color: #c8d5e8; background: rgba(255,255,255,.07); font-size: .73rem; letter-spacing: .06em; text-transform: uppercase; }
+    .prem-table th:nth-child(2), .prem-table td:nth-child(2) { text-align: left; }
+    .prem-table tbody tr:last-child td { border-bottom: 0; }
+    .prem-table .saracens-row { background: linear-gradient(90deg, rgba(230,27,46,.28), rgba(230,27,46,.08)); font-weight: 850; }
+    .freshness { margin: 14px 0 0; color: var(--muted); font-size: .9rem; line-height: 1.5; }
+    .stale-copy { color: #ffe08a; }
     @media (max-width: 820px) { .grid, .lineups { grid-template-columns: 1fr; } }
     @media (max-width: 620px) { .countdown { grid-template-columns: repeat(2, 1fr); } .rugby-logo { width: 62px; height: 62px; border-radius: 18px; } }
   </style>
@@ -87,6 +108,7 @@
       <img class="rugby-logo" src="assets/rugby-ball-logo.svg" alt="Rugby ball logo" />
     </header>
     <section class="card" id="app" aria-live="polite">Loading fixture…</section>
+    <section class="card standings" id="standings" aria-live="polite">Loading PREM table…</section>
   </main>
 
   <script>
@@ -142,9 +164,44 @@
       </section>`;
     }
 
+    function ordinal(value) {
+      const mod100 = value % 100;
+      if (mod100 >= 11 && mod100 <= 13) return `${value}th`;
+      return `${value}${({1:'st', 2:'nd', 3:'rd'})[value % 10] || 'th'}`;
+    }
+
+    function renderPremTable(table) {
+      const teams = table?.teams || [];
+      if (!teams.length) {
+        return `<div class="standings-head"><h2>Current PREM table</h2></div>
+          <div class="empty"><strong>Prem table unavailable</strong><br>The official standings could not be loaded. The daily updater will try again.</div>`;
+      }
+      const saracens = teams.find(row => /saracens/i.test(row.team));
+      const form = saracens?.form || [];
+      const summary = saracens ? `<div class="sarries-summary" aria-label="Saracens league summary">
+        <div><strong>Saracens are ${esc(ordinal(saracens.position))}</strong><span class="meta">${esc(saracens.points)} points · ${esc(saracens.played)} played</span></div>
+        <div><div class="subhead">Recent form</div><div class="form">${form.length ? form.map(result => `<span class="form-badge ${esc(result)}" aria-label="${result === 'W' ? 'Win' : result === 'L' ? 'Loss' : 'Draw'}">${esc(result)}</span>`).join('') : '<span class="meta">Not yet available</span>'}</div></div>
+      </div>` : '';
+      const freshness = table.stale
+        ? `<span class="stale-copy"><strong>Showing the last successful update.</strong> The latest refresh failed; standings retrieved ${esc(fmtDate.format(new Date(table.retrieved_at_utc)))}.</span>`
+        : `Official standings retrieved ${esc(fmtDate.format(new Date(table.retrieved_at_utc)))}.`;
+      return `<div class="standings-head"><h2>Current PREM table</h2><span class="pill">${esc(table.season || '')}</span></div>
+        ${summary}
+        <p class="table-hint" id="prem-table-hint">Swipe table sideways to see all columns.</p>
+        <div class="table-scroll" tabindex="0" role="region" aria-label="PREM league standings; horizontally scrollable" aria-describedby="prem-table-hint">
+          <table class="prem-table">
+            <caption>${esc(table.competition || 'PREM Rugby')} standings</caption>
+            <thead><tr><th scope="col">Pos</th><th scope="col">Team</th><th scope="col">P</th><th scope="col">W</th><th scope="col">D</th><th scope="col">L</th><th scope="col">PD</th><th scope="col">TBP</th><th scope="col">LBP</th><th scope="col">BP</th><th scope="col">Pts</th></tr></thead>
+            <tbody>${teams.map(row => `<tr${/saracens/i.test(row.team) ? ' class="saracens-row"' : ''}><td>${esc(row.position)}</td><td>${esc(row.team)}</td><td>${esc(row.played)}</td><td>${esc(row.won)}</td><td>${esc(row.drawn)}</td><td>${esc(row.lost)}</td><td>${row.points_difference > 0 ? '+' : ''}${esc(row.points_difference)}</td><td>${esc(row.try_bonus_points)}</td><td>${esc(row.losing_bonus_points)}</td><td>${esc(row.bonus_points)}</td><td><strong>${esc(row.points)}</strong></td></tr>`).join('')}</tbody>
+          </table>
+        </div>
+        <p class="freshness">${freshness} <a href="${esc(table.source_url)}">Official PREM source</a>.</p>`;
+    }
+
     async function load() {
       const res = await fetch('./fixtures.json', { cache: 'no-store' });
       const data = await res.json();
+      document.getElementById('standings').innerHTML = renderPremTable(data.prem_table);
       const now = Date.now();
       const next = data.matches
         .map(m => ({...m, date: new Date(m.start_utc)}))
@@ -181,6 +238,7 @@
     }
     load().catch(err => {
       document.getElementById('app').innerHTML = `<div class="match">Could not load fixture</div><p class="meta">${esc(err.message)}</p>`;
+      document.getElementById('standings').innerHTML = renderPremTable(null);
     });
   </script>
 </body>
