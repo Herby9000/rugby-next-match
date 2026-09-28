@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-28T02:07:38.144033Z",
+  "generated_at_utc": "2026-09-28T02:29:42.066311Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -159,6 +159,62 @@
       }
     }
   ],
+  "saracens_season": {
+    "status": "current",
+    "stale": false,
+    "retrieved_at_utc": "2026-09-28T02:29:42.066311Z",
+    "source": "Saracens official fixtures",
+    "source_url": "https://saracens.com/fixtures-results/",
+    "recent_results": [
+      {
+        "date": "2026-09-05",
+        "opponent": "Northampton Saints",
+        "home_away": "Home",
+        "competition": "Prem Rugby Cup",
+        "venue": "StoneX Stadium",
+        "result": "W",
+        "score": "Saracens Men 96–42 Northampton Saints"
+      }
+    ],
+    "upcoming_fixtures": [
+      {
+        "date": "2026-10-04",
+        "opponent": "Sale Sharks",
+        "home_away": "Home",
+        "competition": "Gallagher Prem",
+        "venue": "StoneX Stadium",
+        "start_utc": "2026-10-04T15:00:00Z",
+        "kickoff_status": "Confirmed"
+      },
+      {
+        "date": "2026-10-10",
+        "opponent": "Bristol Bears",
+        "home_away": "Home",
+        "competition": "Gallagher Prem",
+        "venue": "StoneX Stadium",
+        "start_utc": "2026-10-10T17:30:00Z",
+        "kickoff_status": "Confirmed"
+      },
+      {
+        "date": "2026-10-17",
+        "opponent": "Connacht Rugby",
+        "home_away": "Away",
+        "competition": "Investec Champions Cup",
+        "venue": "Dexcom Stadium",
+        "start_utc": "2026-10-17T17:30:00Z",
+        "kickoff_status": "Confirmed"
+      },
+      {
+        "date": "2026-10-25",
+        "opponent": "Harlequins",
+        "home_away": "Away",
+        "competition": "Gallagher Prem",
+        "venue": "Twickenham Stoop",
+        "start_utc": "2026-10-25T15:00:00Z",
+        "kickoff_status": "Confirmed"
+      }
+    ]
+  },
   "prem_table": {
     "competition": "Gallagher PREM",
     "competition_id": 1011,
@@ -166,7 +222,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-09-28T02:07:38.144033Z",
+    "retrieved_at_utc": "2026-09-28T02:29:42.066311Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [

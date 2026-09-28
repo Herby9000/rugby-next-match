@@ -23,11 +23,12 @@ OUT = ROOT / "fixtures.json"
 NOW = datetime.now(timezone.utc)
 PREM_STANDINGS_URL = "https://www.premrugby.com/standings"
 PREM_FEED_BASE_URL = "https://rugby-union-feeds.incrowdsports.com"
+SARACENS_FIXTURES_URL = "https://saracens.com/fixtures-results/"
 
 SOURCES = [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
-    "https://saracens.com/fixtures-results/",
+    SARACENS_FIXTURES_URL,
     PREM_STANDINGS_URL,
     "TheSportsDB event TV/lineup endpoints",
     "DuckDuckGo Lite search for ESPN/RugbyPass/official previews",
@@ -66,6 +67,177 @@ def clean_text(value: str) -> str:
     value = re.sub(r"<[^>]+>", " ", value)
     value = html.unescape(value)
     return re.sub(r"\s+", " ", value).strip()
+
+
+def _is_saracens_senior_men(name: str) -> bool:
+    return clean_text(name).casefold() in {"saracens", "saracens men"}
+
+
+def _official_saracens_payload() -> dict[str, Any]:
+    page = fetch_text(SARACENS_FIXTURES_URL)
+    match = re.search(
+        r'<script type="application/json" id="fixture_data">\s*(\{.*?\})\s*</script>',
+        page,
+        re.S,
+    )
+    if not match:
+        raise ValueError("Saracens official fixture JSON not found")
+    payload = json.loads(html.unescape(match.group(1)))
+    if not isinstance(payload.get("fixtures"), list):
+        raise ValueError("Saracens official fixture JSON contains no fixtures")
+    return payload
+
+
+def normalize_saracens_season(
+    payload: dict[str, Any],
+    retrieved_at_utc: str,
+    *,
+    now: datetime = NOW,
+) -> dict[str, Any]:
+    """Normalize senior men's results and fixtures from Saracens' official feed."""
+    source_fixtures = payload.get("fixtures")
+    if not isinstance(source_fixtures, list):
+        raise ValueError("Saracens season response contains no fixture list")
+
+    results: list[dict[str, str]] = []
+    upcoming: list[dict[str, str]] = []
+    for item in source_fixtures:
+        if not isinstance(item, dict):
+            raise ValueError("Saracens season response contains an invalid fixture")
+        teams = item.get("teams") or {}
+        home = clean_text(((teams.get("team_home") or {}).get("alt")) or "")
+        away = clean_text(((teams.get("team_away") or {}).get("alt")) or "")
+        if not (_is_saracens_senior_men(home) or _is_saracens_senior_men(away)):
+            continue
+        if not item.get("date_time") or "venue" not in item:
+            raise ValueError("Official Saracens fixture is missing its date or venue")
+        try:
+            start = datetime.fromtimestamp(int(item["date_time"]), tz=timezone.utc)
+        except (TypeError, ValueError, OverflowError) as exc:
+            raise ValueError("Official Saracens fixture has an invalid date") from exc
+        competition = clean_text(item.get("event_name") or "")
+        venue = clean_text(item.get("venue") or "")
+        if not home or not away or not competition:
+            raise ValueError("Official Saracens fixture is missing team or competition data")
+
+        is_home = _is_saracens_senior_men(home)
+        opponent = away if is_home else home
+        base = {
+            "date": start.date().isoformat(),
+            "opponent": opponent,
+            "home_away": "Home" if is_home else "Away",
+            "competition": competition,
+            "venue": venue,
+        }
+        score_text = clean_text(teams.get("score") or "")
+        score_match = re.fullmatch(r"(\d+)\s*-\s*(\d+)", score_text)
+        if score_match:
+            home_score, away_score = map(int, score_match.groups())
+            team_score, opponent_score = (
+                (home_score, away_score) if is_home else (away_score, home_score)
+            )
+            results.append({
+                **base,
+                "result": (
+                    "W" if team_score > opponent_score
+                    else "L" if team_score < opponent_score
+                    else "D"
+                ),
+                "score": f"{home} {home_score}–{away_score} {away}",
+            })
+        elif start > now:
+            date_content = item.get("date_time_content") or {}
+            source_time = clean_text(date_content.get("formatted_time") or "")
+            upcoming.append({
+                **base,
+                "start_utc": start.isoformat().replace("+00:00", "Z"),
+                "kickoff_status": (
+                    "Time TBC" if "tbc" in source_time.casefold()
+                    else "Confirmed"
+                ),
+            })
+
+    results.sort(key=lambda fixture: fixture["date"], reverse=True)
+    upcoming.sort(key=lambda fixture: fixture["start_utc"])
+    season = {
+        "status": "current",
+        "stale": False,
+        "retrieved_at_utc": retrieved_at_utc,
+        "source": "Saracens official fixtures",
+        "source_url": SARACENS_FIXTURES_URL,
+        "recent_results": results[:5],
+        "upcoming_fixtures": upcoming[:5],
+    }
+    if not valid_saracens_season(season):
+        raise ValueError("Normalized Saracens season failed schema validation")
+    return season
+
+
+def valid_saracens_season(season: Any) -> bool:
+    """Return whether a season snapshot is safe to preserve and publish."""
+    if not isinstance(season, dict) or season.get("status") not in {"current", "stale"}:
+        return False
+    if not isinstance(season.get("retrieved_at_utc"), str) or not season.get("source_url"):
+        return False
+    results = season.get("recent_results")
+    upcoming = season.get("upcoming_fixtures")
+    if not isinstance(results, list) or not isinstance(upcoming, list):
+        return False
+    if len(results) > 5 or len(upcoming) > 5:
+        return False
+    common = {"date", "opponent", "home_away", "competition", "venue"}
+    for item in results:
+        if not isinstance(item, dict) or not common | {"score", "result"} <= item.keys():
+            return False
+        if item.get("result") not in {"W", "D", "L"}:
+            return False
+        if item.get("home_away") not in {"Home", "Away"}:
+            return False
+        if any(not isinstance(item.get(key), str) for key in common | {"score"}):
+            return False
+    for item in upcoming:
+        if not isinstance(item, dict) or not common | {"start_utc", "kickoff_status"} <= item.keys():
+            return False
+        if item.get("home_away") not in {"Home", "Away"}:
+            return False
+        if any(
+            not isinstance(item.get(key), str)
+            for key in common | {"start_utc", "kickoff_status"}
+        ):
+            return False
+    return True
+
+
+def fetch_saracens_season(retrieved_at_utc: str) -> dict[str, Any]:
+    return normalize_saracens_season(_official_saracens_payload(), retrieved_at_utc)
+
+
+def refresh_saracens_season(
+    existing: dict[str, Any], attempted_at_utc: str
+) -> tuple[dict[str, Any], str | None]:
+    """Fetch the season view, preserving the last valid snapshot on failure."""
+    try:
+        return fetch_saracens_season(attempted_at_utc), None
+    except Exception as exc:
+        saved = existing.get("saracens_season")
+        if valid_saracens_season(saved):
+            assert isinstance(saved, dict)
+            season = deepcopy(saved)
+            season.update({
+                "status": "stale",
+                "stale": True,
+                "last_attempt_at_utc": attempted_at_utc,
+            })
+            return season, f"Saracens season refresh failed; preserved last valid snapshot: {exc}"
+        return {
+            "status": "unavailable",
+            "stale": True,
+            "last_attempt_at_utc": attempted_at_utc,
+            "source": "Saracens official fixtures",
+            "source_url": SARACENS_FIXTURES_URL,
+            "recent_results": [],
+            "upcoming_fixtures": [],
+        }, f"Saracens season unavailable: {exc}"
 
 
 PREM_TEAM_FIELDS = {
@@ -349,13 +521,9 @@ def sportsdb_matches(team_id: str, team_name: str) -> tuple[list[dict[str, Any]]
 
 
 def saracens_official_matches() -> tuple[list[dict[str, Any]], str | None]:
-    url = "https://saracens.com/fixtures-results/"
+    url = SARACENS_FIXTURES_URL
     try:
-        page = fetch_text(url)
-        match = re.search(r'<script type="application/json" id="fixture_data">\s*(\{.*?\})\s*</script>', page, re.S)
-        if not match:
-            return [], "Saracens: official fixture JSON not found."
-        payload = json.loads(html.unescape(match.group(1)))
+        payload = _official_saracens_payload()
     except Exception as exc:
         return [], f"Saracens: official fixture page fetch failed: {exc}"
 
@@ -687,6 +855,9 @@ def main() -> int:
     prem_table, table_note = refresh_prem_table(existing, generated_at)
     if table_note:
         notes.append(table_note)
+    saracens_season, season_note = refresh_saracens_season(existing, generated_at)
+    if season_note:
+        notes.append(season_note)
 
     for matches, note in [
         sportsdb_matches("137123", "England Rugby"),
@@ -720,6 +891,7 @@ def main() -> int:
         "generated_at_utc": generated_at,
         "sources": SOURCES,
         "matches": enriched,
+        "saracens_season": saracens_season,
         "prem_table": prem_table,
         "notes": notes,
     }
