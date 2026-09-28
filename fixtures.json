@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-28T06:30:20.740145Z",
+  "generated_at_utc": "2026-09-28T13:44:58.461805Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -32,9 +32,9 @@
         "search_url": "https://duckduckgo.com/?q=Saracens%20vs%20Sale%20Sharks%202026-10-04%20rugby%20lineups%20ESPN"
       },
       "preview": {
-        "title": "Saracens v Sale Sharks [Premiership] (04 Oct 2026, 3:00pm UK) - Live",
-        "summary": "Follow Saracens v Sale Sharks in the Premiership (04 Oct 2026, 3:00pm UK): View live score updates, line-ups, tries, cards, and full-time report from StoneX Stadium.",
-        "url": "https://www.planetrugby.com/matches/d9rxyw29/premiership/m46vm6z5/saracens-v-sale-sharks/2026-10-04",
+        "title": "Sale vs Saracens | Saracens vs Sale | Gallagher Premiership Live",
+        "summary": "Looking for Sale vs Saracens? We got you covered. We have the most up to date scores, game stats & results here.",
+        "url": "https://www.rugbypass.com/live/sale-vs-saracens/",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
@@ -59,10 +59,10 @@
       "source_url": "https://saracens.com/fixtures-results/",
       "recent_results": [
         {
-          "date": "2026-09-05",
-          "competition": "Prem Rugby Cup",
+          "date": "2026-09-27",
+          "competition": "Gallagher Prem",
           "result": "W",
-          "score": "Saracens Men 96–42 Northampton Saints"
+          "score": "Leicester Tigers 38–40 Saracens Men"
         }
       ],
       "lineup": {
@@ -89,10 +89,10 @@
       "source_url": "https://saracens.com/fixtures-results/",
       "recent_results": [
         {
-          "date": "2026-09-05",
-          "competition": "Prem Rugby Cup",
+          "date": "2026-09-27",
+          "competition": "Gallagher Prem",
           "result": "W",
-          "score": "Saracens Men 96–42 Northampton Saints"
+          "score": "Leicester Tigers 38–40 Saracens Men"
         }
       ],
       "lineup": {
@@ -119,10 +119,10 @@
       "source_url": "https://saracens.com/fixtures-results/",
       "recent_results": [
         {
-          "date": "2026-09-05",
-          "competition": "Prem Rugby Cup",
+          "date": "2026-09-27",
+          "competition": "Gallagher Prem",
           "result": "W",
-          "score": "Saracens Men 96–42 Northampton Saints"
+          "score": "Leicester Tigers 38–40 Saracens Men"
         }
       ],
       "lineup": {
@@ -149,10 +149,10 @@
       "source_url": "https://saracens.com/fixtures-results/",
       "recent_results": [
         {
-          "date": "2026-09-05",
-          "competition": "Prem Rugby Cup",
+          "date": "2026-09-27",
+          "competition": "Gallagher Prem",
           "result": "W",
-          "score": "Saracens Men 96–42 Northampton Saints"
+          "score": "Leicester Tigers 38–40 Saracens Men"
         }
       ],
       "lineup": {
@@ -171,18 +171,18 @@
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-09-28T06:30:20.740145Z",
+    "retrieved_at_utc": "2026-09-28T13:44:58.461805Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
       {
-        "date": "2026-09-05",
-        "opponent": "Northampton Saints",
-        "home_away": "Home",
-        "competition": "Prem Rugby Cup",
-        "venue": "StoneX Stadium",
+        "date": "2026-09-27",
+        "opponent": "Leicester Tigers",
+        "home_away": "Away",
+        "competition": "Gallagher Prem",
+        "venue": "Mattioli Woods Welford Road",
         "result": "W",
-        "score": "Saracens Men 96–42 Northampton Saints"
+        "score": "Leicester Tigers 38–40 Saracens Men"
       }
     ],
     "upcoming_fixtures": [
@@ -221,6 +221,15 @@
         "venue": "Twickenham Stoop",
         "start_utc": "2026-10-25T15:00:00Z",
         "kickoff_status": "Confirmed"
+      },
+      {
+        "date": "2026-10-31",
+        "opponent": "Newcastle Red Bulls",
+        "home_away": "Home",
+        "competition": "Gallagher Prem",
+        "venue": "StoneX Stadium",
+        "start_utc": "2026-10-31T15:00:00Z",
+        "kickoff_status": "Confirmed"
       }
     ]
   },
@@ -231,7 +240,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-09-28T06:30:20.740145Z",
+    "retrieved_at_utc": "2026-09-28T13:44:58.461805Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
