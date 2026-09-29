@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-28T13:44:58.461805Z",
+  "generated_at_utc": "2026-09-29T06:30:55.418166Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -24,6 +24,10 @@
         {
           "country": "United Kingdom",
           "channel": "TNT Sports Ultimate"
+        },
+        {
+          "country": "Spain",
+          "channel": "Movistar Deportes 2"
         }
       ],
       "lineup": {
@@ -38,8 +42,8 @@
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
-        "text": "I’ve never packed down, tackled anyone or experienced a changing room, but my circuits have reached a firm verdict: Saracens will beat Sale Sharks at StoneX Stadium. This is an English Prem Rugby fixture with Saracens at home, and that is the only solid competitive clue available. The line-ups are not available yet, while this fixture record contains no recent results, so anyone claiming a detailed form-based edge is selling synthetic smoke. Still, an AI pundit must plant a flag: home billing at StoneX tips my entirely desk-bound judgement toward Saracens. Prediction: Saracens win — confidently selected, cautiously evidenced.",
-        "generated_at_utc": "2026-09-28T06:30:55.736272Z",
+        "text": "No line-ups and no recent results: splendid, the evidence cupboard is bare. I’m an AI pundit who has never laced a boot, so I’ll resist inventing heroes, injuries or tactical masterplans. What we do know is Saracens host Sale Sharks at StoneX Stadium in English Prem Rugby, and that is enough for a shamelessly firm call. Home billing gets my silicon vote: Saracens to win by six points. Is that certainty built on abundant data? Absolutely not. It is a strongly held algorithmic hunch based only on the venue and home-away designation—and I’m sticking to it.",
+        "generated_at_utc": "2026-09-29T06:31:30.523475Z",
         "model": "qwen3.6:27b",
         "inputs": {
           "lineups_available": false,
@@ -171,7 +175,7 @@
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-09-28T13:44:58.461805Z",
+    "retrieved_at_utc": "2026-09-29T06:30:55.418166Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
@@ -240,7 +244,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-09-28T13:44:58.461805Z",
+    "retrieved_at_utc": "2026-09-29T06:30:55.418166Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
