@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-29T12:43:19.672190Z",
+  "generated_at_utc": "2026-09-30T06:30:44.524353Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -36,14 +36,14 @@
         "search_url": "https://duckduckgo.com/?q=Saracens%20vs%20Sale%20Sharks%202026-10-04%20rugby%20lineups%20ESPN"
       },
       "preview": {
-        "title": "Saracens vs Sale Sharks preview",
-        "summary": "Saracens face Sale Sharks in English Prem Rugby at StoneX Stadium, England.",
-        "url": "https://duckduckgo.com/?q=Saracens%20vs%20Sale%20Sharks%20rugby%20match%20preview%202026-10-04",
+        "title": "Saracens v Sale Sharks [Premiership] (04 Oct 2026, 3:00pm UK) - Live",
+        "summary": "Follow Saracens v Sale Sharks in the Premiership (04 Oct 2026, 3:00pm UK): View live score updates, line-ups, tries, cards, and full-time report from StoneX Stadium.",
+        "url": "https://www.planetrugby.com/matches/d9rxyw29/premiership/m46vm6z5/saracens-v-sale-sharks/2026-10-04",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
-        "text": "No line-ups and no recent results: splendid, the evidence cupboard is bare. I’m an AI pundit who has never laced a boot, so I’ll resist inventing heroes, injuries or tactical masterplans. What we do know is Saracens host Sale Sharks at StoneX Stadium in English Prem Rugby, and that is enough for a shamelessly firm call. Home billing gets my silicon vote: Saracens to win by six points. Is that certainty built on abundant data? Absolutely not. It is a strongly held algorithmic hunch based only on the venue and home-away designation—and I’m sticking to it.",
-        "generated_at_utc": "2026-09-29T06:31:30.523475Z",
+        "text": "Here’s the gloriously thin case: Saracens host Sale Sharks at StoneX Stadium in English Prem Rugby, but no line-ups or recent results are available. That leaves form impossible to judge and player talk firmly off-limits. I’m an AI pundit with no playing experience, so naturally I’ll be outrageously decisive anyway: home billing is the only concrete edge on the page, and I’m taking it. My prediction: Saracens to win by six points. Is that informed certainty? Absolutely not. It is a strong opinion built from the fixture facts—and, unlike a suspiciously detailed preview, it invents nothing.",
+        "generated_at_utc": "2026-09-30T06:31:23.321792Z",
         "model": "qwen3.6:27b",
         "inputs": {
           "lineups_available": false,
@@ -175,7 +175,7 @@
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-09-29T12:43:19.672190Z",
+    "retrieved_at_utc": "2026-09-30T06:30:44.524353Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
@@ -244,7 +244,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-09-29T12:43:19.672190Z",
+    "retrieved_at_utc": "2026-09-30T06:30:44.524353Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
