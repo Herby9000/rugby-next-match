@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-03T11:33:51.033825Z",
+  "generated_at_utc": "2026-10-04T12:15:09.913308Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -36,9 +36,9 @@
         "search_url": "https://duckduckgo.com/?q=Saracens%20vs%20Sale%20Sharks%202026-10-04%20rugby%20lineups%20ESPN"
       },
       "preview": {
-        "title": "Saracens v Sale Sharks [Premiership] (04 Oct 2026, 3:00pm UK) - Live",
-        "summary": "Follow Saracens v Sale Sharks in the Premiership (04 Oct 2026, 3:00pm UK): View live score updates, line-ups, tries, cards, and full-time report from StoneX Stadium.",
-        "url": "https://www.planetrugby.com/matches/d9rxyw29/premiership/m46vm6z5/saracens-v-sale-sharks/2026-10-04",
+        "title": "Saracens vs Sale Sharks preview",
+        "summary": "Saracens face Sale Sharks in English Prem Rugby at StoneX Stadium, England.",
+        "url": "https://duckduckgo.com/?q=Saracens%20vs%20Sale%20Sharks%20rugby%20match%20preview%202026-10-04",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
@@ -175,7 +175,7 @@
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-03T11:33:51.033825Z",
+    "retrieved_at_utc": "2026-10-04T12:15:09.913308Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
@@ -244,12 +244,50 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-03T11:33:51.033825Z",
+    "retrieved_at_utc": "2026-10-04T12:15:09.913308Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
       {
         "position": 1,
+        "team": "Gloucester Rugby",
+        "played": 2,
+        "won": 2,
+        "drawn": 0,
+        "lost": 0,
+        "points_for": 93,
+        "points_against": 24,
+        "points_difference": 69,
+        "try_bonus_points": 2,
+        "losing_bonus_points": 0,
+        "bonus_points": 2,
+        "points": 10,
+        "form": [
+          "W",
+          "W"
+        ]
+      },
+      {
+        "position": 2,
+        "team": "Bristol Bears",
+        "played": 2,
+        "won": 2,
+        "drawn": 0,
+        "lost": 0,
+        "points_for": 75,
+        "points_against": 50,
+        "points_difference": 25,
+        "try_bonus_points": 2,
+        "losing_bonus_points": 0,
+        "bonus_points": 2,
+        "points": 10,
+        "form": [
+          "W",
+          "W"
+        ]
+      },
+      {
+        "position": 3,
         "team": "Bath Rugby",
         "played": 2,
         "won": 2,
@@ -268,61 +306,45 @@
         ]
       },
       {
-        "position": 2,
-        "team": "Northampton Saints",
-        "played": 1,
-        "won": 1,
-        "drawn": 0,
-        "lost": 0,
-        "points_for": 59,
-        "points_against": 26,
-        "points_difference": 33,
-        "try_bonus_points": 1,
-        "losing_bonus_points": 0,
-        "bonus_points": 1,
-        "points": 5,
-        "form": [
-          "W"
-        ]
-      },
-      {
-        "position": 3,
-        "team": "Gloucester Rugby",
-        "played": 1,
-        "won": 1,
-        "drawn": 0,
-        "lost": 0,
-        "points_for": 45,
-        "points_against": 24,
-        "points_difference": 21,
-        "try_bonus_points": 1,
-        "losing_bonus_points": 0,
-        "bonus_points": 1,
-        "points": 5,
-        "form": [
-          "W"
-        ]
-      },
-      {
         "position": 4,
-        "team": "Bristol Bears",
-        "played": 1,
+        "team": "Northampton Saints",
+        "played": 2,
         "won": 1,
         "drawn": 0,
-        "lost": 0,
-        "points_for": 34,
-        "points_against": 24,
-        "points_difference": 10,
-        "try_bonus_points": 1,
+        "lost": 1,
+        "points_for": 85,
+        "points_against": 67,
+        "points_difference": 18,
+        "try_bonus_points": 2,
         "losing_bonus_points": 0,
-        "bonus_points": 1,
-        "points": 5,
+        "bonus_points": 2,
+        "points": 6,
         "form": [
-          "W"
+          "W",
+          "L"
         ]
       },
       {
         "position": 5,
+        "team": "Leicester Tigers",
+        "played": 2,
+        "won": 1,
+        "drawn": 0,
+        "lost": 1,
+        "points_for": 62,
+        "points_against": 59,
+        "points_difference": 3,
+        "try_bonus_points": 1,
+        "losing_bonus_points": 1,
+        "bonus_points": 2,
+        "points": 6,
+        "form": [
+          "L",
+          "W"
+        ]
+      },
+      {
+        "position": 6,
         "team": "Saracens",
         "played": 1,
         "won": 1,
@@ -340,7 +362,7 @@
         ]
       },
       {
-        "position": 6,
+        "position": 7,
         "team": "Exeter Chiefs",
         "played": 2,
         "won": 0,
@@ -359,38 +381,21 @@
         ]
       },
       {
-        "position": 7,
-        "team": "Leicester Tigers",
-        "played": 1,
+        "position": 8,
+        "team": "Newcastle Red Bulls",
+        "played": 2,
         "won": 0,
         "drawn": 0,
-        "lost": 1,
-        "points_for": 38,
-        "points_against": 40,
-        "points_difference": -2,
+        "lost": 2,
+        "points_for": 45,
+        "points_against": 83,
+        "points_difference": -38,
         "try_bonus_points": 1,
         "losing_bonus_points": 1,
         "bonus_points": 2,
         "points": 2,
         "form": [
-          "L"
-        ]
-      },
-      {
-        "position": 8,
-        "team": "Newcastle Red Bulls",
-        "played": 1,
-        "won": 0,
-        "drawn": 0,
-        "lost": 1,
-        "points_for": 26,
-        "points_against": 59,
-        "points_difference": -33,
-        "try_bonus_points": 1,
-        "losing_bonus_points": 0,
-        "bonus_points": 1,
-        "points": 1,
-        "form": [
+          "L",
           "L"
         ]
       },
@@ -415,18 +420,19 @@
       {
         "position": 10,
         "team": "Harlequins",
-        "played": 1,
+        "played": 2,
         "won": 0,
         "drawn": 0,
-        "lost": 1,
+        "lost": 2,
         "points_for": 17,
-        "points_against": 33,
-        "points_difference": -16,
+        "points_against": 81,
+        "points_difference": -64,
         "try_bonus_points": 0,
         "losing_bonus_points": 0,
         "bonus_points": 0,
         "points": 0,
         "form": [
+          "L",
           "L"
         ]
       }
