@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-04T12:15:09.913308Z",
+  "generated_at_utc": "2026-10-05T13:45:29.940640Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -10,13 +10,13 @@
   ],
   "matches": [
     {
-      "event_id": "2553391",
+      "event_id": "2553394",
       "team": "Saracens",
-      "opponent": "Sale Sharks",
-      "title": "Saracens vs Sale Sharks",
+      "opponent": "Bristol Bears",
+      "title": "Saracens vs Bristol Bears",
       "competition": "English Prem Rugby",
       "venue": "StoneX Stadium, England",
-      "start_utc": "2026-10-04T14:00:00Z",
+      "start_utc": "2026-10-10T16:30:00Z",
       "home_away": "Home",
       "source": "TheSportsDB",
       "source_url": "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -26,59 +26,29 @@
           "channel": "TNT Sports Ultimate"
         },
         {
-          "country": "Spain",
-          "channel": "Movistar Deportes 2"
+          "country": "New Zealand",
+          "channel": "Sky Sport 2 NZ"
         }
       ],
       "lineup": {
         "available": false,
         "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
-        "search_url": "https://duckduckgo.com/?q=Saracens%20vs%20Sale%20Sharks%202026-10-04%20rugby%20lineups%20ESPN"
+        "search_url": "https://duckduckgo.com/?q=Saracens%20vs%20Bristol%20Bears%202026-10-10%20rugby%20lineups%20ESPN"
       },
       "preview": {
-        "title": "Saracens vs Sale Sharks preview",
-        "summary": "Saracens face Sale Sharks in English Prem Rugby at StoneX Stadium, England.",
-        "url": "https://duckduckgo.com/?q=Saracens%20vs%20Sale%20Sharks%20rugby%20match%20preview%202026-10-04",
+        "title": "Saracens vs Bristol Bears preview",
+        "summary": "Saracens face Bristol Bears in English Prem Rugby at StoneX Stadium, England.",
+        "url": "https://duckduckgo.com/?q=Saracens%20vs%20Bristol%20Bears%20rugby%20match%20preview%202026-10-10",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
-        "text": "Here comes an English Prem Rugby verdict from an AI pundit whose playing experience extends to precisely zero tackles. Saracens host Sale Sharks at StoneX Stadium, and that concrete home edge is enough for me: I’m firmly backing Saracens. No line-ups or recent results are available for this fixture, so player analysis and form claims would be silicon-powered fiction. That leaves venue, competition and home status—and, frankly, Sale have drawn the short algorithm. Expecting anything more specific would be data cosplay. My prediction: Saracens to win, with home advantage deciding a close contest.",
-        "generated_at_utc": "2026-10-01T06:31:33.068181Z",
+        "text": "My circuits have never packed down, so this is an AI pundit's view without a scrap of playing experience. Saracens host Bristol Bears at StoneX Stadium in English Prem Rugby, and that is essentially the entire evidence file. The line-ups are unavailable, while this fixture carries no recent-results data, so I will not conjure players, form, injuries, tactics or atmospheric folklore. Still, home status is the only meaningful edge on record, and I am backing it without apology. Prediction: Saracens beat Bristol Bears by three points. Gloriously overconfident? Absolutely—but indecision is for humans with muddy boots.",
+        "generated_at_utc": "2026-10-05T13:46:06.990695Z",
         "model": "qwen3.6:27b",
         "inputs": {
           "lineups_available": false,
           "recent_results": 0
         }
-      }
-    },
-    {
-      "team": "Saracens Men",
-      "opponent": "Sale Sharks",
-      "title": "Saracens Men vs Sale Sharks",
-      "competition": "Gallagher Prem",
-      "venue": "StoneX Stadium",
-      "start_utc": "2026-10-04T15:00:00Z",
-      "home_away": "Home",
-      "source": "Saracens official fixtures",
-      "source_url": "https://saracens.com/fixtures-results/",
-      "recent_results": [
-        {
-          "date": "2026-09-27",
-          "competition": "Gallagher Prem",
-          "result": "W",
-          "score": "Leicester Tigers 38–40 Saracens Men"
-        }
-      ],
-      "lineup": {
-        "available": false,
-        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
-        "search_url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Sale%20Sharks%202026-10-04%20rugby%20lineups%20ESPN"
-      },
-      "preview": {
-        "title": "Saracens Men vs Sale Sharks preview",
-        "summary": "Saracens Men face Sale Sharks in Gallagher Prem at StoneX Stadium.",
-        "url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Sale%20Sharks%20rugby%20match%20preview%202026-10-04",
-        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       }
     },
     {
@@ -170,12 +140,42 @@
         "url": "https://duckduckgo.com/?q=Harlequins%20vs%20Saracens%20Men%20rugby%20match%20preview%202026-10-25",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       }
+    },
+    {
+      "team": "Saracens Men",
+      "opponent": "Newcastle Red Bulls",
+      "title": "Saracens Men vs Newcastle Red Bulls",
+      "competition": "Gallagher Prem",
+      "venue": "StoneX Stadium",
+      "start_utc": "2026-10-31T15:00:00Z",
+      "home_away": "Home",
+      "source": "Saracens official fixtures",
+      "source_url": "https://saracens.com/fixtures-results/",
+      "recent_results": [
+        {
+          "date": "2026-09-27",
+          "competition": "Gallagher Prem",
+          "result": "W",
+          "score": "Leicester Tigers 38–40 Saracens Men"
+        }
+      ],
+      "lineup": {
+        "available": false,
+        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
+        "search_url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Newcastle%20Red%20Bulls%202026-10-31%20rugby%20lineups%20ESPN"
+      },
+      "preview": {
+        "title": "Saracens Men vs Newcastle Red Bulls preview",
+        "summary": "Saracens Men face Newcastle Red Bulls in Gallagher Prem at StoneX Stadium.",
+        "url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Newcastle%20Red%20Bulls%20rugby%20match%20preview%202026-10-31",
+        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
+      }
     }
   ],
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-04T12:15:09.913308Z",
+    "retrieved_at_utc": "2026-10-05T13:45:29.940640Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
@@ -190,15 +190,6 @@
       }
     ],
     "upcoming_fixtures": [
-      {
-        "date": "2026-10-04",
-        "opponent": "Sale Sharks",
-        "home_away": "Home",
-        "competition": "Gallagher Prem",
-        "venue": "StoneX Stadium",
-        "start_utc": "2026-10-04T15:00:00Z",
-        "kickoff_status": "Confirmed"
-      },
       {
         "date": "2026-10-10",
         "opponent": "Bristol Bears",
@@ -234,6 +225,15 @@
         "venue": "StoneX Stadium",
         "start_utc": "2026-10-31T15:00:00Z",
         "kickoff_status": "Confirmed"
+      },
+      {
+        "date": "2026-11-07",
+        "opponent": "Newcastle Red Bulls",
+        "home_away": "Home",
+        "competition": "Prem Rugby Cup",
+        "venue": "StoneX Stadium",
+        "start_utc": "2026-11-07T15:00:00Z",
+        "kickoff_status": "Confirmed"
       }
     ]
   },
@@ -244,7 +244,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-04T12:15:09.913308Z",
+    "retrieved_at_utc": "2026-10-05T13:45:29.940640Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
@@ -346,23 +346,43 @@
       {
         "position": 6,
         "team": "Saracens",
-        "played": 1,
+        "played": 2,
         "won": 1,
         "drawn": 0,
-        "lost": 0,
-        "points_for": 40,
-        "points_against": 38,
-        "points_difference": 2,
+        "lost": 1,
+        "points_for": 57,
+        "points_against": 59,
+        "points_difference": -2,
         "try_bonus_points": 1,
-        "losing_bonus_points": 0,
-        "bonus_points": 1,
-        "points": 5,
+        "losing_bonus_points": 1,
+        "bonus_points": 2,
+        "points": 6,
         "form": [
-          "W"
+          "W",
+          "L"
         ]
       },
       {
         "position": 7,
+        "team": "Sale Sharks",
+        "played": 2,
+        "won": 1,
+        "drawn": 0,
+        "lost": 1,
+        "points_for": 45,
+        "points_against": 51,
+        "points_difference": -6,
+        "try_bonus_points": 0,
+        "losing_bonus_points": 0,
+        "bonus_points": 0,
+        "points": 4,
+        "form": [
+          "L",
+          "W"
+        ]
+      },
+      {
+        "position": 8,
         "team": "Exeter Chiefs",
         "played": 2,
         "won": 0,
@@ -381,7 +401,7 @@
         ]
       },
       {
-        "position": 8,
+        "position": 9,
         "team": "Newcastle Red Bulls",
         "played": 2,
         "won": 0,
@@ -396,24 +416,6 @@
         "points": 2,
         "form": [
           "L",
-          "L"
-        ]
-      },
-      {
-        "position": 9,
-        "team": "Sale Sharks",
-        "played": 1,
-        "won": 0,
-        "drawn": 0,
-        "lost": 1,
-        "points_for": 24,
-        "points_against": 34,
-        "points_difference": -10,
-        "try_bonus_points": 0,
-        "losing_bonus_points": 0,
-        "bonus_points": 0,
-        "points": 0,
-        "form": [
           "L"
         ]
       },
