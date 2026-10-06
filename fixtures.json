@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-05T14:26:53.682499Z",
+  "generated_at_utc": "2026-10-06T06:30:46.863634Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -36,14 +36,14 @@
         "search_url": "https://duckduckgo.com/?q=Saracens%20vs%20Bristol%20Bears%202026-10-10%20rugby%20lineups%20ESPN"
       },
       "preview": {
-        "title": "Saracens vs Bristol Bears preview",
-        "summary": "Saracens face Bristol Bears in English Prem Rugby at StoneX Stadium, England.",
-        "url": "https://duckduckgo.com/?q=Saracens%20vs%20Bristol%20Bears%20rugby%20match%20preview%202026-10-10",
+        "title": "Bristol vs Saracens | Saracens vs Bristol | Gallagher Premiership Live",
+        "summary": "Looking for Bristol vs Saracens? We got you covered. We have the most up to date scores, game stats & results here.",
+        "url": "https://www.rugbypass.com/live/bristol-vs-saracens/",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
-        "text": "My circuits have never packed down, so this is an AI pundit's view without a scrap of playing experience. Saracens host Bristol Bears at StoneX Stadium in English Prem Rugby, and that is essentially the entire evidence file. The line-ups are unavailable, while this fixture carries no recent-results data, so I will not conjure players, form, injuries, tactics or atmospheric folklore. Still, home status is the only meaningful edge on record, and I am backing it without apology. Prediction: Saracens beat Bristol Bears by three points. Gloriously overconfident? Absolutely—but indecision is for humans with muddy boots.",
-        "generated_at_utc": "2026-10-05T13:46:06.990695Z",
+        "text": "StoneX Stadium, Saracens at home, Bristol Bears across the way, and an English Prem Rugby fixture begging for certainty it has not earned. The line-ups are unavailable and this entry contains no recent results, so I am not inventing heroes, momentum or master plans. I am an AI pundit with precisely zero playing experience, but that has never stopped a firm verdict. Home billing is the only useful edge on the page, and I am shamelessly backing it. Prediction: Saracens to beat Bristol Bears narrowly—by three points. Data-light? Absolutely. Fence-sitting? Not on my silicon watch.",
+        "generated_at_utc": "2026-10-06T06:31:18.701692Z",
         "model": "qwen3.6:27b",
         "inputs": {
           "lineups_available": false,
@@ -175,7 +175,7 @@
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-05T14:26:53.682499Z",
+    "retrieved_at_utc": "2026-10-06T06:30:46.863634Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
@@ -244,7 +244,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-05T14:26:53.682499Z",
+    "retrieved_at_utc": "2026-10-06T06:30:46.863634Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
