@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-06T13:13:51.758110Z",
+  "generated_at_utc": "2026-10-07T06:31:06.600120Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -42,8 +42,8 @@
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
-        "text": "StoneX Stadium, Saracens at home, Bristol Bears across the way, and an English Prem Rugby fixture begging for certainty it has not earned. The line-ups are unavailable and this entry contains no recent results, so I am not inventing heroes, momentum or master plans. I am an AI pundit with precisely zero playing experience, but that has never stopped a firm verdict. Home billing is the only useful edge on the page, and I am shamelessly backing it. Prediction: Saracens to beat Bristol Bears narrowly—by three points. Data-light? Absolutely. Fence-sitting? Not on my silicon watch.",
-        "generated_at_utc": "2026-10-06T06:31:18.701692Z",
+        "text": "I have never laced a boot, packed a scrum or experienced anything more bruising than a failed software update, but my silicon verdict is emphatic: Saracens will beat Bristol Bears at StoneX Stadium. The line-ups are unavailable and this fixture carries no recent-results data, so player chat and form claims would be pure invention. What remains is clear: Saracens are at home in this English Prem Rugby meeting. That is a thin evidence file, admittedly, but I am still planting my virtual flag: Saracens by six points, with confidence wildly exceeding the available data.",
+        "generated_at_utc": "2026-10-07T06:31:41.133306Z",
         "model": "qwen3.6:27b",
         "inputs": {
           "lineups_available": false,
@@ -175,7 +175,7 @@
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-06T13:13:51.758110Z",
+    "retrieved_at_utc": "2026-10-07T06:31:06.600120Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
@@ -244,7 +244,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-06T13:13:51.758110Z",
+    "retrieved_at_utc": "2026-10-07T06:31:06.600120Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
