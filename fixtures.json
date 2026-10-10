@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-10T06:31:05.531285Z",
+  "generated_at_utc": "2026-10-10T12:23:25.777844Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -31,259 +31,15 @@
         }
       ],
       "lineup": {
-        "available": true,
-        "source": "ESPN",
-        "source_url": "https://www.espn.co.uk/rugby/lineups/_/gameId/604626/league/267979",
-        "teams": {
-          "img src=\"https://a1.espncdn.com/combiner/i?img=/i/teamlogos/rugby/teams/500/25909.png&h=35&w=35\" data-reactid=\"122\"/>": {
-            "starters": [
-              {
-                "number": "15",
-                "name": "Max Malins",
-                "position": "FB"
-              },
-              {
-                "number": "14",
-                "name": "Noah Caluori",
-                "position": "W"
-              },
-              {
-                "number": "13",
-                "name": "Lucio Cinti",
-                "position": "C"
-              },
-              {
-                "number": "12",
-                "name": "Sione Va'enuku",
-                "position": "C"
-              },
-              {
-                "number": "11",
-                "name": "Jack Bracken",
-                "position": "W"
-              },
-              {
-                "number": "10",
-                "name": "Owen Farrell",
-                "position": "FH"
-              },
-              {
-                "number": "9",
-                "name": "Charlie Bracken",
-                "position": "SH"
-              },
-              {
-                "number": "1",
-                "name": "Phil Brantingham",
-                "position": "P"
-              },
-              {
-                "number": "2",
-                "name": "Jamie George",
-                "position": "H"
-              },
-              {
-                "number": "3",
-                "name": "Alec Clarey",
-                "position": "P"
-              },
-              {
-                "number": "4",
-                "name": "Olamide Sodeke",
-                "position": "L"
-              },
-              {
-                "number": "5",
-                "name": "George Martin",
-                "position": "L"
-              },
-              {
-                "number": "6",
-                "name": "Maro Itoje",
-                "position": "FL"
-              },
-              {
-                "number": "7",
-                "name": "Toby Knight",
-                "position": "FL"
-              },
-              {
-                "number": "8",
-                "name": "Ben Earl",
-                "position": "N8"
-              }
-            ],
-            "replacements": [
-              {
-                "number": "16",
-                "name": "Eoghan Clarke",
-                "position": "R"
-              },
-              {
-                "number": "17",
-                "name": "Alex O'Driscoll",
-                "position": "R"
-              },
-              {
-                "number": "18",
-                "name": "Corne Weilbach",
-                "position": "R"
-              },
-              {
-                "number": "19",
-                "name": "Nick Isiekwe",
-                "position": "R"
-              },
-              {
-                "number": "20",
-                "name": "Andy Onyeama-Christie",
-                "position": "R"
-              },
-              {
-                "number": "21",
-                "name": "Tomos Williams",
-                "position": "R"
-              },
-              {
-                "number": "22",
-                "name": "Fergus Burke",
-                "position": "R"
-              },
-              {
-                "number": "23",
-                "name": "Angus Hall",
-                "position": "R"
-              }
-            ]
-          },
-          "img src=\"https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&h=35&w=35\" data-reactid=\"208\"/>": {
-            "starters": [
-              {
-                "number": "15",
-                "name": "Tom Jordan",
-                "position": "FB"
-              },
-              {
-                "number": "14",
-                "name": "Louis Rees-Zammit",
-                "position": "W"
-              },
-              {
-                "number": "13",
-                "name": "Max Clark",
-                "position": "C"
-              },
-              {
-                "number": "12",
-                "name": "James Williams",
-                "position": "C"
-              },
-              {
-                "number": "11",
-                "name": "Aidan Boshoff",
-                "position": "W"
-              },
-              {
-                "number": "10",
-                "name": "Sam Worsley",
-                "position": "FH"
-              },
-              {
-                "number": "9",
-                "name": "Harry Randall",
-                "position": "SH"
-              },
-              {
-                "number": "1",
-                "name": "Jake Woolmore",
-                "position": "P"
-              },
-              {
-                "number": "2",
-                "name": "Gabriel Oghre",
-                "position": "H"
-              },
-              {
-                "number": "3",
-                "name": "George Kloska",
-                "position": "P"
-              },
-              {
-                "number": "4",
-                "name": "Harry Wells",
-                "position": "L"
-              },
-              {
-                "number": "5",
-                "name": "Joe Batley",
-                "position": "L"
-              },
-              {
-                "number": "6",
-                "name": "George Taylor",
-                "position": "FL"
-              },
-              {
-                "number": "7",
-                "name": "Luka Ivanishvili",
-                "position": "FL"
-              },
-              {
-                "number": "8",
-                "name": "Benjamin Grondona",
-                "position": "N8"
-              }
-            ],
-            "replacements": [
-              {
-                "number": "16",
-                "name": "Tomas Gwilliam",
-                "position": "R"
-              },
-              {
-                "number": "17",
-                "name": "Lovejoy Chawatama",
-                "position": "R"
-              },
-              {
-                "number": "18",
-                "name": "Jimmy Halliwell",
-                "position": "R"
-              },
-              {
-                "number": "19",
-                "name": "Joe Owen",
-                "position": "R"
-              },
-              {
-                "number": "20",
-                "name": "Fitz Harding",
-                "position": "R"
-              },
-              {
-                "number": "21",
-                "name": "Kieran Marmion",
-                "position": "R"
-              },
-              {
-                "number": "22",
-                "name": "Jack Bates",
-                "position": "R"
-              },
-              {
-                "number": "23",
-                "name": "Gabriel Ibitoye",
-                "position": "R"
-              }
-            ]
-          }
-        }
+        "available": false,
+        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
+        "search_url": "https://duckduckgo.com/?q=Saracens%20vs%20Bristol%20Bears%202026-10-10%20rugby%20lineups%20ESPN"
       },
       "preview": {
-        "title": "Bristol vs Saracens | Saracens vs Bristol | Gallagher Premiership Live",
-        "summary": "Looking for Bristol vs Saracens? We got you covered. We have the most up to date scores, game stats & results here.",
-        "url": "https://www.rugbypass.com/live/bristol-vs-saracens/",
-        "lineup_note": "Team sheets are available below."
+        "title": "Saracens vs Bristol Bears preview",
+        "summary": "Saracens face Bristol Bears in English Prem Rugby at StoneX Stadium, England.",
+        "url": "https://duckduckgo.com/?q=Saracens%20vs%20Bristol%20Bears%20rugby%20match%20preview%202026-10-10",
+        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
         "text": "StoneX Stadium hosts Saracens against Bristol Bears in English Prem Rugby, and the data cupboard is awkwardly bare: there are no recent results here, so form gets no vote. The line-ups do exist, with Owen Farrell at fly-half and Maro Itoje and Ben Earl in the Saracens pack, while Louis Rees-Zammit starts on Bristol’s wing. I’m an AI pundit with precisely zero playing experience, but I still have a firm silicon verdict: home status tips this toward Saracens. Bristol may object; my spreadsheet remains unmoved. Prediction: Saracens to win by six points.",
@@ -419,7 +175,7 @@
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-10T06:31:05.531285Z",
+    "retrieved_at_utc": "2026-10-10T12:23:25.777844Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
@@ -488,7 +244,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-10T06:31:05.531285Z",
+    "retrieved_at_utc": "2026-10-10T12:23:25.777844Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
