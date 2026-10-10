@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-09T13:07:45.960826Z",
+  "generated_at_utc": "2026-10-10T06:31:05.531285Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -31,22 +31,266 @@
         }
       ],
       "lineup": {
-        "available": false,
-        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
-        "search_url": "https://duckduckgo.com/?q=Saracens%20vs%20Bristol%20Bears%202026-10-10%20rugby%20lineups%20ESPN"
+        "available": true,
+        "source": "ESPN",
+        "source_url": "https://www.espn.co.uk/rugby/lineups/_/gameId/604626/league/267979",
+        "teams": {
+          "img src=\"https://a1.espncdn.com/combiner/i?img=/i/teamlogos/rugby/teams/500/25909.png&h=35&w=35\" data-reactid=\"122\"/>": {
+            "starters": [
+              {
+                "number": "15",
+                "name": "Max Malins",
+                "position": "FB"
+              },
+              {
+                "number": "14",
+                "name": "Noah Caluori",
+                "position": "W"
+              },
+              {
+                "number": "13",
+                "name": "Lucio Cinti",
+                "position": "C"
+              },
+              {
+                "number": "12",
+                "name": "Sione Va'enuku",
+                "position": "C"
+              },
+              {
+                "number": "11",
+                "name": "Jack Bracken",
+                "position": "W"
+              },
+              {
+                "number": "10",
+                "name": "Owen Farrell",
+                "position": "FH"
+              },
+              {
+                "number": "9",
+                "name": "Charlie Bracken",
+                "position": "SH"
+              },
+              {
+                "number": "1",
+                "name": "Phil Brantingham",
+                "position": "P"
+              },
+              {
+                "number": "2",
+                "name": "Jamie George",
+                "position": "H"
+              },
+              {
+                "number": "3",
+                "name": "Alec Clarey",
+                "position": "P"
+              },
+              {
+                "number": "4",
+                "name": "Olamide Sodeke",
+                "position": "L"
+              },
+              {
+                "number": "5",
+                "name": "George Martin",
+                "position": "L"
+              },
+              {
+                "number": "6",
+                "name": "Maro Itoje",
+                "position": "FL"
+              },
+              {
+                "number": "7",
+                "name": "Toby Knight",
+                "position": "FL"
+              },
+              {
+                "number": "8",
+                "name": "Ben Earl",
+                "position": "N8"
+              }
+            ],
+            "replacements": [
+              {
+                "number": "16",
+                "name": "Eoghan Clarke",
+                "position": "R"
+              },
+              {
+                "number": "17",
+                "name": "Alex O'Driscoll",
+                "position": "R"
+              },
+              {
+                "number": "18",
+                "name": "Corne Weilbach",
+                "position": "R"
+              },
+              {
+                "number": "19",
+                "name": "Nick Isiekwe",
+                "position": "R"
+              },
+              {
+                "number": "20",
+                "name": "Andy Onyeama-Christie",
+                "position": "R"
+              },
+              {
+                "number": "21",
+                "name": "Tomos Williams",
+                "position": "R"
+              },
+              {
+                "number": "22",
+                "name": "Fergus Burke",
+                "position": "R"
+              },
+              {
+                "number": "23",
+                "name": "Angus Hall",
+                "position": "R"
+              }
+            ]
+          },
+          "img src=\"https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&h=35&w=35\" data-reactid=\"208\"/>": {
+            "starters": [
+              {
+                "number": "15",
+                "name": "Tom Jordan",
+                "position": "FB"
+              },
+              {
+                "number": "14",
+                "name": "Louis Rees-Zammit",
+                "position": "W"
+              },
+              {
+                "number": "13",
+                "name": "Max Clark",
+                "position": "C"
+              },
+              {
+                "number": "12",
+                "name": "James Williams",
+                "position": "C"
+              },
+              {
+                "number": "11",
+                "name": "Aidan Boshoff",
+                "position": "W"
+              },
+              {
+                "number": "10",
+                "name": "Sam Worsley",
+                "position": "FH"
+              },
+              {
+                "number": "9",
+                "name": "Harry Randall",
+                "position": "SH"
+              },
+              {
+                "number": "1",
+                "name": "Jake Woolmore",
+                "position": "P"
+              },
+              {
+                "number": "2",
+                "name": "Gabriel Oghre",
+                "position": "H"
+              },
+              {
+                "number": "3",
+                "name": "George Kloska",
+                "position": "P"
+              },
+              {
+                "number": "4",
+                "name": "Harry Wells",
+                "position": "L"
+              },
+              {
+                "number": "5",
+                "name": "Joe Batley",
+                "position": "L"
+              },
+              {
+                "number": "6",
+                "name": "George Taylor",
+                "position": "FL"
+              },
+              {
+                "number": "7",
+                "name": "Luka Ivanishvili",
+                "position": "FL"
+              },
+              {
+                "number": "8",
+                "name": "Benjamin Grondona",
+                "position": "N8"
+              }
+            ],
+            "replacements": [
+              {
+                "number": "16",
+                "name": "Tomas Gwilliam",
+                "position": "R"
+              },
+              {
+                "number": "17",
+                "name": "Lovejoy Chawatama",
+                "position": "R"
+              },
+              {
+                "number": "18",
+                "name": "Jimmy Halliwell",
+                "position": "R"
+              },
+              {
+                "number": "19",
+                "name": "Joe Owen",
+                "position": "R"
+              },
+              {
+                "number": "20",
+                "name": "Fitz Harding",
+                "position": "R"
+              },
+              {
+                "number": "21",
+                "name": "Kieran Marmion",
+                "position": "R"
+              },
+              {
+                "number": "22",
+                "name": "Jack Bates",
+                "position": "R"
+              },
+              {
+                "number": "23",
+                "name": "Gabriel Ibitoye",
+                "position": "R"
+              }
+            ]
+          }
+        }
       },
       "preview": {
-        "title": "Saracens vs Bristol Bears preview",
-        "summary": "Saracens face Bristol Bears in English Prem Rugby at StoneX Stadium, England.",
-        "url": "https://duckduckgo.com/?q=Saracens%20vs%20Bristol%20Bears%20rugby%20match%20preview%202026-10-10",
-        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
+        "title": "Bristol vs Saracens | Saracens vs Bristol | Gallagher Premiership Live",
+        "summary": "Looking for Bristol vs Saracens? We got you covered. We have the most up to date scores, game stats & results here.",
+        "url": "https://www.rugbypass.com/live/bristol-vs-saracens/",
+        "lineup_note": "Team sheets are available below."
       },
       "ai_briefing": {
-        "text": "I have never laced a boot, which makes me perfectly qualified to be loudly certain: Saracens will beat Bristol Bears at StoneX Stadium. This is an English Prem Rugby home fixture, kicking off at 16:30 UTC, but the line-ups are unavailable and this match record contains no recent results, so there is no honest case for player, form, injury or tactical analysis. Still, an AI pundit must compute something rather than hide behind a loading spinner. My unapologetic prediction: Saracens by five points, based solely on home status. Bristol, blame the algorithm.",
-        "generated_at_utc": "2026-10-09T06:31:11.877099Z",
+        "text": "StoneX Stadium hosts Saracens against Bristol Bears in English Prem Rugby, and the data cupboard is awkwardly bare: there are no recent results here, so form gets no vote. The line-ups do exist, with Owen Farrell at fly-half and Maro Itoje and Ben Earl in the Saracens pack, while Louis Rees-Zammit starts on Bristol’s wing. I’m an AI pundit with precisely zero playing experience, but I still have a firm silicon verdict: home status tips this toward Saracens. Bristol may object; my spreadsheet remains unmoved. Prediction: Saracens to win by six points.",
+        "generated_at_utc": "2026-10-10T06:31:41.817390Z",
         "model": "qwen3.6:27b",
         "inputs": {
-          "lineups_available": false,
+          "lineups_available": true,
           "recent_results": 0
         }
       }
@@ -175,7 +419,7 @@
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-09T13:07:45.960826Z",
+    "retrieved_at_utc": "2026-10-10T06:31:05.531285Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
@@ -244,31 +488,52 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-09T13:07:45.960826Z",
+    "retrieved_at_utc": "2026-10-10T06:31:05.531285Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
       {
         "position": 1,
         "team": "Gloucester Rugby",
-        "played": 2,
+        "played": 3,
         "won": 2,
         "drawn": 0,
-        "lost": 0,
-        "points_for": 93,
-        "points_against": 24,
-        "points_difference": 69,
-        "try_bonus_points": 2,
-        "losing_bonus_points": 0,
-        "bonus_points": 2,
-        "points": 10,
+        "lost": 1,
+        "points_for": 124,
+        "points_against": 62,
+        "points_difference": 62,
+        "try_bonus_points": 3,
+        "losing_bonus_points": 1,
+        "bonus_points": 4,
+        "points": 12,
         "form": [
+          "W",
+          "W",
+          "L"
+        ]
+      },
+      {
+        "position": 2,
+        "team": "Leicester Tigers",
+        "played": 3,
+        "won": 2,
+        "drawn": 0,
+        "lost": 1,
+        "points_for": 100,
+        "points_against": 90,
+        "points_difference": 10,
+        "try_bonus_points": 2,
+        "losing_bonus_points": 1,
+        "bonus_points": 3,
+        "points": 11,
+        "form": [
+          "L",
           "W",
           "W"
         ]
       },
       {
-        "position": 2,
+        "position": 3,
         "team": "Bristol Bears",
         "played": 2,
         "won": 2,
@@ -287,7 +552,7 @@
         ]
       },
       {
-        "position": 3,
+        "position": 4,
         "team": "Bath Rugby",
         "played": 2,
         "won": 2,
@@ -306,7 +571,7 @@
         ]
       },
       {
-        "position": 4,
+        "position": 5,
         "team": "Northampton Saints",
         "played": 2,
         "won": 1,
@@ -322,25 +587,6 @@
         "form": [
           "W",
           "L"
-        ]
-      },
-      {
-        "position": 5,
-        "team": "Leicester Tigers",
-        "played": 2,
-        "won": 1,
-        "drawn": 0,
-        "lost": 1,
-        "points_for": 62,
-        "points_against": 59,
-        "points_difference": 3,
-        "try_bonus_points": 1,
-        "losing_bonus_points": 1,
-        "bonus_points": 2,
-        "points": 6,
-        "form": [
-          "L",
-          "W"
         ]
       },
       {
