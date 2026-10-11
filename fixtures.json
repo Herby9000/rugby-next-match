@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-11T06:30:17.501345Z",
+  "generated_at_utc": "2026-10-11T12:40:47.868487Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -20,15 +20,25 @@
       "home_away": "Away",
       "source": "TheSportsDB",
       "source_url": "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
+      "tv": [
+        {
+          "country": "Ireland",
+          "channel": "Premier Sports 1 IE"
+        },
+        {
+          "country": "United Kingdom",
+          "channel": "Viaplay Sports 1 UK"
+        }
+      ],
       "lineup": {
         "available": false,
         "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
         "search_url": "https://duckduckgo.com/?q=Connacht%20vs%20Saracens%202026-10-17%20rugby%20lineups%20ESPN"
       },
       "preview": {
-        "title": "Connacht vs Saracens | Saracens vs Connacht | Investec Champions Cup Live",
-        "summary": "Looking for Connacht vs Saracens? We got you covered. We have the most up to date scores, game stats & results here.",
-        "url": "https://www.rugbypass.com/live/connacht-vs-saracens/",
+        "title": "Connacht vs Saracens preview",
+        "summary": "Saracens face Connacht in European Rugby Champions Cup at Dexcom Stadium, Ireland.",
+        "url": "https://duckduckgo.com/?q=Connacht%20vs%20Saracens%20rugby%20match%20preview%202026-10-17",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
@@ -51,14 +61,7 @@
       "home_away": "Away",
       "source": "Saracens official fixtures",
       "source_url": "https://saracens.com/fixtures-results/",
-      "recent_results": [
-        {
-          "date": "2026-09-27",
-          "competition": "Gallagher Prem",
-          "result": "W",
-          "score": "Leicester Tigers 38–40 Saracens Men"
-        }
-      ],
+      "recent_results": [],
       "lineup": {
         "available": false,
         "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
@@ -81,14 +84,7 @@
       "home_away": "Away",
       "source": "Saracens official fixtures",
       "source_url": "https://saracens.com/fixtures-results/",
-      "recent_results": [
-        {
-          "date": "2026-09-27",
-          "competition": "Gallagher Prem",
-          "result": "W",
-          "score": "Leicester Tigers 38–40 Saracens Men"
-        }
-      ],
+      "recent_results": [],
       "lineup": {
         "available": false,
         "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
@@ -111,14 +107,7 @@
       "home_away": "Home",
       "source": "Saracens official fixtures",
       "source_url": "https://saracens.com/fixtures-results/",
-      "recent_results": [
-        {
-          "date": "2026-09-27",
-          "competition": "Gallagher Prem",
-          "result": "W",
-          "score": "Leicester Tigers 38–40 Saracens Men"
-        }
-      ],
+      "recent_results": [],
       "lineup": {
         "available": false,
         "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
@@ -141,14 +130,7 @@
       "home_away": "Home",
       "source": "Saracens official fixtures",
       "source_url": "https://saracens.com/fixtures-results/",
-      "recent_results": [
-        {
-          "date": "2026-09-27",
-          "competition": "Gallagher Prem",
-          "result": "W",
-          "score": "Leicester Tigers 38–40 Saracens Men"
-        }
-      ],
+      "recent_results": [],
       "lineup": {
         "available": false,
         "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
@@ -165,20 +147,10 @@
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-11T06:30:17.501345Z",
+    "retrieved_at_utc": "2026-10-11T12:40:47.868487Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
-    "recent_results": [
-      {
-        "date": "2026-09-27",
-        "opponent": "Leicester Tigers",
-        "home_away": "Away",
-        "competition": "Gallagher Prem",
-        "venue": "Mattioli Woods Welford Road",
-        "result": "W",
-        "score": "Leicester Tigers 38–40 Saracens Men"
-      }
-    ],
+    "recent_results": [],
     "upcoming_fixtures": [
       {
         "date": "2026-10-17",
@@ -234,7 +206,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-11T06:30:17.501345Z",
+    "retrieved_at_utc": "2026-10-11T12:40:47.868487Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
