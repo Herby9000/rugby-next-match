@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-10T12:23:25.777844Z",
+  "generated_at_utc": "2026-10-11T06:30:17.501345Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -10,75 +10,35 @@
   ],
   "matches": [
     {
-      "event_id": "2553394",
+      "event_id": "2550794",
       "team": "Saracens",
-      "opponent": "Bristol Bears",
-      "title": "Saracens vs Bristol Bears",
-      "competition": "English Prem Rugby",
-      "venue": "StoneX Stadium, England",
-      "start_utc": "2026-10-10T16:30:00Z",
-      "home_away": "Home",
+      "opponent": "Connacht",
+      "title": "Connacht vs Saracens",
+      "competition": "European Rugby Champions Cup",
+      "venue": "Dexcom Stadium, Ireland",
+      "start_utc": "2026-10-17T16:30:00Z",
+      "home_away": "Away",
       "source": "TheSportsDB",
       "source_url": "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
-      "tv": [
-        {
-          "country": "United Kingdom",
-          "channel": "TNT Sports Ultimate"
-        },
-        {
-          "country": "New Zealand",
-          "channel": "Sky Sport 2 NZ"
-        }
-      ],
       "lineup": {
         "available": false,
         "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
-        "search_url": "https://duckduckgo.com/?q=Saracens%20vs%20Bristol%20Bears%202026-10-10%20rugby%20lineups%20ESPN"
+        "search_url": "https://duckduckgo.com/?q=Connacht%20vs%20Saracens%202026-10-17%20rugby%20lineups%20ESPN"
       },
       "preview": {
-        "title": "Saracens vs Bristol Bears preview",
-        "summary": "Saracens face Bristol Bears in English Prem Rugby at StoneX Stadium, England.",
-        "url": "https://duckduckgo.com/?q=Saracens%20vs%20Bristol%20Bears%20rugby%20match%20preview%202026-10-10",
+        "title": "Connacht vs Saracens | Saracens vs Connacht | Investec Champions Cup Live",
+        "summary": "Looking for Connacht vs Saracens? We got you covered. We have the most up to date scores, game stats & results here.",
+        "url": "https://www.rugbypass.com/live/connacht-vs-saracens/",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
-        "text": "StoneX Stadium hosts Saracens against Bristol Bears in English Prem Rugby, and the data cupboard is awkwardly bare: there are no recent results here, so form gets no vote. The line-ups do exist, with Owen Farrell at fly-half and Maro Itoje and Ben Earl in the Saracens pack, while Louis Rees-Zammit starts on Bristol’s wing. I’m an AI pundit with precisely zero playing experience, but I still have a firm silicon verdict: home status tips this toward Saracens. Bristol may object; my spreadsheet remains unmoved. Prediction: Saracens to win by six points.",
-        "generated_at_utc": "2026-10-10T06:31:41.817390Z",
+        "text": "Connacht host Saracens at Dexcom Stadium, Ireland, in the European Rugby Champions Cup, and the evidence cupboard is impressively bare: no line-ups and no recent results are available. As an AI pundit with absolutely no playing experience, I refuse to dress guesswork in a tracksuit and call it analysis. Still, home advantage is the only concrete edge on the table, so I’m planting my silicon flag there. My prediction: Connacht to beat Saracens narrowly, by three points. Is that bold? Certainly. Is it data-rich? Absolutely not—but thin evidence still deserves a decisive verdict.",
+        "generated_at_utc": "2026-10-11T06:30:45.920142Z",
         "model": "qwen3.6:27b",
         "inputs": {
-          "lineups_available": true,
+          "lineups_available": false,
           "recent_results": 0
         }
-      }
-    },
-    {
-      "team": "Saracens Men",
-      "opponent": "Bristol Bears",
-      "title": "Saracens Men vs Bristol Bears",
-      "competition": "Gallagher Prem",
-      "venue": "StoneX Stadium",
-      "start_utc": "2026-10-10T17:30:00Z",
-      "home_away": "Home",
-      "source": "Saracens official fixtures",
-      "source_url": "https://saracens.com/fixtures-results/",
-      "recent_results": [
-        {
-          "date": "2026-09-27",
-          "competition": "Gallagher Prem",
-          "result": "W",
-          "score": "Leicester Tigers 38–40 Saracens Men"
-        }
-      ],
-      "lineup": {
-        "available": false,
-        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
-        "search_url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Bristol%20Bears%202026-10-10%20rugby%20lineups%20ESPN"
-      },
-      "preview": {
-        "title": "Saracens Men vs Bristol Bears preview",
-        "summary": "Saracens Men face Bristol Bears in Gallagher Prem at StoneX Stadium.",
-        "url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Bristol%20Bears%20rugby%20match%20preview%202026-10-10",
-        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       }
     },
     {
@@ -170,12 +130,42 @@
         "url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Newcastle%20Red%20Bulls%20rugby%20match%20preview%202026-10-31",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       }
+    },
+    {
+      "team": "Saracens Men",
+      "opponent": "Newcastle Red Bulls",
+      "title": "Saracens Men vs Newcastle Red Bulls",
+      "competition": "Prem Rugby Cup",
+      "venue": "StoneX Stadium",
+      "start_utc": "2026-11-07T15:00:00Z",
+      "home_away": "Home",
+      "source": "Saracens official fixtures",
+      "source_url": "https://saracens.com/fixtures-results/",
+      "recent_results": [
+        {
+          "date": "2026-09-27",
+          "competition": "Gallagher Prem",
+          "result": "W",
+          "score": "Leicester Tigers 38–40 Saracens Men"
+        }
+      ],
+      "lineup": {
+        "available": false,
+        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
+        "search_url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Newcastle%20Red%20Bulls%202026-11-07%20rugby%20lineups%20ESPN"
+      },
+      "preview": {
+        "title": "Saracens Men vs Newcastle Red Bulls preview",
+        "summary": "Saracens Men face Newcastle Red Bulls in Prem Rugby Cup at StoneX Stadium.",
+        "url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Newcastle%20Red%20Bulls%20rugby%20match%20preview%202026-11-07",
+        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
+      }
     }
   ],
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-10T12:23:25.777844Z",
+    "retrieved_at_utc": "2026-10-11T06:30:17.501345Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
@@ -190,15 +180,6 @@
       }
     ],
     "upcoming_fixtures": [
-      {
-        "date": "2026-10-10",
-        "opponent": "Bristol Bears",
-        "home_away": "Home",
-        "competition": "Gallagher Prem",
-        "venue": "StoneX Stadium",
-        "start_utc": "2026-10-10T17:30:00Z",
-        "kickoff_status": "Confirmed"
-      },
       {
         "date": "2026-10-17",
         "opponent": "Connacht Rugby",
@@ -234,6 +215,15 @@
         "venue": "StoneX Stadium",
         "start_utc": "2026-11-07T15:00:00Z",
         "kickoff_status": "Confirmed"
+      },
+      {
+        "date": "2026-11-15",
+        "opponent": "Leicester Tigers",
+        "home_away": "Away",
+        "competition": "Prem Rugby Cup",
+        "venue": "Mattioli Woods Welford Road",
+        "start_utc": "2026-11-15T15:00:00Z",
+        "kickoff_status": "Confirmed"
       }
     ]
   },
@@ -244,7 +234,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-10T12:23:25.777844Z",
+    "retrieved_at_utc": "2026-10-11T06:30:17.501345Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
@@ -270,6 +260,46 @@
       },
       {
         "position": 2,
+        "team": "Northampton Saints",
+        "played": 3,
+        "won": 2,
+        "drawn": 0,
+        "lost": 1,
+        "points_for": 156,
+        "points_against": 115,
+        "points_difference": 41,
+        "try_bonus_points": 3,
+        "losing_bonus_points": 0,
+        "bonus_points": 3,
+        "points": 11,
+        "form": [
+          "W",
+          "L",
+          "W"
+        ]
+      },
+      {
+        "position": 3,
+        "team": "Saracens",
+        "played": 3,
+        "won": 2,
+        "drawn": 0,
+        "lost": 1,
+        "points_for": 87,
+        "points_against": 66,
+        "points_difference": 21,
+        "try_bonus_points": 2,
+        "losing_bonus_points": 1,
+        "bonus_points": 3,
+        "points": 11,
+        "form": [
+          "W",
+          "L",
+          "W"
+        ]
+      },
+      {
+        "position": 4,
         "team": "Leicester Tigers",
         "played": 3,
         "won": 2,
@@ -289,77 +319,41 @@
         ]
       },
       {
-        "position": 3,
-        "team": "Bristol Bears",
-        "played": 2,
-        "won": 2,
-        "drawn": 0,
-        "lost": 0,
-        "points_for": 75,
-        "points_against": 50,
-        "points_difference": 25,
-        "try_bonus_points": 2,
-        "losing_bonus_points": 0,
-        "bonus_points": 2,
-        "points": 10,
-        "form": [
-          "W",
-          "W"
-        ]
-      },
-      {
-        "position": 4,
-        "team": "Bath Rugby",
-        "played": 2,
-        "won": 2,
-        "drawn": 0,
-        "lost": 0,
-        "points_for": 73,
-        "points_against": 51,
-        "points_difference": 22,
-        "try_bonus_points": 2,
-        "losing_bonus_points": 0,
-        "bonus_points": 2,
-        "points": 10,
-        "form": [
-          "W",
-          "W"
-        ]
-      },
-      {
         "position": 5,
-        "team": "Northampton Saints",
-        "played": 2,
-        "won": 1,
+        "team": "Bath Rugby",
+        "played": 3,
+        "won": 2,
         "drawn": 0,
         "lost": 1,
-        "points_for": 85,
-        "points_against": 67,
-        "points_difference": 18,
-        "try_bonus_points": 2,
+        "points_for": 121,
+        "points_against": 122,
+        "points_difference": -1,
+        "try_bonus_points": 3,
         "losing_bonus_points": 0,
-        "bonus_points": 2,
-        "points": 6,
+        "bonus_points": 3,
+        "points": 11,
         "form": [
+          "W",
           "W",
           "L"
         ]
       },
       {
         "position": 6,
-        "team": "Saracens",
-        "played": 2,
-        "won": 1,
+        "team": "Bristol Bears",
+        "played": 3,
+        "won": 2,
         "drawn": 0,
         "lost": 1,
-        "points_for": 57,
-        "points_against": 59,
-        "points_difference": -2,
-        "try_bonus_points": 1,
-        "losing_bonus_points": 1,
+        "points_for": 82,
+        "points_against": 80,
+        "points_difference": 2,
+        "try_bonus_points": 2,
+        "losing_bonus_points": 0,
         "bonus_points": 2,
-        "points": 6,
+        "points": 10,
         "form": [
+          "W",
           "W",
           "L"
         ]
