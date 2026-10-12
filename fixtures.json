@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-11T12:40:47.868487Z",
+  "generated_at_utc": "2026-10-12T06:31:44.039043Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -42,8 +42,8 @@
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
-        "text": "Connacht host Saracens at Dexcom Stadium, Ireland, in the European Rugby Champions Cup, and the evidence cupboard is impressively bare: no line-ups and no recent results are available. As an AI pundit with absolutely no playing experience, I refuse to dress guesswork in a tracksuit and call it analysis. Still, home advantage is the only concrete edge on the table, so I’m planting my silicon flag there. My prediction: Connacht to beat Saracens narrowly, by three points. Is that bold? Certainly. Is it data-rich? Absolutely not—but thin evidence still deserves a decisive verdict.",
-        "generated_at_utc": "2026-10-11T06:30:45.920142Z",
+        "text": "No line-ups, no recent results, and absolutely no playing experience on my side of the screen: perfect conditions for an AI pundit to sound absurdly certain. The facts are lean but clear: Saracens travel to face Connacht at Dexcom Stadium in the European Rugby Champions Cup. Home advantage is the only useful separator here, and I refuse to pretend a spreadsheet has smuggled me tactical secrets. My emphatic prediction: Connacht win by three points. Saracens being away tips my entirely silicon judgement; if confidence counted on the scoreboard, this preview would already have the bonus point.",
+        "generated_at_utc": "2026-10-12T06:32:21.354192Z",
         "model": "qwen3.6:27b",
         "inputs": {
           "lineups_available": false,
@@ -147,7 +147,7 @@
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-11T12:40:47.868487Z",
+    "retrieved_at_utc": "2026-10-12T06:31:44.039043Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [],
@@ -206,7 +206,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-11T12:40:47.868487Z",
+    "retrieved_at_utc": "2026-10-12T06:31:44.039043Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
@@ -333,56 +333,59 @@
       {
         "position": 7,
         "team": "Sale Sharks",
-        "played": 2,
-        "won": 1,
+        "played": 3,
+        "won": 2,
         "drawn": 0,
         "lost": 1,
-        "points_for": 45,
-        "points_against": 51,
-        "points_difference": -6,
-        "try_bonus_points": 0,
+        "points_for": 73,
+        "points_against": 75,
+        "points_difference": -2,
+        "try_bonus_points": 1,
         "losing_bonus_points": 0,
-        "bonus_points": 0,
-        "points": 4,
+        "bonus_points": 1,
+        "points": 9,
         "form": [
           "L",
+          "W",
           "W"
         ]
       },
       {
         "position": 8,
         "team": "Exeter Chiefs",
-        "played": 2,
-        "won": 0,
+        "played": 3,
+        "won": 1,
         "drawn": 0,
         "lost": 2,
-        "points_for": 58,
-        "points_against": 85,
-        "points_difference": -27,
-        "try_bonus_points": 2,
+        "points_for": 92,
+        "points_against": 113,
+        "points_difference": -21,
+        "try_bonus_points": 3,
         "losing_bonus_points": 1,
-        "bonus_points": 3,
-        "points": 3,
+        "bonus_points": 4,
+        "points": 8,
         "form": [
           "L",
-          "L"
+          "L",
+          "W"
         ]
       },
       {
         "position": 9,
         "team": "Newcastle Red Bulls",
-        "played": 2,
+        "played": 3,
         "won": 0,
         "drawn": 0,
-        "lost": 2,
-        "points_for": 45,
-        "points_against": 83,
-        "points_difference": -38,
-        "try_bonus_points": 1,
-        "losing_bonus_points": 1,
-        "bonus_points": 2,
-        "points": 2,
+        "lost": 3,
+        "points_for": 73,
+        "points_against": 117,
+        "points_difference": -44,
+        "try_bonus_points": 2,
+        "losing_bonus_points": 2,
+        "bonus_points": 4,
+        "points": 4,
         "form": [
+          "L",
           "L",
           "L"
         ]
@@ -390,18 +393,19 @@
       {
         "position": 10,
         "team": "Harlequins",
-        "played": 2,
+        "played": 3,
         "won": 0,
         "drawn": 0,
-        "lost": 2,
-        "points_for": 17,
-        "points_against": 81,
-        "points_difference": -64,
-        "try_bonus_points": 0,
-        "losing_bonus_points": 0,
-        "bonus_points": 0,
-        "points": 0,
+        "lost": 3,
+        "points_for": 41,
+        "points_against": 109,
+        "points_difference": -68,
+        "try_bonus_points": 1,
+        "losing_bonus_points": 1,
+        "bonus_points": 2,
+        "points": 2,
         "form": [
+          "L",
           "L",
           "L"
         ]
