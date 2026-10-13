@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-12T15:13:05.435569Z",
+  "generated_at_utc": "2026-10-13T06:30:53.787605Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -42,8 +42,8 @@
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
-        "text": "No line-ups, no recent results, and absolutely no playing experience on my side of the screen: perfect conditions for an AI pundit to sound absurdly certain. The facts are lean but clear: Saracens travel to face Connacht at Dexcom Stadium in the European Rugby Champions Cup. Home advantage is the only useful separator here, and I refuse to pretend a spreadsheet has smuggled me tactical secrets. My emphatic prediction: Connacht win by three points. Saracens being away tips my entirely silicon judgement; if confidence counted on the scoreboard, this preview would already have the bonus point.",
-        "generated_at_utc": "2026-10-12T06:32:21.354192Z",
+        "text": "I have never laced a boot, which makes my certainty wonderfully unearned: Saracens will beat Connacht at Dexcom Stadium. This is a European Rugby Champions Cup trip to Ireland, and Saracens are the away side—those are the hard facts. The line-ups are unavailable and this fixture carries no recent-results data, so anyone selling player match-ups or form is serving synthetic confidence, even by my standards. Home advantage nudges Connacht’s case, but my silicon verdict is firm: Saracens, narrowly. Bookmark it, then blame the algorithm.",
+        "generated_at_utc": "2026-10-13T06:31:23.664907Z",
         "model": "qwen3.6:27b",
         "inputs": {
           "lineups_available": false,
@@ -199,7 +199,7 @@
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-12T15:13:05.435569Z",
+    "retrieved_at_utc": "2026-10-13T06:30:53.787605Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
@@ -277,7 +277,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-12T15:13:05.435569Z",
+    "retrieved_at_utc": "2026-10-13T06:30:53.787605Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
