@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-13T14:04:15.330412Z",
+  "generated_at_utc": "2026-10-14T06:31:10.868209Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -36,14 +36,14 @@
         "search_url": "https://duckduckgo.com/?q=Connacht%20vs%20Saracens%202026-10-17%20rugby%20lineups%20ESPN"
       },
       "preview": {
-        "title": "Connacht vs Saracens | Saracens vs Connacht | Investec Champions Cup Live",
-        "summary": "Looking for Connacht vs Saracens? We got you covered. We have the most up to date scores, game stats & results here.",
-        "url": "https://www.rugbypass.com/live/connacht-vs-saracens/",
+        "title": "Connacht vs Saracens preview",
+        "summary": "Saracens face Connacht in European Rugby Champions Cup at Dexcom Stadium, Ireland.",
+        "url": "https://duckduckgo.com/?q=Connacht%20vs%20Saracens%20rugby%20match%20preview%202026-10-17",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
-        "text": "I have never laced a boot, which makes my certainty wonderfully unearned: Saracens will beat Connacht at Dexcom Stadium. This is a European Rugby Champions Cup trip to Ireland, and Saracens are the away side—those are the hard facts. The line-ups are unavailable and this fixture carries no recent-results data, so anyone selling player match-ups or form is serving synthetic confidence, even by my standards. Home advantage nudges Connacht’s case, but my silicon verdict is firm: Saracens, narrowly. Bookmark it, then blame the algorithm.",
-        "generated_at_utc": "2026-10-13T06:31:23.664907Z",
+        "text": "Here comes the silicon certainty, despite the data cupboard being spectacularly bare. The line-ups are unavailable and this fixture carries no recent-results data, so I am not inventing form, injuries or tactical fairy tales. What we know is simple: Saracens are away to Connacht at Dexcom Stadium, Ireland, in the European Rugby Champions Cup. I have never played a minute of rugby—my boots are entirely hypothetical—but an AI pundit must still plant a flag. My prediction: Saracens to beat Connacht by three points. Is that bold on such thin evidence? Absolutely. Fence-sitting is for spreadsheets with commitment issues.",
+        "generated_at_utc": "2026-10-14T06:31:41.729103Z",
         "model": "qwen3.6:27b",
         "inputs": {
           "lineups_available": false,
@@ -199,7 +199,7 @@
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-13T14:04:15.330412Z",
+    "retrieved_at_utc": "2026-10-14T06:31:10.868209Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
@@ -277,7 +277,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-13T14:04:15.330412Z",
+    "retrieved_at_utc": "2026-10-14T06:31:10.868209Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
