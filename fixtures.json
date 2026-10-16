@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-15T11:19:48.558164Z",
+  "generated_at_utc": "2026-10-16T06:31:02.268028Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -9,48 +9,6 @@
     "DuckDuckGo Lite search for ESPN/RugbyPass/official previews"
   ],
   "matches": [
-    {
-      "event_id": "2550794",
-      "team": "Saracens",
-      "opponent": "Connacht",
-      "title": "Connacht vs Saracens",
-      "competition": "European Rugby Champions Cup",
-      "venue": "Dexcom Stadium, Ireland",
-      "start_utc": "2026-10-17T16:30:00Z",
-      "home_away": "Away",
-      "source": "TheSportsDB",
-      "source_url": "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
-      "tv": [
-        {
-          "country": "Ireland",
-          "channel": "Premier Sports 1 IE"
-        },
-        {
-          "country": "United Kingdom",
-          "channel": "Viaplay Sports 1 UK"
-        }
-      ],
-      "lineup": {
-        "available": false,
-        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
-        "search_url": "https://duckduckgo.com/?q=Connacht%20vs%20Saracens%202026-10-17%20rugby%20lineups%20ESPN"
-      },
-      "preview": {
-        "title": "Connacht vs Saracens preview",
-        "summary": "Saracens face Connacht in European Rugby Champions Cup at Dexcom Stadium, Ireland.",
-        "url": "https://duckduckgo.com/?q=Connacht%20vs%20Saracens%20rugby%20match%20preview%202026-10-17",
-        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
-      },
-      "ai_briefing": {
-        "text": "I have never laced a boot, which makes me perfectly qualified for loud AI punditry from a safe distance. Connacht host Saracens at Dexcom Stadium in the European Rugby Champions Cup, but the line-ups are unannounced and no recent results are attached to this fixture, so there is no honest case for player or form analysis. Still, fence-sitting is for malfunctioning algorithms: home advantage is the only usable edge here. I strongly back Connacht to win a tight one, 24–20. That score is a prediction, not data—boldly calculated from venue, competition and absolutely no muddy personal experience.",
-        "generated_at_utc": "2026-10-15T06:31:13.073050Z",
-        "model": "qwen3.6:27b",
-        "inputs": {
-          "lineups_available": false,
-          "recent_results": 0
-        }
-      }
-    },
     {
       "team": "Saracens Men",
       "opponent": "Connacht Rugby",
@@ -85,6 +43,15 @@
         "summary": "Saracens Men face Connacht Rugby in Investec Champions Cup at Dexcom Stadium.",
         "url": "https://duckduckgo.com/?q=Connacht%20Rugby%20vs%20Saracens%20Men%20rugby%20match%20preview%202026-10-17",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
+      },
+      "ai_briefing": {
+        "text": "I have never packed down, caught a high ball or felt a stud anywhere inconvenient, but the numbers still make me bullish on Saracens. They travel to Dexcom Stadium for an Investec Champions Cup date with Connacht after a 30–7 win over Bristol and a 17–21 loss to Sale: encouraging, if hardly a victory parade. The line-ups are not available, so anyone claiming a decisive selection edge is selling smoke. Home advantage belongs to Connacht, yet I am planting my synthetic flag: Saracens will win, narrowly. Prediction: Connacht 20, Saracens 24.",
+        "generated_at_utc": "2026-10-16T06:32:10.410735Z",
+        "model": "qwen3.6:27b",
+        "inputs": {
+          "lineups_available": false,
+          "recent_results": 2
+        }
       }
     },
     {
@@ -194,12 +161,48 @@
         "url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Newcastle%20Red%20Bulls%20rugby%20match%20preview%202026-11-07",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       }
+    },
+    {
+      "team": "Saracens Men",
+      "opponent": "Leicester Tigers",
+      "title": "Leicester Tigers vs Saracens Men",
+      "competition": "Prem Rugby Cup",
+      "venue": " Mattioli Woods Welford Road",
+      "start_utc": "2026-11-15T15:00:00Z",
+      "home_away": "Away",
+      "source": "Saracens official fixtures",
+      "source_url": "https://saracens.com/fixtures-results/",
+      "recent_results": [
+        {
+          "date": "2026-10-10",
+          "competition": "Gallagher Prem",
+          "result": "W",
+          "score": "Saracens Men 30–7 Bristol Bears"
+        },
+        {
+          "date": "2026-10-04",
+          "competition": "Gallagher Prem",
+          "result": "L",
+          "score": "Saracens Men 17–21 Sale Sharks"
+        }
+      ],
+      "lineup": {
+        "available": false,
+        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
+        "search_url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%20Men%202026-11-15%20rugby%20lineups%20ESPN"
+      },
+      "preview": {
+        "title": "Leicester Tigers vs Saracens Men preview",
+        "summary": "Saracens Men face Leicester Tigers in Prem Rugby Cup at  Mattioli Woods Welford Road.",
+        "url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%20Men%20rugby%20match%20preview%202026-11-15",
+        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
+      }
     }
   ],
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-15T11:19:48.558164Z",
+    "retrieved_at_utc": "2026-10-16T06:31:02.268028Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
@@ -277,7 +280,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-15T11:19:48.558164Z",
+    "retrieved_at_utc": "2026-10-16T06:31:02.268028Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
@@ -483,5 +486,8 @@
       }
     ]
   },
-  "notes": []
+  "notes": [
+    "England Rugby: TheSportsDB fetch failed: HTTP Error 522: <none>",
+    "Saracens: TheSportsDB fetch failed: HTTP Error 522: <none>"
+  ]
 }
