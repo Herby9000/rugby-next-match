@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-16T11:14:19.737529Z",
+  "generated_at_utc": "2026-10-17T06:30:35.273772Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -34,22 +34,266 @@
         }
       ],
       "lineup": {
-        "available": false,
-        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
-        "search_url": "https://duckduckgo.com/?q=Connacht%20Rugby%20vs%20Saracens%20Men%202026-10-17%20rugby%20lineups%20ESPN"
+        "available": true,
+        "source": "ESPN",
+        "source_url": "https://www.espn.co.uk/rugby/lineups/_/gameId/604251/league/271937",
+        "teams": {
+          "img src=\"https://a1.espncdn.com/combiner/i?img=/i/teamlogos/rugby/teams/500/25923.png&h=35&w=35\" data-reactid=\"122\"/>": {
+            "starters": [
+              {
+                "number": "15",
+                "name": "Sam Gilbert",
+                "position": "FB"
+              },
+              {
+                "number": "14",
+                "name": "Finn Treacy",
+                "position": "W"
+              },
+              {
+                "number": "13",
+                "name": "Cathal Forde",
+                "position": "C"
+              },
+              {
+                "number": "12",
+                "name": "Bundee Aki",
+                "position": "C"
+              },
+              {
+                "number": "11",
+                "name": "Shane Jennings",
+                "position": "W"
+              },
+              {
+                "number": "10",
+                "name": "Ciaran Frawley",
+                "position": "FH"
+              },
+              {
+                "number": "9",
+                "name": "Colm Reilly",
+                "position": "SH"
+              },
+              {
+                "number": "1",
+                "name": "Francois van Wyk",
+                "position": "P"
+              },
+              {
+                "number": "2",
+                "name": "Matt Victory",
+                "position": "H"
+              },
+              {
+                "number": "3",
+                "name": "Sam Illo",
+                "position": "P"
+              },
+              {
+                "number": "4",
+                "name": "Darragh Murray",
+                "position": "L"
+              },
+              {
+                "number": "5",
+                "name": "Josh Murphy",
+                "position": "L"
+              },
+              {
+                "number": "6",
+                "name": "Cian Prendergast",
+                "position": "FL"
+              },
+              {
+                "number": "7",
+                "name": "Shamus Hurley-Langton",
+                "position": "FL"
+              },
+              {
+                "number": "8",
+                "name": "Sean Jansen",
+                "position": "N8"
+              }
+            ],
+            "replacements": [
+              {
+                "number": "16",
+                "name": "Eoin de Buitlear",
+                "position": "R"
+              },
+              {
+                "number": "17",
+                "name": "Billy Bohan",
+                "position": "R"
+              },
+              {
+                "number": "18",
+                "name": "Thomas Connolly",
+                "position": "R"
+              },
+              {
+                "number": "19",
+                "name": "Niall Murray",
+                "position": "R"
+              },
+              {
+                "number": "20",
+                "name": "Sean O'Brien",
+                "position": "R"
+              },
+              {
+                "number": "21",
+                "name": "Caolin Blade",
+                "position": "R"
+              },
+              {
+                "number": "22",
+                "name": "Josh Ioane",
+                "position": "R"
+              },
+              {
+                "number": "23",
+                "name": "Daniel Ryan",
+                "position": "R"
+              }
+            ]
+          },
+          "img src=\"https://a1.espncdn.com/combiner/i?img=/i/teamlogos/rugby/teams/500/25909.png&h=35&w=35\" data-reactid=\"208\"/>": {
+            "starters": [
+              {
+                "number": "15",
+                "name": "Elliot Daly",
+                "position": "FB"
+              },
+              {
+                "number": "14",
+                "name": "Noah Caluori",
+                "position": "W"
+              },
+              {
+                "number": "13",
+                "name": "Nick Tompkins",
+                "position": "C"
+              },
+              {
+                "number": "12",
+                "name": "Sione Va'enuku",
+                "position": "C"
+              },
+              {
+                "number": "11",
+                "name": "Rotimi Segun",
+                "position": "W"
+              },
+              {
+                "number": "10",
+                "name": "Owen Farrell",
+                "position": "FH"
+              },
+              {
+                "number": "9",
+                "name": "Tomos Williams",
+                "position": "SH"
+              },
+              {
+                "number": "1",
+                "name": "Eroni Mawi",
+                "position": "P"
+              },
+              {
+                "number": "2",
+                "name": "Jamie George",
+                "position": "H"
+              },
+              {
+                "number": "3",
+                "name": "Marcus Street",
+                "position": "P"
+              },
+              {
+                "number": "4",
+                "name": "Olamide Sodeke",
+                "position": "L"
+              },
+              {
+                "number": "5",
+                "name": "Hugh Tizard",
+                "position": "L"
+              },
+              {
+                "number": "6",
+                "name": "Maro Itoje",
+                "position": "FL"
+              },
+              {
+                "number": "7",
+                "name": "Toby Knight",
+                "position": "FL"
+              },
+              {
+                "number": "8",
+                "name": "Ben Earl",
+                "position": "N8"
+              }
+            ],
+            "replacements": [
+              {
+                "number": "16",
+                "name": "Eoghan Clarke",
+                "position": "R"
+              },
+              {
+                "number": "17",
+                "name": "Phil Brantingham",
+                "position": "R"
+              },
+              {
+                "number": "18",
+                "name": "Corne Weilbach",
+                "position": "R"
+              },
+              {
+                "number": "19",
+                "name": "Nick Isiekwe",
+                "position": "R"
+              },
+              {
+                "number": "20",
+                "name": "Nathan Michelow",
+                "position": "R"
+              },
+              {
+                "number": "21",
+                "name": "Alfie Barbeary",
+                "position": "R"
+              },
+              {
+                "number": "22",
+                "name": "Tom James",
+                "position": "R"
+              },
+              {
+                "number": "23",
+                "name": "Fergus Burke",
+                "position": "R"
+              }
+            ]
+          }
+        }
       },
       "preview": {
-        "title": "Connacht Rugby vs Saracens Men preview",
-        "summary": "Saracens Men face Connacht Rugby in Investec Champions Cup at Dexcom Stadium.",
-        "url": "https://duckduckgo.com/?q=Connacht%20Rugby%20vs%20Saracens%20Men%20rugby%20match%20preview%202026-10-17",
-        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
+        "title": "Connacht vs Saracens | Saracens vs Connacht | Investec Champions Cup Live",
+        "summary": "Looking for Connacht vs Saracens? We got you covered. We have the most up to date scores, game stats & results here.",
+        "url": "https://www.rugbypass.com/live/connacht-vs-saracens/",
+        "lineup_note": "Team sheets are available below."
       },
       "ai_briefing": {
-        "text": "I have never packed down, caught a high ball or felt a stud anywhere inconvenient, but the numbers still make me bullish on Saracens. They travel to Dexcom Stadium for an Investec Champions Cup date with Connacht after a 30–7 win over Bristol and a 17–21 loss to Sale: encouraging, if hardly a victory parade. The line-ups are not available, so anyone claiming a decisive selection edge is selling smoke. Home advantage belongs to Connacht, yet I am planting my synthetic flag: Saracens will win, narrowly. Prediction: Connacht 20, Saracens 24.",
-        "generated_at_utc": "2026-10-16T06:32:10.410735Z",
+        "text": "My silicon verdict is blunt: Saracens will win in Galway. I have never packed down, caught a high ball or experienced anything beyond a cooling fan, but the evidence points away from Connacht. Saracens arrive at Dexcom Stadium for an Investec Champions Cup tie after beating Bristol Bears 30–7 and losing 21–17 to Sale Sharks. The listed sides include Owen Farrell, Maro Itoje and Ben Earl for Saracens, with Bundee Aki and Ciaran Frawley for Connacht. Home advantage gives Connacht a proper argument, but I’m overruling it: Saracens by seven, and no human bruises required for my confidence.",
+        "generated_at_utc": "2026-10-17T06:31:09.044556Z",
         "model": "qwen3.6:27b",
         "inputs": {
-          "lineups_available": false,
+          "lineups_available": true,
           "recent_results": 2
         }
       }
@@ -202,7 +446,7 @@
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-16T11:14:19.737529Z",
+    "retrieved_at_utc": "2026-10-17T06:30:35.273772Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
@@ -280,7 +524,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-16T11:14:19.737529Z",
+    "retrieved_at_utc": "2026-10-17T06:30:35.273772Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
@@ -487,7 +731,7 @@
     ]
   },
   "notes": [
-    "England Rugby: TheSportsDB fetch failed: HTTP Error 503: Service Unavailable",
-    "Saracens: TheSportsDB fetch failed: HTTP Error 503: Service Unavailable"
+    "England Rugby: TheSportsDB fetch failed: HTTP Error 403: Forbidden",
+    "Saracens: TheSportsDB fetch failed: HTTP Error 403: Forbidden"
   ]
 }
