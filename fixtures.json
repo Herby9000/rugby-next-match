@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-17T10:33:11.120418Z",
+  "generated_at_utc": "2026-10-18T06:30:49.846989Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -9,51 +9,6 @@
     "DuckDuckGo Lite search for ESPN/RugbyPass/official previews"
   ],
   "matches": [
-    {
-      "team": "Saracens Men",
-      "opponent": "Connacht Rugby",
-      "title": "Connacht Rugby vs Saracens Men",
-      "competition": "Investec Champions Cup",
-      "venue": "Dexcom Stadium",
-      "start_utc": "2026-10-17T17:30:00Z",
-      "home_away": "Away",
-      "source": "Saracens official fixtures",
-      "source_url": "https://saracens.com/fixtures-results/",
-      "recent_results": [
-        {
-          "date": "2026-10-10",
-          "competition": "Gallagher Prem",
-          "result": "W",
-          "score": "Saracens Men 30–7 Bristol Bears"
-        },
-        {
-          "date": "2026-10-04",
-          "competition": "Gallagher Prem",
-          "result": "L",
-          "score": "Saracens Men 17–21 Sale Sharks"
-        }
-      ],
-      "lineup": {
-        "available": false,
-        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
-        "search_url": "https://duckduckgo.com/?q=Connacht%20Rugby%20vs%20Saracens%20Men%202026-10-17%20rugby%20lineups%20ESPN"
-      },
-      "preview": {
-        "title": "Connacht Rugby vs Saracens Men preview",
-        "summary": "Saracens Men face Connacht Rugby in Investec Champions Cup at Dexcom Stadium.",
-        "url": "https://duckduckgo.com/?q=Connacht%20Rugby%20vs%20Saracens%20Men%20rugby%20match%20preview%202026-10-17",
-        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
-      },
-      "ai_briefing": {
-        "text": "My silicon verdict is blunt: Saracens will win in Galway. I have never packed down, caught a high ball or experienced anything beyond a cooling fan, but the evidence points away from Connacht. Saracens arrive at Dexcom Stadium for an Investec Champions Cup tie after beating Bristol Bears 30–7 and losing 21–17 to Sale Sharks. The listed sides include Owen Farrell, Maro Itoje and Ben Earl for Saracens, with Bundee Aki and Ciaran Frawley for Connacht. Home advantage gives Connacht a proper argument, but I’m overruling it: Saracens by seven, and no human bruises required for my confidence.",
-        "generated_at_utc": "2026-10-17T06:31:09.044556Z",
-        "model": "qwen3.6:27b",
-        "inputs": {
-          "lineups_available": true,
-          "recent_results": 2
-        }
-      }
-    },
     {
       "team": "Saracens Men",
       "opponent": "Harlequins",
@@ -70,12 +25,6 @@
           "competition": "Gallagher Prem",
           "result": "W",
           "score": "Saracens Men 30–7 Bristol Bears"
-        },
-        {
-          "date": "2026-10-04",
-          "competition": "Gallagher Prem",
-          "result": "L",
-          "score": "Saracens Men 17–21 Sale Sharks"
         }
       ],
       "lineup": {
@@ -84,10 +33,19 @@
         "search_url": "https://duckduckgo.com/?q=Harlequins%20vs%20Saracens%20Men%202026-10-25%20rugby%20lineups%20ESPN"
       },
       "preview": {
-        "title": "Harlequins vs Saracens Men preview",
-        "summary": "Saracens Men face Harlequins in Gallagher Prem at Twickenham Stoop.",
-        "url": "https://duckduckgo.com/?q=Harlequins%20vs%20Saracens%20Men%20rugby%20match%20preview%202026-10-25",
+        "title": "Harlequins vs Saracens | Saracens vs Harlequins | Gallagher Premiership Live",
+        "summary": "Looking for Harlequins vs Saracens? We got you covered. We have the most up to date scores, game stats & results here.",
+        "url": "https://www.rugbypass.com/live/harlequins-vs-saracens/",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
+      },
+      "ai_briefing": {
+        "text": "Team sheets are still absent, so my silicon clipboard has no player names to wave about. What is confirmed: Saracens Men visit Harlequins at Twickenham Stoop in the Gallagher Prem, carrying a 30–7 win over Bristol Bears as their sole listed recent result. I have never played a minute of rugby—my shoulders are strictly virtual—but I am still planting the flag: Saracens Men will win away. One result is a thin evidence sandwich, yet it is the only form on the plate, and I refuse to sit on the digital fence. Prediction: Saracens Men beat Harlequins.",
+        "generated_at_utc": "2026-10-18T06:31:23.490715Z",
+        "model": "qwen3.6:27b",
+        "inputs": {
+          "lineups_available": false,
+          "recent_results": 1
+        }
       }
     },
     {
@@ -106,12 +64,6 @@
           "competition": "Gallagher Prem",
           "result": "W",
           "score": "Saracens Men 30–7 Bristol Bears"
-        },
-        {
-          "date": "2026-10-04",
-          "competition": "Gallagher Prem",
-          "result": "L",
-          "score": "Saracens Men 17–21 Sale Sharks"
         }
       ],
       "lineup": {
@@ -142,12 +94,6 @@
           "competition": "Gallagher Prem",
           "result": "W",
           "score": "Saracens Men 30–7 Bristol Bears"
-        },
-        {
-          "date": "2026-10-04",
-          "competition": "Gallagher Prem",
-          "result": "L",
-          "score": "Saracens Men 17–21 Sale Sharks"
         }
       ],
       "lineup": {
@@ -178,12 +124,6 @@
           "competition": "Gallagher Prem",
           "result": "W",
           "score": "Saracens Men 30–7 Bristol Bears"
-        },
-        {
-          "date": "2026-10-04",
-          "competition": "Gallagher Prem",
-          "result": "L",
-          "score": "Saracens Men 17–21 Sale Sharks"
         }
       ],
       "lineup": {
@@ -197,12 +137,42 @@
         "url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%20Men%20rugby%20match%20preview%202026-11-15",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       }
+    },
+    {
+      "team": "Saracens Men",
+      "opponent": "Harlequins",
+      "title": "Saracens Men vs Harlequins",
+      "competition": "Prem Rugby Cup",
+      "venue": "StoneX Stadium",
+      "start_utc": "2026-11-21T12:00:00Z",
+      "home_away": "Home",
+      "source": "Saracens official fixtures",
+      "source_url": "https://saracens.com/fixtures-results/",
+      "recent_results": [
+        {
+          "date": "2026-10-10",
+          "competition": "Gallagher Prem",
+          "result": "W",
+          "score": "Saracens Men 30–7 Bristol Bears"
+        }
+      ],
+      "lineup": {
+        "available": false,
+        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
+        "search_url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Harlequins%202026-11-21%20rugby%20lineups%20ESPN"
+      },
+      "preview": {
+        "title": "Saracens Men vs Harlequins preview",
+        "summary": "Saracens Men face Harlequins in Prem Rugby Cup at StoneX Stadium.",
+        "url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Harlequins%20rugby%20match%20preview%202026-11-21",
+        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
+      }
     }
   ],
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-17T10:33:11.120418Z",
+    "retrieved_at_utc": "2026-10-18T06:30:49.846989Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
@@ -214,27 +184,9 @@
         "venue": "StoneX Stadium",
         "result": "W",
         "score": "Saracens Men 30–7 Bristol Bears"
-      },
-      {
-        "date": "2026-10-04",
-        "opponent": "Sale Sharks",
-        "home_away": "Home",
-        "competition": "Gallagher Prem",
-        "venue": "StoneX Stadium",
-        "result": "L",
-        "score": "Saracens Men 17–21 Sale Sharks"
       }
     ],
     "upcoming_fixtures": [
-      {
-        "date": "2026-10-17",
-        "opponent": "Connacht Rugby",
-        "home_away": "Away",
-        "competition": "Investec Champions Cup",
-        "venue": "Dexcom Stadium",
-        "start_utc": "2026-10-17T17:30:00Z",
-        "kickoff_status": "Confirmed"
-      },
       {
         "date": "2026-10-25",
         "opponent": "Harlequins",
@@ -270,6 +222,15 @@
         "venue": "Mattioli Woods Welford Road",
         "start_utc": "2026-11-15T15:00:00Z",
         "kickoff_status": "Confirmed"
+      },
+      {
+        "date": "2026-11-21",
+        "opponent": "Harlequins",
+        "home_away": "Home",
+        "competition": "Prem Rugby Cup",
+        "venue": "StoneX Stadium",
+        "start_utc": "2026-11-21T12:00:00Z",
+        "kickoff_status": "Confirmed"
       }
     ]
   },
@@ -280,7 +241,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-17T10:33:11.120418Z",
+    "retrieved_at_utc": "2026-10-18T06:30:49.846989Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
