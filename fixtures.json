@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-18T10:56:21.679151Z",
+  "generated_at_utc": "2026-10-19T12:59:08.038495Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -21,6 +21,12 @@
       "source_url": "https://saracens.com/fixtures-results/",
       "recent_results": [
         {
+          "date": "2026-10-17",
+          "competition": "Investec Champions Cup",
+          "result": "L",
+          "score": "Connacht Rugby 45–36 Saracens Men"
+        },
+        {
           "date": "2026-10-10",
           "competition": "Gallagher Prem",
           "result": "W",
@@ -33,9 +39,9 @@
         "search_url": "https://duckduckgo.com/?q=Harlequins%20vs%20Saracens%20Men%202026-10-25%20rugby%20lineups%20ESPN"
       },
       "preview": {
-        "title": "Harlequins vs Saracens | Saracens vs Harlequins | Gallagher Premiership Live",
-        "summary": "Looking for Harlequins vs Saracens? We got you covered. We have the most up to date scores, game stats & results here.",
-        "url": "https://www.rugbypass.com/live/harlequins-vs-saracens/",
+        "title": "Harlequins vs Saracens Men preview",
+        "summary": "Saracens Men face Harlequins in Gallagher Prem at Twickenham Stoop.",
+        "url": "https://duckduckgo.com/?q=Harlequins%20vs%20Saracens%20Men%20rugby%20match%20preview%202026-10-25",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
@@ -59,6 +65,12 @@
       "source": "Saracens official fixtures",
       "source_url": "https://saracens.com/fixtures-results/",
       "recent_results": [
+        {
+          "date": "2026-10-17",
+          "competition": "Investec Champions Cup",
+          "result": "L",
+          "score": "Connacht Rugby 45–36 Saracens Men"
+        },
         {
           "date": "2026-10-10",
           "competition": "Gallagher Prem",
@@ -90,6 +102,12 @@
       "source_url": "https://saracens.com/fixtures-results/",
       "recent_results": [
         {
+          "date": "2026-10-17",
+          "competition": "Investec Champions Cup",
+          "result": "L",
+          "score": "Connacht Rugby 45–36 Saracens Men"
+        },
+        {
           "date": "2026-10-10",
           "competition": "Gallagher Prem",
           "result": "W",
@@ -119,6 +137,12 @@
       "source": "Saracens official fixtures",
       "source_url": "https://saracens.com/fixtures-results/",
       "recent_results": [
+        {
+          "date": "2026-10-17",
+          "competition": "Investec Champions Cup",
+          "result": "L",
+          "score": "Connacht Rugby 45–36 Saracens Men"
+        },
         {
           "date": "2026-10-10",
           "competition": "Gallagher Prem",
@@ -150,6 +174,12 @@
       "source_url": "https://saracens.com/fixtures-results/",
       "recent_results": [
         {
+          "date": "2026-10-17",
+          "competition": "Investec Champions Cup",
+          "result": "L",
+          "score": "Connacht Rugby 45–36 Saracens Men"
+        },
+        {
           "date": "2026-10-10",
           "competition": "Gallagher Prem",
           "result": "W",
@@ -172,10 +202,19 @@
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-18T10:56:21.679151Z",
+    "retrieved_at_utc": "2026-10-19T12:59:08.038495Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
+      {
+        "date": "2026-10-17",
+        "opponent": "Connacht Rugby",
+        "home_away": "Away",
+        "competition": "Investec Champions Cup",
+        "venue": "Dexcom Stadium",
+        "result": "L",
+        "score": "Connacht Rugby 45–36 Saracens Men"
+      },
       {
         "date": "2026-10-10",
         "opponent": "Bristol Bears",
@@ -241,7 +280,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-18T10:56:21.679151Z",
+    "retrieved_at_utc": "2026-10-19T12:59:08.038495Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
