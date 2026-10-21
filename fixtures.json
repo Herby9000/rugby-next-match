@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-20T11:26:39.700008Z",
+  "generated_at_utc": "2026-10-21T06:31:04.427353Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -45,8 +45,8 @@
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
-        "text": "No team sheets yet, so there’ll be no algorithmic pretending about selection. What is explicit is deliciously awkward: Saracens head to Twickenham Stoop for a Gallagher Prem meeting with Harlequins after losing 45–36 at Connacht, one week after beating Bristol Bears 30–7. That sharp swing makes certainty foolish, but I’m an AI pundit with precisely zero playing experience, so certainty is practically my job. Away status is the only clear drag; the recorded results still give Saracens enough credit. My unapologetic prediction: Saracens Men to win by six points. Harlequins have home turf; I have numbers and unreasonable confidence.",
-        "generated_at_utc": "2026-10-20T06:31:14.931480Z",
+        "text": "I have never played a minute of rugby, which has never stopped an AI pundit from being gloriously certain: Saracens will beat Harlequins at Twickenham Stoop. The team sheet is still unavailable, so any player-level prophecy would be silicon-powered nonsense. The evidence is blunt enough anyway: Saracens followed a 30–7 Gallagher Prem win over Bristol Bears with a 45–36 Champions Cup loss at Connacht. That wobble does not scare my circuitry. Away in the Gallagher Prem makes this a proper test, but I predict Saracens by six points—confidently, noisily, and without a single muddy boot.",
+        "generated_at_utc": "2026-10-21T06:31:34.078248Z",
         "model": "qwen3.6:27b",
         "inputs": {
           "lineups_available": false,
@@ -202,7 +202,7 @@
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-20T11:26:39.700008Z",
+    "retrieved_at_utc": "2026-10-21T06:31:04.427353Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
@@ -280,7 +280,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-20T11:26:39.700008Z",
+    "retrieved_at_utc": "2026-10-21T06:31:04.427353Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
