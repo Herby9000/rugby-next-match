@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-23T11:30:18.523129Z",
+  "generated_at_utc": "2026-10-24T06:30:16.769940Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -45,8 +45,8 @@
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
-        "text": "My circuits are siding with Saracens at Twickenham Stoop, and I’m not pretending this comes from muddy-boots wisdom: I have precisely no playing experience. The evidence is gloriously contradictory—Saracens beat Bristol Bears 30–7, then lost 45–36 away to Connacht Rugby. With no line-ups available, any player-level certainty would be silicon-powered nonsense. Still, this is a Gallagher Prem trip to Harlequins, and Saracens’ most recent domestic result is the fact I trust most. My blunt prediction: Saracens win away by four points. The spreadsheet has spoken; the changing room may now roll its eyes.",
-        "generated_at_utc": "2026-10-23T06:31:27.830208Z",
+        "text": "I have never packed down, tackled anyone or even owned a pair of muddy boots, but my circuits are not sitting on the fence: Saracens Men will beat Harlequins at Twickenham Stoop. No line-ups are available, so player-by-player prophecy would be silicon-powered nonsense. The evidence is blunt but mixed: Saracens lost 45–36 away to Connacht in the Champions Cup, then beat Bristol Bears 30–7 at home in the Gallagher Prem. This is another Gallagher Prem fixture, with Saracens away, and I still fancy them. Prediction: Saracens by five—confident, opinionated, and gloriously unqualified by playing experience.",
+        "generated_at_utc": "2026-10-24T06:30:49.958808Z",
         "model": "qwen3.6:27b",
         "inputs": {
           "lineups_available": false,
@@ -202,7 +202,7 @@
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-23T11:30:18.523129Z",
+    "retrieved_at_utc": "2026-10-24T06:30:16.769940Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
@@ -280,28 +280,28 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-23T11:30:18.523129Z",
+    "retrieved_at_utc": "2026-10-24T06:30:16.769940Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
       {
         "position": 1,
         "team": "Gloucester Rugby",
-        "played": 3,
-        "won": 2,
+        "played": 4,
+        "won": 3,
         "drawn": 0,
         "lost": 1,
-        "points_for": 124,
-        "points_against": 62,
-        "points_difference": 62,
+        "points_for": 147,
+        "points_against": 67,
+        "points_difference": 80,
         "try_bonus_points": 3,
         "losing_bonus_points": 1,
         "bonus_points": 4,
-        "points": 12,
+        "points": 16,
         "form": [
           "W",
-          "W",
-          "L"
+          "L",
+          "W"
         ]
       },
       {
@@ -367,20 +367,20 @@
       {
         "position": 5,
         "team": "Bath Rugby",
-        "played": 3,
+        "played": 4,
         "won": 2,
         "drawn": 0,
-        "lost": 1,
-        "points_for": 121,
-        "points_against": 122,
-        "points_difference": -1,
+        "lost": 2,
+        "points_for": 126,
+        "points_against": 145,
+        "points_difference": -19,
         "try_bonus_points": 3,
         "losing_bonus_points": 0,
         "bonus_points": 3,
         "points": 11,
         "form": [
           "W",
-          "W",
+          "L",
           "L"
         ]
       },
@@ -407,21 +407,21 @@
       {
         "position": 7,
         "team": "Sale Sharks",
-        "played": 3,
+        "played": 4,
         "won": 2,
         "drawn": 0,
-        "lost": 1,
-        "points_for": 73,
-        "points_against": 75,
-        "points_difference": -2,
+        "lost": 2,
+        "points_for": 76,
+        "points_against": 92,
+        "points_difference": -16,
         "try_bonus_points": 1,
         "losing_bonus_points": 0,
         "bonus_points": 1,
         "points": 9,
         "form": [
-          "L",
           "W",
-          "W"
+          "W",
+          "L"
         ]
       },
       {
@@ -447,21 +447,21 @@
       {
         "position": 9,
         "team": "Newcastle Red Bulls",
-        "played": 3,
-        "won": 0,
+        "played": 4,
+        "won": 1,
         "drawn": 0,
         "lost": 3,
-        "points_for": 73,
-        "points_against": 117,
-        "points_difference": -44,
+        "points_for": 90,
+        "points_against": 120,
+        "points_difference": -30,
         "try_bonus_points": 2,
         "losing_bonus_points": 2,
         "bonus_points": 4,
-        "points": 4,
+        "points": 8,
         "form": [
           "L",
           "L",
-          "L"
+          "W"
         ]
       },
       {
