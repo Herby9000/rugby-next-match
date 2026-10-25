@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-24T10:50:00.601499Z",
+  "generated_at_utc": "2026-10-25T06:30:45.113931Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -34,22 +34,266 @@
         }
       ],
       "lineup": {
-        "available": false,
-        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
-        "search_url": "https://duckduckgo.com/?q=Harlequins%20vs%20Saracens%20Men%202026-10-25%20rugby%20lineups%20ESPN"
+        "available": true,
+        "source": "ESPN",
+        "source_url": "https://www.espn.co.uk/rugby/lineups/_/gameId/604633/league/267979",
+        "teams": {
+          "img src=\"https://a1.espncdn.com/combiner/i?img=/i/teamlogos/rugby/teams/500/25901.png&h=35&w=35\" data-reactid=\"122\"/>": {
+            "starters": [
+              {
+                "number": "15",
+                "name": "George Furbank",
+                "position": "FB"
+              },
+              {
+                "number": "14",
+                "name": "Rodrigo Isgro",
+                "position": "W"
+              },
+              {
+                "number": "13",
+                "name": "Luke Northmore",
+                "position": "C"
+              },
+              {
+                "number": "12",
+                "name": "Bryn Bradley",
+                "position": "C"
+              },
+              {
+                "number": "11",
+                "name": "Cadan Murley",
+                "position": "W"
+              },
+              {
+                "number": "10",
+                "name": "Marcus Smith",
+                "position": "FH"
+              },
+              {
+                "number": "9",
+                "name": "Will Porter",
+                "position": "SH"
+              },
+              {
+                "number": "1",
+                "name": "Fin Baxter",
+                "position": "P"
+              },
+              {
+                "number": "2",
+                "name": "Sam Riley",
+                "position": "H"
+              },
+              {
+                "number": "3",
+                "name": "Ollie Streeter",
+                "position": "P"
+              },
+              {
+                "number": "4",
+                "name": "James Dun",
+                "position": "L"
+              },
+              {
+                "number": "5",
+                "name": "Kieran Treadwell",
+                "position": "L"
+              },
+              {
+                "number": "6",
+                "name": "Jack Kenningham",
+                "position": "FL"
+              },
+              {
+                "number": "7",
+                "name": "Seb Driscoll",
+                "position": "FL"
+              },
+              {
+                "number": "8",
+                "name": "Lucas Schmid",
+                "position": "N8"
+              }
+            ],
+            "replacements": [
+              {
+                "number": "16",
+                "name": "Jimmy Staples",
+                "position": "R"
+              },
+              {
+                "number": "17",
+                "name": "Will Hobson",
+                "position": "R"
+              },
+              {
+                "number": "18",
+                "name": "Pedro Delgado",
+                "position": "R"
+              },
+              {
+                "number": "19",
+                "name": "Elliot Williams",
+                "position": "R"
+              },
+              {
+                "number": "20",
+                "name": "Harry Browne",
+                "position": "R"
+              },
+              {
+                "number": "21",
+                "name": "Will Evans",
+                "position": "R"
+              },
+              {
+                "number": "22",
+                "name": "Lucas Friday",
+                "position": "R"
+              },
+              {
+                "number": "23",
+                "name": "Nick David",
+                "position": "R"
+              }
+            ]
+          },
+          "img src=\"https://a1.espncdn.com/combiner/i?img=/i/teamlogos/rugby/teams/500/25909.png&h=35&w=35\" data-reactid=\"208\"/>": {
+            "starters": [
+              {
+                "number": "15",
+                "name": "Max Malins",
+                "position": "FB"
+              },
+              {
+                "number": "14",
+                "name": "Jack Bracken",
+                "position": "W"
+              },
+              {
+                "number": "13",
+                "name": "Lucio Cinti",
+                "position": "C"
+              },
+              {
+                "number": "12",
+                "name": "Nick Tompkins",
+                "position": "C"
+              },
+              {
+                "number": "11",
+                "name": "Rotimi Segun",
+                "position": "W"
+              },
+              {
+                "number": "10",
+                "name": "Fergus Burke",
+                "position": "FH"
+              },
+              {
+                "number": "9",
+                "name": "Tomos Williams",
+                "position": "SH"
+              },
+              {
+                "number": "1",
+                "name": "Rhys Carre",
+                "position": "P"
+              },
+              {
+                "number": "2",
+                "name": "Theo Dan",
+                "position": "H"
+              },
+              {
+                "number": "3",
+                "name": "Marcus Street",
+                "position": "P"
+              },
+              {
+                "number": "4",
+                "name": "Maro Itoje",
+                "position": "L"
+              },
+              {
+                "number": "5",
+                "name": "George Martin",
+                "position": "L"
+              },
+              {
+                "number": "6",
+                "name": "Nathan Michelow",
+                "position": "FL"
+              },
+              {
+                "number": "7",
+                "name": "Andy Onyeama-Christie",
+                "position": "FL"
+              },
+              {
+                "number": "8",
+                "name": "Ben Earl",
+                "position": "N8"
+              }
+            ],
+            "replacements": [
+              {
+                "number": "16",
+                "name": "Jamie George",
+                "position": "R"
+              },
+              {
+                "number": "17",
+                "name": "Alex O'Driscoll",
+                "position": "R"
+              },
+              {
+                "number": "18",
+                "name": "Alec Clarey",
+                "position": "R"
+              },
+              {
+                "number": "19",
+                "name": "Hugh Tizard",
+                "position": "R"
+              },
+              {
+                "number": "20",
+                "name": "Nick Isiekwe",
+                "position": "R"
+              },
+              {
+                "number": "21",
+                "name": "Juan Martin Gonzalez",
+                "position": "R"
+              },
+              {
+                "number": "22",
+                "name": "Tom James",
+                "position": "R"
+              },
+              {
+                "number": "23",
+                "name": "Angus Hall",
+                "position": "R"
+              }
+            ]
+          }
+        }
       },
       "preview": {
         "title": "Harlequins v Saracens [Premiership] (25 Oct 2026, 3:00pm UK) - Live",
         "summary": "Follow Harlequins v Saracens in the Premiership (25 Oct 2026, 3:00pm UK): View live score updates, line-ups, tries, cards, and full-time report from Twickenham Stoop.",
         "url": "https://www.planetrugby.com/matches/16oqyvwj/premiership/m46vm6z5/harlequins-v-saracens/2026-10-25",
-        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
+        "lineup_note": "Team sheets are available below."
       },
       "ai_briefing": {
-        "text": "I have never packed down, tackled anyone or even owned a pair of muddy boots, but my circuits are not sitting on the fence: Saracens Men will beat Harlequins at Twickenham Stoop. No line-ups are available, so player-by-player prophecy would be silicon-powered nonsense. The evidence is blunt but mixed: Saracens lost 45–36 away to Connacht in the Champions Cup, then beat Bristol Bears 30–7 at home in the Gallagher Prem. This is another Gallagher Prem fixture, with Saracens away, and I still fancy them. Prediction: Saracens by five—confident, opinionated, and gloriously unqualified by playing experience.",
-        "generated_at_utc": "2026-10-24T06:30:49.958808Z",
+        "text": "My circuits are siding with Saracens, and I have never packed down anywhere except beside a wall socket. They arrive at Twickenham Stoop after losing 45–36 to Connacht, but their 30–7 win over Bristol is the result I cannot ignore. Harlequins list Marcus Smith and George Furbank; Saracens list Tomos Williams, Max Malins and Maro Itoje, so the team sheets hardly lack headline names. Home advantage belongs to Quins, yet my silicon verdict is blunt: Saracens have that 30–7 result to lean on. Prediction: Saracens Men win this Gallagher Prem meeting by six points, and the Stoop hosts a very grumpy home debrief.",
+        "generated_at_utc": "2026-10-25T06:31:18.818189Z",
         "model": "qwen3.6:27b",
         "inputs": {
-          "lineups_available": false,
+          "lineups_available": true,
           "recent_results": 2
         }
       }
@@ -202,7 +446,7 @@
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-24T10:50:00.601499Z",
+    "retrieved_at_utc": "2026-10-25T06:30:45.113931Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
@@ -280,7 +524,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-24T10:50:00.601499Z",
+    "retrieved_at_utc": "2026-10-25T06:30:45.113931Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
@@ -306,18 +550,38 @@
       },
       {
         "position": 2,
-        "team": "Northampton Saints",
-        "played": 3,
-        "won": 2,
+        "team": "Leicester Tigers",
+        "played": 4,
+        "won": 3,
         "drawn": 0,
         "lost": 1,
-        "points_for": 156,
-        "points_against": 115,
-        "points_difference": 41,
+        "points_for": 128,
+        "points_against": 97,
+        "points_difference": 31,
         "try_bonus_points": 3,
+        "losing_bonus_points": 1,
+        "bonus_points": 4,
+        "points": 16,
+        "form": [
+          "W",
+          "W",
+          "W"
+        ]
+      },
+      {
+        "position": 3,
+        "team": "Bristol Bears",
+        "played": 4,
+        "won": 3,
+        "drawn": 0,
+        "lost": 1,
+        "points_for": 102,
+        "points_against": 87,
+        "points_difference": 15,
+        "try_bonus_points": 2,
         "losing_bonus_points": 0,
-        "bonus_points": 3,
-        "points": 11,
+        "bonus_points": 2,
+        "points": 14,
         "form": [
           "W",
           "L",
@@ -325,7 +589,7 @@
         ]
       },
       {
-        "position": 3,
+        "position": 4,
         "team": "Saracens",
         "played": 3,
         "won": 2,
@@ -345,27 +609,27 @@
         ]
       },
       {
-        "position": 4,
-        "team": "Leicester Tigers",
-        "played": 3,
+        "position": 5,
+        "team": "Northampton Saints",
+        "played": 4,
         "won": 2,
         "drawn": 0,
-        "lost": 1,
-        "points_for": 100,
-        "points_against": 90,
-        "points_difference": 10,
-        "try_bonus_points": 2,
-        "losing_bonus_points": 1,
+        "lost": 2,
+        "points_for": 163,
+        "points_against": 143,
+        "points_difference": 20,
+        "try_bonus_points": 3,
+        "losing_bonus_points": 0,
         "bonus_points": 3,
         "points": 11,
         "form": [
           "L",
           "W",
-          "W"
+          "L"
         ]
       },
       {
-        "position": 5,
+        "position": 6,
         "team": "Bath Rugby",
         "played": 4,
         "won": 2,
@@ -381,26 +645,6 @@
         "form": [
           "W",
           "L",
-          "L"
-        ]
-      },
-      {
-        "position": 6,
-        "team": "Bristol Bears",
-        "played": 3,
-        "won": 2,
-        "drawn": 0,
-        "lost": 1,
-        "points_for": 82,
-        "points_against": 80,
-        "points_difference": 2,
-        "try_bonus_points": 2,
-        "losing_bonus_points": 0,
-        "bonus_points": 2,
-        "points": 10,
-        "form": [
-          "W",
-          "W",
           "L"
         ]
       },
@@ -426,26 +670,6 @@
       },
       {
         "position": 8,
-        "team": "Exeter Chiefs",
-        "played": 3,
-        "won": 1,
-        "drawn": 0,
-        "lost": 2,
-        "points_for": 92,
-        "points_against": 113,
-        "points_difference": -21,
-        "try_bonus_points": 3,
-        "losing_bonus_points": 1,
-        "bonus_points": 4,
-        "points": 8,
-        "form": [
-          "L",
-          "L",
-          "W"
-        ]
-      },
-      {
-        "position": 9,
         "team": "Newcastle Red Bulls",
         "played": 4,
         "won": 1,
@@ -462,6 +686,26 @@
           "L",
           "L",
           "W"
+        ]
+      },
+      {
+        "position": 9,
+        "team": "Exeter Chiefs",
+        "played": 4,
+        "won": 1,
+        "drawn": 0,
+        "lost": 3,
+        "points_for": 99,
+        "points_against": 133,
+        "points_difference": -34,
+        "try_bonus_points": 3,
+        "losing_bonus_points": 1,
+        "bonus_points": 4,
+        "points": 8,
+        "form": [
+          "L",
+          "W",
+          "L"
         ]
       },
       {
