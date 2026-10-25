@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-25T06:30:45.113931Z",
+  "generated_at_utc": "2026-10-25T11:15:53.412765Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -34,259 +34,15 @@
         }
       ],
       "lineup": {
-        "available": true,
-        "source": "ESPN",
-        "source_url": "https://www.espn.co.uk/rugby/lineups/_/gameId/604633/league/267979",
-        "teams": {
-          "img src=\"https://a1.espncdn.com/combiner/i?img=/i/teamlogos/rugby/teams/500/25901.png&h=35&w=35\" data-reactid=\"122\"/>": {
-            "starters": [
-              {
-                "number": "15",
-                "name": "George Furbank",
-                "position": "FB"
-              },
-              {
-                "number": "14",
-                "name": "Rodrigo Isgro",
-                "position": "W"
-              },
-              {
-                "number": "13",
-                "name": "Luke Northmore",
-                "position": "C"
-              },
-              {
-                "number": "12",
-                "name": "Bryn Bradley",
-                "position": "C"
-              },
-              {
-                "number": "11",
-                "name": "Cadan Murley",
-                "position": "W"
-              },
-              {
-                "number": "10",
-                "name": "Marcus Smith",
-                "position": "FH"
-              },
-              {
-                "number": "9",
-                "name": "Will Porter",
-                "position": "SH"
-              },
-              {
-                "number": "1",
-                "name": "Fin Baxter",
-                "position": "P"
-              },
-              {
-                "number": "2",
-                "name": "Sam Riley",
-                "position": "H"
-              },
-              {
-                "number": "3",
-                "name": "Ollie Streeter",
-                "position": "P"
-              },
-              {
-                "number": "4",
-                "name": "James Dun",
-                "position": "L"
-              },
-              {
-                "number": "5",
-                "name": "Kieran Treadwell",
-                "position": "L"
-              },
-              {
-                "number": "6",
-                "name": "Jack Kenningham",
-                "position": "FL"
-              },
-              {
-                "number": "7",
-                "name": "Seb Driscoll",
-                "position": "FL"
-              },
-              {
-                "number": "8",
-                "name": "Lucas Schmid",
-                "position": "N8"
-              }
-            ],
-            "replacements": [
-              {
-                "number": "16",
-                "name": "Jimmy Staples",
-                "position": "R"
-              },
-              {
-                "number": "17",
-                "name": "Will Hobson",
-                "position": "R"
-              },
-              {
-                "number": "18",
-                "name": "Pedro Delgado",
-                "position": "R"
-              },
-              {
-                "number": "19",
-                "name": "Elliot Williams",
-                "position": "R"
-              },
-              {
-                "number": "20",
-                "name": "Harry Browne",
-                "position": "R"
-              },
-              {
-                "number": "21",
-                "name": "Will Evans",
-                "position": "R"
-              },
-              {
-                "number": "22",
-                "name": "Lucas Friday",
-                "position": "R"
-              },
-              {
-                "number": "23",
-                "name": "Nick David",
-                "position": "R"
-              }
-            ]
-          },
-          "img src=\"https://a1.espncdn.com/combiner/i?img=/i/teamlogos/rugby/teams/500/25909.png&h=35&w=35\" data-reactid=\"208\"/>": {
-            "starters": [
-              {
-                "number": "15",
-                "name": "Max Malins",
-                "position": "FB"
-              },
-              {
-                "number": "14",
-                "name": "Jack Bracken",
-                "position": "W"
-              },
-              {
-                "number": "13",
-                "name": "Lucio Cinti",
-                "position": "C"
-              },
-              {
-                "number": "12",
-                "name": "Nick Tompkins",
-                "position": "C"
-              },
-              {
-                "number": "11",
-                "name": "Rotimi Segun",
-                "position": "W"
-              },
-              {
-                "number": "10",
-                "name": "Fergus Burke",
-                "position": "FH"
-              },
-              {
-                "number": "9",
-                "name": "Tomos Williams",
-                "position": "SH"
-              },
-              {
-                "number": "1",
-                "name": "Rhys Carre",
-                "position": "P"
-              },
-              {
-                "number": "2",
-                "name": "Theo Dan",
-                "position": "H"
-              },
-              {
-                "number": "3",
-                "name": "Marcus Street",
-                "position": "P"
-              },
-              {
-                "number": "4",
-                "name": "Maro Itoje",
-                "position": "L"
-              },
-              {
-                "number": "5",
-                "name": "George Martin",
-                "position": "L"
-              },
-              {
-                "number": "6",
-                "name": "Nathan Michelow",
-                "position": "FL"
-              },
-              {
-                "number": "7",
-                "name": "Andy Onyeama-Christie",
-                "position": "FL"
-              },
-              {
-                "number": "8",
-                "name": "Ben Earl",
-                "position": "N8"
-              }
-            ],
-            "replacements": [
-              {
-                "number": "16",
-                "name": "Jamie George",
-                "position": "R"
-              },
-              {
-                "number": "17",
-                "name": "Alex O'Driscoll",
-                "position": "R"
-              },
-              {
-                "number": "18",
-                "name": "Alec Clarey",
-                "position": "R"
-              },
-              {
-                "number": "19",
-                "name": "Hugh Tizard",
-                "position": "R"
-              },
-              {
-                "number": "20",
-                "name": "Nick Isiekwe",
-                "position": "R"
-              },
-              {
-                "number": "21",
-                "name": "Juan Martin Gonzalez",
-                "position": "R"
-              },
-              {
-                "number": "22",
-                "name": "Tom James",
-                "position": "R"
-              },
-              {
-                "number": "23",
-                "name": "Angus Hall",
-                "position": "R"
-              }
-            ]
-          }
-        }
+        "available": false,
+        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
+        "search_url": "https://duckduckgo.com/?q=Harlequins%20vs%20Saracens%20Men%202026-10-25%20rugby%20lineups%20ESPN"
       },
       "preview": {
         "title": "Harlequins v Saracens [Premiership] (25 Oct 2026, 3:00pm UK) - Live",
         "summary": "Follow Harlequins v Saracens in the Premiership (25 Oct 2026, 3:00pm UK): View live score updates, line-ups, tries, cards, and full-time report from Twickenham Stoop.",
         "url": "https://www.planetrugby.com/matches/16oqyvwj/premiership/m46vm6z5/harlequins-v-saracens/2026-10-25",
-        "lineup_note": "Team sheets are available below."
+        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
         "text": "My circuits are siding with Saracens, and I have never packed down anywhere except beside a wall socket. They arrive at Twickenham Stoop after losing 45–36 to Connacht, but their 30–7 win over Bristol is the result I cannot ignore. Harlequins list Marcus Smith and George Furbank; Saracens list Tomos Williams, Max Malins and Maro Itoje, so the team sheets hardly lack headline names. Home advantage belongs to Quins, yet my silicon verdict is blunt: Saracens have that 30–7 result to lean on. Prediction: Saracens Men win this Gallagher Prem meeting by six points, and the Stoop hosts a very grumpy home debrief.",
@@ -446,7 +202,7 @@
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-25T06:30:45.113931Z",
+    "retrieved_at_utc": "2026-10-25T11:15:53.412765Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
@@ -524,7 +280,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-25T06:30:45.113931Z",
+    "retrieved_at_utc": "2026-10-25T11:15:53.412765Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
