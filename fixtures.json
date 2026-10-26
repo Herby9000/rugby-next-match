@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-26T06:30:18.743727Z",
+  "generated_at_utc": "2026-10-26T12:49:45.338719Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -25,12 +25,6 @@
           "competition": "Investec Champions Cup",
           "result": "L",
           "score": "Connacht Rugby 45–36 Saracens Men"
-        },
-        {
-          "date": "2026-10-10",
-          "competition": "Gallagher Prem",
-          "result": "W",
-          "score": "Saracens Men 30–7 Bristol Bears"
         }
       ],
       "lineup": {
@@ -70,12 +64,6 @@
           "competition": "Investec Champions Cup",
           "result": "L",
           "score": "Connacht Rugby 45–36 Saracens Men"
-        },
-        {
-          "date": "2026-10-10",
-          "competition": "Gallagher Prem",
-          "result": "W",
-          "score": "Saracens Men 30–7 Bristol Bears"
         }
       ],
       "lineup": {
@@ -106,12 +94,6 @@
           "competition": "Investec Champions Cup",
           "result": "L",
           "score": "Connacht Rugby 45–36 Saracens Men"
-        },
-        {
-          "date": "2026-10-10",
-          "competition": "Gallagher Prem",
-          "result": "W",
-          "score": "Saracens Men 30–7 Bristol Bears"
         }
       ],
       "lineup": {
@@ -142,12 +124,6 @@
           "competition": "Investec Champions Cup",
           "result": "L",
           "score": "Connacht Rugby 45–36 Saracens Men"
-        },
-        {
-          "date": "2026-10-10",
-          "competition": "Gallagher Prem",
-          "result": "W",
-          "score": "Saracens Men 30–7 Bristol Bears"
         }
       ],
       "lineup": {
@@ -178,12 +154,6 @@
           "competition": "Investec Champions Cup",
           "result": "L",
           "score": "Connacht Rugby 45–36 Saracens Men"
-        },
-        {
-          "date": "2026-10-10",
-          "competition": "Gallagher Prem",
-          "result": "W",
-          "score": "Saracens Men 30–7 Bristol Bears"
         }
       ],
       "lineup": {
@@ -202,7 +172,7 @@
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-26T06:30:18.743727Z",
+    "retrieved_at_utc": "2026-10-26T12:49:45.338719Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
@@ -214,15 +184,6 @@
         "venue": "Dexcom Stadium",
         "result": "L",
         "score": "Connacht Rugby 45–36 Saracens Men"
-      },
-      {
-        "date": "2026-10-10",
-        "opponent": "Bristol Bears",
-        "home_away": "Home",
-        "competition": "Gallagher Prem",
-        "venue": "StoneX Stadium",
-        "result": "W",
-        "score": "Saracens Men 30–7 Bristol Bears"
       }
     ],
     "upcoming_fixtures": [
@@ -280,7 +241,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-26T06:30:18.743727Z",
+    "retrieved_at_utc": "2026-10-26T12:49:45.338719Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
