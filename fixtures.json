@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-25T11:15:53.412765Z",
+  "generated_at_utc": "2026-10-26T06:30:18.743727Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -9,51 +9,6 @@
     "DuckDuckGo Lite search for ESPN/RugbyPass/official previews"
   ],
   "matches": [
-    {
-      "team": "Saracens Men",
-      "opponent": "Harlequins",
-      "title": "Harlequins vs Saracens Men",
-      "competition": "Gallagher Prem",
-      "venue": "Twickenham Stoop",
-      "start_utc": "2026-10-25T15:00:00Z",
-      "home_away": "Away",
-      "source": "Saracens official fixtures",
-      "source_url": "https://saracens.com/fixtures-results/",
-      "recent_results": [
-        {
-          "date": "2026-10-17",
-          "competition": "Investec Champions Cup",
-          "result": "L",
-          "score": "Connacht Rugby 45–36 Saracens Men"
-        },
-        {
-          "date": "2026-10-10",
-          "competition": "Gallagher Prem",
-          "result": "W",
-          "score": "Saracens Men 30–7 Bristol Bears"
-        }
-      ],
-      "lineup": {
-        "available": false,
-        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
-        "search_url": "https://duckduckgo.com/?q=Harlequins%20vs%20Saracens%20Men%202026-10-25%20rugby%20lineups%20ESPN"
-      },
-      "preview": {
-        "title": "Harlequins v Saracens [Premiership] (25 Oct 2026, 3:00pm UK) - Live",
-        "summary": "Follow Harlequins v Saracens in the Premiership (25 Oct 2026, 3:00pm UK): View live score updates, line-ups, tries, cards, and full-time report from Twickenham Stoop.",
-        "url": "https://www.planetrugby.com/matches/16oqyvwj/premiership/m46vm6z5/harlequins-v-saracens/2026-10-25",
-        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
-      },
-      "ai_briefing": {
-        "text": "My circuits are siding with Saracens, and I have never packed down anywhere except beside a wall socket. They arrive at Twickenham Stoop after losing 45–36 to Connacht, but their 30–7 win over Bristol is the result I cannot ignore. Harlequins list Marcus Smith and George Furbank; Saracens list Tomos Williams, Max Malins and Maro Itoje, so the team sheets hardly lack headline names. Home advantage belongs to Quins, yet my silicon verdict is blunt: Saracens have that 30–7 result to lean on. Prediction: Saracens Men win this Gallagher Prem meeting by six points, and the Stoop hosts a very grumpy home debrief.",
-        "generated_at_utc": "2026-10-25T06:31:18.818189Z",
-        "model": "qwen3.6:27b",
-        "inputs": {
-          "lineups_available": true,
-          "recent_results": 2
-        }
-      }
-    },
     {
       "team": "Saracens Men",
       "opponent": "Newcastle Red Bulls",
@@ -84,10 +39,19 @@
         "search_url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Newcastle%20Red%20Bulls%202026-10-31%20rugby%20lineups%20ESPN"
       },
       "preview": {
-        "title": "Saracens Men vs Newcastle Red Bulls preview",
-        "summary": "Saracens Men face Newcastle Red Bulls in Gallagher Prem at StoneX Stadium.",
-        "url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Newcastle%20Red%20Bulls%20rugby%20match%20preview%202026-10-31",
+        "title": "Newcastle vs Saracens | Saracens vs Newcastle | Gallagher Premiership Live",
+        "summary": "Looking for Newcastle vs Saracens? We got you covered. We have the most up to date scores, game stats & results here.",
+        "url": "https://www.rugbypass.com/live/newcastle-vs-saracens/",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
+      },
+      "ai_briefing": {
+        "text": "My silicon verdict—formed with precisely zero playing experience—is that Saracens should beat Newcastle Red Bulls at StoneX Stadium. The team sheets are still absent, so anyone claiming selection insight is polishing fiction. The evidence is limited but not blank: Saracens beat Bristol Bears 30–7 in the Gallagher Prem, then lost 45–36 to Connacht Rugby in the Investec Champions Cup. That makes certainty ridiculous, but home status in this Gallagher Prem fixture nudges me firmly toward Saracens. Newcastle may object; my circuits remain unmoved. Prediction: Saracens to win by eight points.",
+        "generated_at_utc": "2026-10-26T06:30:51.086893Z",
+        "model": "qwen3.6:27b",
+        "inputs": {
+          "lineups_available": false,
+          "recent_results": 2
+        }
       }
     },
     {
@@ -197,12 +161,48 @@
         "url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Harlequins%20rugby%20match%20preview%202026-11-21",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       }
+    },
+    {
+      "team": "Saracens Men",
+      "opponent": "Northampton Saints",
+      "title": "Saracens Men vs Northampton Saints",
+      "competition": "Gallagher Prem",
+      "venue": "StoneX Stadium",
+      "start_utc": "2026-12-05T17:30:00Z",
+      "home_away": "Home",
+      "source": "Saracens official fixtures",
+      "source_url": "https://saracens.com/fixtures-results/",
+      "recent_results": [
+        {
+          "date": "2026-10-17",
+          "competition": "Investec Champions Cup",
+          "result": "L",
+          "score": "Connacht Rugby 45–36 Saracens Men"
+        },
+        {
+          "date": "2026-10-10",
+          "competition": "Gallagher Prem",
+          "result": "W",
+          "score": "Saracens Men 30–7 Bristol Bears"
+        }
+      ],
+      "lineup": {
+        "available": false,
+        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
+        "search_url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Northampton%20Saints%202026-12-05%20rugby%20lineups%20ESPN"
+      },
+      "preview": {
+        "title": "Saracens Men vs Northampton Saints preview",
+        "summary": "Saracens Men face Northampton Saints in Gallagher Prem at StoneX Stadium.",
+        "url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Northampton%20Saints%20rugby%20match%20preview%202026-12-05",
+        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
+      }
     }
   ],
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-25T11:15:53.412765Z",
+    "retrieved_at_utc": "2026-10-26T06:30:18.743727Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
@@ -226,15 +226,6 @@
       }
     ],
     "upcoming_fixtures": [
-      {
-        "date": "2026-10-25",
-        "opponent": "Harlequins",
-        "home_away": "Away",
-        "competition": "Gallagher Prem",
-        "venue": "Twickenham Stoop",
-        "start_utc": "2026-10-25T15:00:00Z",
-        "kickoff_status": "Confirmed"
-      },
       {
         "date": "2026-10-31",
         "opponent": "Newcastle Red Bulls",
@@ -270,6 +261,15 @@
         "venue": "StoneX Stadium",
         "start_utc": "2026-11-21T12:00:00Z",
         "kickoff_status": "Confirmed"
+      },
+      {
+        "date": "2026-12-05",
+        "opponent": "Northampton Saints",
+        "home_away": "Home",
+        "competition": "Gallagher Prem",
+        "venue": "StoneX Stadium",
+        "start_utc": "2026-12-05T17:30:00Z",
+        "kickoff_status": "Confirmed"
       }
     ]
   },
@@ -280,7 +280,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-25T11:15:53.412765Z",
+    "retrieved_at_utc": "2026-10-26T06:30:18.743727Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
@@ -346,26 +346,6 @@
       },
       {
         "position": 4,
-        "team": "Saracens",
-        "played": 3,
-        "won": 2,
-        "drawn": 0,
-        "lost": 1,
-        "points_for": 87,
-        "points_against": 66,
-        "points_difference": 21,
-        "try_bonus_points": 2,
-        "losing_bonus_points": 1,
-        "bonus_points": 3,
-        "points": 11,
-        "form": [
-          "W",
-          "L",
-          "W"
-        ]
-      },
-      {
-        "position": 5,
         "team": "Northampton Saints",
         "played": 4,
         "won": 2,
@@ -376,6 +356,26 @@
         "points_difference": 20,
         "try_bonus_points": 3,
         "losing_bonus_points": 0,
+        "bonus_points": 3,
+        "points": 11,
+        "form": [
+          "L",
+          "W",
+          "L"
+        ]
+      },
+      {
+        "position": 5,
+        "team": "Saracens",
+        "played": 4,
+        "won": 2,
+        "drawn": 0,
+        "lost": 2,
+        "points_for": 102,
+        "points_against": 99,
+        "points_difference": 3,
+        "try_bonus_points": 2,
+        "losing_bonus_points": 1,
         "bonus_points": 3,
         "points": 11,
         "form": [
@@ -467,21 +467,21 @@
       {
         "position": 10,
         "team": "Harlequins",
-        "played": 3,
-        "won": 0,
+        "played": 4,
+        "won": 1,
         "drawn": 0,
         "lost": 3,
-        "points_for": 41,
-        "points_against": 109,
-        "points_difference": -68,
-        "try_bonus_points": 1,
+        "points_for": 74,
+        "points_against": 124,
+        "points_difference": -50,
+        "try_bonus_points": 2,
         "losing_bonus_points": 1,
-        "bonus_points": 2,
-        "points": 2,
+        "bonus_points": 3,
+        "points": 7,
         "form": [
           "L",
           "L",
-          "L"
+          "W"
         ]
       }
     ]
