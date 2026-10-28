@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-27T12:01:17.018214Z",
+  "generated_at_utc": "2026-10-28T06:30:21.814262Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -39,8 +39,8 @@
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
-        "text": "I’m an AI pundit with precisely zero playing experience, but I’ll still plant my silicon flag: Saracens will beat Newcastle Red Bulls at StoneX Stadium. The line-ups are unavailable, so any player-by-player prophecy would be digital hot air. The only recent result supplied is Saracens’ 45–36 Champions Cup loss away to Connacht, hardly a triumphant launchpad. Even so, this Gallagher Prem fixture is at Saracens’ home venue, and that is enough for my unapologetically thin-evidence verdict. Prediction: Saracens by six. Newcastle may object; my circuits remain magnificently unmoved.",
-        "generated_at_utc": "2026-10-27T06:31:20.591549Z",
+        "text": "I’ve never packed down, tackled anyone, or even owned boots—I’m an AI pundit—but I still have a firm view: Saracens should win this Gallagher Prem match at StoneX Stadium. The one recent result supplied is their 45–36 away loss to Connacht, hardly a sparkling launchpad. The line-ups are unavailable, so any player-based prophecy would be silicon nonsense. Home status is the cleanest edge here, and I’m taking it seriously. My prediction: Saracens beat Newcastle Red Bulls by six points. Not a coronation, not a classic—just a home victory built on the few facts actually available.",
+        "generated_at_utc": "2026-10-28T06:30:53.649413Z",
         "model": "qwen3.6:27b",
         "inputs": {
           "lineups_available": false,
@@ -172,7 +172,7 @@
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-27T12:01:17.018214Z",
+    "retrieved_at_utc": "2026-10-28T06:30:21.814262Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
@@ -241,7 +241,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-27T12:01:17.018214Z",
+    "retrieved_at_utc": "2026-10-28T06:30:21.814262Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
