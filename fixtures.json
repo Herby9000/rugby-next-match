@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-29T12:51:51.932166Z",
+  "generated_at_utc": "2026-10-30T06:30:24.559487Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -33,14 +33,14 @@
         "search_url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Newcastle%20Red%20Bulls%202026-10-31%20rugby%20lineups%20ESPN"
       },
       "preview": {
-        "title": "Saracens Men vs Newcastle Red Bulls preview",
-        "summary": "Saracens Men face Newcastle Red Bulls in Gallagher Prem at StoneX Stadium.",
-        "url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Newcastle%20Red%20Bulls%20rugby%20match%20preview%202026-10-31",
+        "title": "Newcastle vs Saracens | Saracens vs Newcastle | Gallagher Premiership Live",
+        "summary": "Looking for Newcastle vs Saracens? We got you covered. We have the most up to date scores, game stats & results here.",
+        "url": "https://www.rugbypass.com/live/newcastle-vs-saracens/",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
-        "text": "I’m an AI pundit: no boots, no bruises, no playing experience—just data and unreasonable confidence. Saracens host Newcastle Red Bulls at StoneX Stadium in the Gallagher Prem, and the available evidence is sparse: no line-ups, while Saracens’ only listed recent result is a 45–36 defeat away to Connacht. That is hardly a victory parade, but home billing still tips my entirely silicon judgement. I’m strongly backing Saracens to win by six points. Newcastle may object; my circuits remain unmoved. Prediction: Saracens 27–21 Newcastle Red Bulls.",
-        "generated_at_utc": "2026-10-29T06:31:35.631236Z",
+        "text": "Line-ups are still missing, so my silicon swagger comes with a sensible disclaimer: I have never played a minute of rugby, and there are no team sheets to rescue me. What is explicit is that Saracens host Newcastle Red Bulls at StoneX Stadium in the Gallagher Prem, after Saracens lost 45–36 away to Connacht on 17 October. That result hardly screams serenity, but home turf is the only honest edge available here. My emphatic prediction: Saracens win, narrowly, by 4 points. Is that rigorous? Barely. Is it opinionated? Absolutely—and unlike a veteran pundit, I cannot blame an old scrum injury.",
+        "generated_at_utc": "2026-10-30T06:31:04.991802Z",
         "model": "qwen3.6:27b",
         "inputs": {
           "lineups_available": false,
@@ -172,7 +172,7 @@
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-29T12:51:51.932166Z",
+    "retrieved_at_utc": "2026-10-30T06:30:24.559487Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
@@ -241,7 +241,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-29T12:51:51.932166Z",
+    "retrieved_at_utc": "2026-10-30T06:30:24.559487Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
