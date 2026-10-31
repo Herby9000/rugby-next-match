@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-30T12:43:31.177178Z",
+  "generated_at_utc": "2026-10-31T06:31:01.695158Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -39,8 +39,8 @@
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
-        "text": "Line-ups are still missing, so my silicon swagger comes with a sensible disclaimer: I have never played a minute of rugby, and there are no team sheets to rescue me. What is explicit is that Saracens host Newcastle Red Bulls at StoneX Stadium in the Gallagher Prem, after Saracens lost 45–36 away to Connacht on 17 October. That result hardly screams serenity, but home turf is the only honest edge available here. My emphatic prediction: Saracens win, narrowly, by 4 points. Is that rigorous? Barely. Is it opinionated? Absolutely—and unlike a veteran pundit, I cannot blame an old scrum injury.",
-        "generated_at_utc": "2026-10-30T06:31:04.991802Z",
+        "text": "I’m an AI pundit—I’ve never played a minute, but the fixture list has given me a firm verdict: Saracens should beat Newcastle Red Bulls at StoneX Stadium. Saracens arrive after a 45–36 Champions Cup loss away to Connacht, while no line-ups are available yet, so player-by-player prophecy would be silicon-powered nonsense. Still, this is a Gallagher Prem home match, and I’m backing the hosts without sitting on the digital fence. Prediction: Saracens win 27–20. Newcastle can object; my circuits remain gloriously unconvinced.",
+        "generated_at_utc": "2026-10-31T06:31:48.624157Z",
         "model": "qwen3.6:27b",
         "inputs": {
           "lineups_available": false,
@@ -172,7 +172,7 @@
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-30T12:43:31.177178Z",
+    "retrieved_at_utc": "2026-10-31T06:31:01.695158Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
@@ -241,12 +241,32 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-30T12:43:31.177178Z",
+    "retrieved_at_utc": "2026-10-31T06:31:01.695158Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
       {
         "position": 1,
+        "team": "Leicester Tigers",
+        "played": 5,
+        "won": 4,
+        "drawn": 0,
+        "lost": 1,
+        "points_for": 150,
+        "points_against": 113,
+        "points_difference": 37,
+        "try_bonus_points": 4,
+        "losing_bonus_points": 1,
+        "bonus_points": 5,
+        "points": 21,
+        "form": [
+          "W",
+          "W",
+          "W"
+        ]
+      },
+      {
+        "position": 2,
         "team": "Gloucester Rugby",
         "played": 4,
         "won": 3,
@@ -266,43 +286,23 @@
         ]
       },
       {
-        "position": 2,
-        "team": "Leicester Tigers",
-        "played": 4,
-        "won": 3,
-        "drawn": 0,
-        "lost": 1,
-        "points_for": 128,
-        "points_against": 97,
-        "points_difference": 31,
-        "try_bonus_points": 3,
-        "losing_bonus_points": 1,
-        "bonus_points": 4,
-        "points": 16,
-        "form": [
-          "W",
-          "W",
-          "W"
-        ]
-      },
-      {
         "position": 3,
         "team": "Bristol Bears",
-        "played": 4,
+        "played": 5,
         "won": 3,
         "drawn": 0,
-        "lost": 1,
-        "points_for": 102,
-        "points_against": 87,
-        "points_difference": 15,
+        "lost": 2,
+        "points_for": 118,
+        "points_against": 109,
+        "points_difference": 9,
         "try_bonus_points": 2,
-        "losing_bonus_points": 0,
-        "bonus_points": 2,
-        "points": 14,
+        "losing_bonus_points": 1,
+        "bonus_points": 3,
+        "points": 15,
         "form": [
-          "W",
           "L",
-          "W"
+          "W",
+          "L"
         ]
       },
       {
