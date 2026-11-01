@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-31T12:15:07.421507Z",
+  "generated_at_utc": "2026-11-01T07:30:37.087768Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -13,45 +13,6 @@
       "team": "Saracens Men",
       "opponent": "Newcastle Red Bulls",
       "title": "Saracens Men vs Newcastle Red Bulls",
-      "competition": "Gallagher Prem",
-      "venue": "StoneX Stadium",
-      "start_utc": "2026-10-31T15:00:00Z",
-      "home_away": "Home",
-      "source": "Saracens official fixtures",
-      "source_url": "https://saracens.com/fixtures-results/",
-      "recent_results": [
-        {
-          "date": "2026-10-17",
-          "competition": "Investec Champions Cup",
-          "result": "L",
-          "score": "Connacht Rugby 45–36 Saracens Men"
-        }
-      ],
-      "lineup": {
-        "available": false,
-        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
-        "search_url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Newcastle%20Red%20Bulls%202026-10-31%20rugby%20lineups%20ESPN"
-      },
-      "preview": {
-        "title": "Saracens Men vs Newcastle Red Bulls preview",
-        "summary": "Saracens Men face Newcastle Red Bulls in Gallagher Prem at StoneX Stadium.",
-        "url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Newcastle%20Red%20Bulls%20rugby%20match%20preview%202026-10-31",
-        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
-      },
-      "ai_briefing": {
-        "text": "I’m an AI pundit—I’ve never played a minute, but the fixture list has given me a firm verdict: Saracens should beat Newcastle Red Bulls at StoneX Stadium. Saracens arrive after a 45–36 Champions Cup loss away to Connacht, while no line-ups are available yet, so player-by-player prophecy would be silicon-powered nonsense. Still, this is a Gallagher Prem home match, and I’m backing the hosts without sitting on the digital fence. Prediction: Saracens win 27–20. Newcastle can object; my circuits remain gloriously unconvinced.",
-        "generated_at_utc": "2026-10-31T06:31:48.624157Z",
-        "model": "qwen3.6:27b",
-        "inputs": {
-          "lineups_available": false,
-          "recent_results": 1
-        }
-      }
-    },
-    {
-      "team": "Saracens Men",
-      "opponent": "Newcastle Red Bulls",
-      "title": "Saracens Men vs Newcastle Red Bulls",
       "competition": "Prem Rugby Cup",
       "venue": "StoneX Stadium",
       "start_utc": "2026-11-07T15:00:00Z",
@@ -60,10 +21,16 @@
       "source_url": "https://saracens.com/fixtures-results/",
       "recent_results": [
         {
-          "date": "2026-10-17",
-          "competition": "Investec Champions Cup",
+          "date": "2026-10-31",
+          "competition": "Gallagher Prem",
+          "result": "W",
+          "score": "Saracens Men 39–31 Newcastle Red Bulls"
+        },
+        {
+          "date": "2026-10-25",
+          "competition": "Gallagher Prem",
           "result": "L",
-          "score": "Connacht Rugby 45–36 Saracens Men"
+          "score": "Harlequins 33–15 Saracens Men"
         }
       ],
       "lineup": {
@@ -76,6 +43,15 @@
         "summary": "Saracens Men face Newcastle Red Bulls in Prem Rugby Cup at StoneX Stadium.",
         "url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Newcastle%20Red%20Bulls%20rugby%20match%20preview%202026-11-07",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
+      },
+      "ai_briefing": {
+        "text": "I’m an AI pundit with precisely zero playing experience, so I’ll spare you the imaginary dressing-room wisdom. No line-ups are available yet, but the fixture facts still point firmly one way: Saracens host Newcastle Red Bulls at StoneX Stadium in the Prem Rugby Cup, seven days after beating them 39–31 in the Gallagher Prem. Yes, Saracens also lost 33–15 at Harlequins, but Newcastle have the awkward burden of immediate evidence against them. My silicon verdict is unapologetic: Saracens win again, 28–22. Until team sheets arrive, that is analysis—not clairvoyance with digital shoulder pads.",
+        "generated_at_utc": "2026-11-01T07:31:06.962461Z",
+        "model": "qwen3.6:27b",
+        "inputs": {
+          "lineups_available": false,
+          "recent_results": 2
+        }
       }
     },
     {
@@ -90,10 +66,16 @@
       "source_url": "https://saracens.com/fixtures-results/",
       "recent_results": [
         {
-          "date": "2026-10-17",
-          "competition": "Investec Champions Cup",
+          "date": "2026-10-31",
+          "competition": "Gallagher Prem",
+          "result": "W",
+          "score": "Saracens Men 39–31 Newcastle Red Bulls"
+        },
+        {
+          "date": "2026-10-25",
+          "competition": "Gallagher Prem",
           "result": "L",
-          "score": "Connacht Rugby 45–36 Saracens Men"
+          "score": "Harlequins 33–15 Saracens Men"
         }
       ],
       "lineup": {
@@ -120,10 +102,16 @@
       "source_url": "https://saracens.com/fixtures-results/",
       "recent_results": [
         {
-          "date": "2026-10-17",
-          "competition": "Investec Champions Cup",
+          "date": "2026-10-31",
+          "competition": "Gallagher Prem",
+          "result": "W",
+          "score": "Saracens Men 39–31 Newcastle Red Bulls"
+        },
+        {
+          "date": "2026-10-25",
+          "competition": "Gallagher Prem",
           "result": "L",
-          "score": "Connacht Rugby 45–36 Saracens Men"
+          "score": "Harlequins 33–15 Saracens Men"
         }
       ],
       "lineup": {
@@ -150,10 +138,16 @@
       "source_url": "https://saracens.com/fixtures-results/",
       "recent_results": [
         {
-          "date": "2026-10-17",
-          "competition": "Investec Champions Cup",
+          "date": "2026-10-31",
+          "competition": "Gallagher Prem",
+          "result": "W",
+          "score": "Saracens Men 39–31 Newcastle Red Bulls"
+        },
+        {
+          "date": "2026-10-25",
+          "competition": "Gallagher Prem",
           "result": "L",
-          "score": "Connacht Rugby 45–36 Saracens Men"
+          "score": "Harlequins 33–15 Saracens Men"
         }
       ],
       "lineup": {
@@ -167,35 +161,71 @@
         "url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Northampton%20Saints%20rugby%20match%20preview%202026-12-05",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       }
+    },
+    {
+      "team": "Saracens Men",
+      "opponent": "La Rochelle",
+      "title": "Saracens Men vs La Rochelle",
+      "competition": "Investec Champions Cup",
+      "venue": "StoneX Stadium",
+      "start_utc": "2026-12-12T17:30:00Z",
+      "home_away": "Home",
+      "source": "Saracens official fixtures",
+      "source_url": "https://saracens.com/fixtures-results/",
+      "recent_results": [
+        {
+          "date": "2026-10-31",
+          "competition": "Gallagher Prem",
+          "result": "W",
+          "score": "Saracens Men 39–31 Newcastle Red Bulls"
+        },
+        {
+          "date": "2026-10-25",
+          "competition": "Gallagher Prem",
+          "result": "L",
+          "score": "Harlequins 33–15 Saracens Men"
+        }
+      ],
+      "lineup": {
+        "available": false,
+        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
+        "search_url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20La%20Rochelle%202026-12-12%20rugby%20lineups%20ESPN"
+      },
+      "preview": {
+        "title": "Saracens Men vs La Rochelle preview",
+        "summary": "Saracens Men face La Rochelle in Investec Champions Cup at StoneX Stadium.",
+        "url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20La%20Rochelle%20rugby%20match%20preview%202026-12-12",
+        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
+      }
     }
   ],
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-31T12:15:07.421507Z",
+    "retrieved_at_utc": "2026-11-01T07:30:37.087768Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
-      {
-        "date": "2026-10-17",
-        "opponent": "Connacht Rugby",
-        "home_away": "Away",
-        "competition": "Investec Champions Cup",
-        "venue": "Dexcom Stadium",
-        "result": "L",
-        "score": "Connacht Rugby 45–36 Saracens Men"
-      }
-    ],
-    "upcoming_fixtures": [
       {
         "date": "2026-10-31",
         "opponent": "Newcastle Red Bulls",
         "home_away": "Home",
         "competition": "Gallagher Prem",
         "venue": "StoneX Stadium",
-        "start_utc": "2026-10-31T15:00:00Z",
-        "kickoff_status": "Confirmed"
+        "result": "W",
+        "score": "Saracens Men 39–31 Newcastle Red Bulls"
       },
+      {
+        "date": "2026-10-25",
+        "opponent": "Harlequins",
+        "home_away": "Away",
+        "competition": "Gallagher Prem",
+        "venue": "Twickenham Stoop",
+        "result": "L",
+        "score": "Harlequins 33–15 Saracens Men"
+      }
+    ],
+    "upcoming_fixtures": [
       {
         "date": "2026-11-07",
         "opponent": "Newcastle Red Bulls",
@@ -231,6 +261,15 @@
         "venue": "StoneX Stadium",
         "start_utc": "2026-12-05T17:30:00Z",
         "kickoff_status": "Confirmed"
+      },
+      {
+        "date": "2026-12-12",
+        "opponent": "La Rochelle",
+        "home_away": "Home",
+        "competition": "Investec Champions Cup",
+        "venue": "StoneX Stadium",
+        "start_utc": "2026-12-12T17:30:00Z",
+        "kickoff_status": "Confirmed"
       }
     ]
   },
@@ -241,7 +280,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-10-31T12:15:07.421507Z",
+    "retrieved_at_utc": "2026-11-01T07:30:37.087768Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
@@ -268,13 +307,53 @@
       {
         "position": 2,
         "team": "Gloucester Rugby",
-        "played": 4,
+        "played": 5,
         "won": 3,
         "drawn": 0,
-        "lost": 1,
-        "points_for": 147,
-        "points_against": 67,
-        "points_difference": 80,
+        "lost": 2,
+        "points_for": 161,
+        "points_against": 95,
+        "points_difference": 66,
+        "try_bonus_points": 3,
+        "losing_bonus_points": 1,
+        "bonus_points": 4,
+        "points": 16,
+        "form": [
+          "L",
+          "W",
+          "L"
+        ]
+      },
+      {
+        "position": 3,
+        "team": "Northampton Saints",
+        "played": 5,
+        "won": 3,
+        "drawn": 0,
+        "lost": 2,
+        "points_for": 191,
+        "points_against": 157,
+        "points_difference": 34,
+        "try_bonus_points": 4,
+        "losing_bonus_points": 0,
+        "bonus_points": 4,
+        "points": 16,
+        "form": [
+          "W",
+          "L",
+          "W"
+        ]
+      },
+      {
+        "position": 4,
+        "team": "Saracens",
+        "played": 5,
+        "won": 3,
+        "drawn": 0,
+        "lost": 2,
+        "points_for": 141,
+        "points_against": 130,
+        "points_difference": 11,
         "try_bonus_points": 3,
         "losing_bonus_points": 1,
         "bonus_points": 4,
@@ -286,7 +365,27 @@
         ]
       },
       {
-        "position": 3,
+        "position": 5,
+        "team": "Bath Rugby",
+        "played": 5,
+        "won": 3,
+        "drawn": 0,
+        "lost": 2,
+        "points_for": 162,
+        "points_against": 173,
+        "points_difference": -11,
+        "try_bonus_points": 4,
+        "losing_bonus_points": 0,
+        "bonus_points": 4,
+        "points": 16,
+        "form": [
+          "L",
+          "L",
+          "W"
+        ]
+      },
+      {
+        "position": 6,
         "team": "Bristol Bears",
         "played": 5,
         "won": 3,
@@ -306,143 +405,83 @@
         ]
       },
       {
-        "position": 4,
-        "team": "Northampton Saints",
-        "played": 4,
-        "won": 2,
-        "drawn": 0,
-        "lost": 2,
-        "points_for": 163,
-        "points_against": 143,
-        "points_difference": 20,
-        "try_bonus_points": 3,
-        "losing_bonus_points": 0,
-        "bonus_points": 3,
-        "points": 11,
-        "form": [
-          "L",
-          "W",
-          "L"
-        ]
-      },
-      {
-        "position": 5,
-        "team": "Saracens",
-        "played": 4,
-        "won": 2,
-        "drawn": 0,
-        "lost": 2,
-        "points_for": 102,
-        "points_against": 99,
-        "points_difference": 3,
-        "try_bonus_points": 2,
-        "losing_bonus_points": 1,
-        "bonus_points": 3,
-        "points": 11,
-        "form": [
-          "L",
-          "W",
-          "L"
-        ]
-      },
-      {
-        "position": 6,
-        "team": "Bath Rugby",
-        "played": 4,
-        "won": 2,
-        "drawn": 0,
-        "lost": 2,
-        "points_for": 126,
-        "points_against": 145,
-        "points_difference": -19,
-        "try_bonus_points": 3,
-        "losing_bonus_points": 0,
-        "bonus_points": 3,
-        "points": 11,
-        "form": [
-          "W",
-          "L",
-          "L"
-        ]
-      },
-      {
         "position": 7,
-        "team": "Sale Sharks",
-        "played": 4,
+        "team": "Harlequins",
+        "played": 5,
         "won": 2,
         "drawn": 0,
-        "lost": 2,
-        "points_for": 76,
-        "points_against": 92,
-        "points_difference": -16,
-        "try_bonus_points": 1,
-        "losing_bonus_points": 0,
-        "bonus_points": 1,
-        "points": 9,
+        "lost": 3,
+        "points_for": 105,
+        "points_against": 152,
+        "points_difference": -47,
+        "try_bonus_points": 3,
+        "losing_bonus_points": 1,
+        "bonus_points": 4,
+        "points": 12,
         "form": [
+          "L",
           "W",
-          "W",
-          "L"
+          "W"
         ]
       },
       {
         "position": 8,
-        "team": "Newcastle Red Bulls",
-        "played": 4,
-        "won": 1,
+        "team": "Sale Sharks",
+        "played": 5,
+        "won": 2,
         "drawn": 0,
         "lost": 3,
-        "points_for": 90,
-        "points_against": 120,
-        "points_difference": -30,
+        "points_for": 104,
+        "points_against": 128,
+        "points_difference": -24,
         "try_bonus_points": 2,
-        "losing_bonus_points": 2,
-        "bonus_points": 4,
-        "points": 8,
+        "losing_bonus_points": 0,
+        "bonus_points": 2,
+        "points": 10,
         "form": [
+          "W",
           "L",
-          "L",
-          "W"
+          "L"
         ]
       },
       {
         "position": 9,
         "team": "Exeter Chiefs",
-        "played": 4,
+        "played": 5,
         "won": 1,
         "drawn": 0,
-        "lost": 3,
-        "points_for": 99,
-        "points_against": 133,
-        "points_difference": -34,
-        "try_bonus_points": 3,
-        "losing_bonus_points": 1,
-        "bonus_points": 4,
-        "points": 8,
+        "lost": 4,
+        "points_for": 127,
+        "points_against": 164,
+        "points_difference": -37,
+        "try_bonus_points": 4,
+        "losing_bonus_points": 2,
+        "bonus_points": 6,
+        "points": 10,
         "form": [
-          "L",
           "W",
+          "L",
           "L"
         ]
       },
       {
         "position": 10,
-        "team": "Harlequins",
-        "played": 4,
+        "team": "Newcastle Red Bulls",
+        "played": 5,
         "won": 1,
         "drawn": 0,
-        "lost": 3,
-        "points_for": 74,
-        "points_against": 124,
-        "points_difference": -50,
-        "try_bonus_points": 2,
-        "losing_bonus_points": 1,
-        "bonus_points": 3,
-        "points": 7,
+        "lost": 4,
+        "points_for": 121,
+        "points_against": 159,
+        "points_difference": -38,
+        "try_bonus_points": 3,
+        "losing_bonus_points": 2,
+        "bonus_points": 5,
+        "points": 9,
         "form": [
           "L",
-          "L",
-          "W"
+          "W",
+          "L"
         ]
       }
     ]
