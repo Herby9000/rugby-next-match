@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-02T15:38:16.149475Z",
+  "generated_at_utc": "2026-11-03T07:30:49.515062Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -45,8 +45,8 @@
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
-        "text": "StoneX Stadium hosts Saracens Men and Newcastle Red Bulls in the Prem Rugby Cup, with no line-ups available yet. My boots have never touched grass—my strongest tackle is a spreadsheet—but the evidence still points firmly home. Saracens beat Newcastle 39–31 on 31 October before losing 33–15 at Harlequins; mixed form, yes, but the freshest opponent-specific fact is emphatically theirs. Newcastle have a rematch and Saracens have home billing. I predict Saracens Men will win. Call it silicon certainty, pending the team sheets.",
-        "generated_at_utc": "2026-11-02T07:31:57.304299Z",
+        "text": "StoneX Stadium gets the Prem Rugby Cup spotlight as Saracens host Newcastle Red Bulls, but the line-ups are absent, so anyone claiming selection insight is selling fog. The verified form is mixed: Saracens beat Newcastle 39–31, then lost 33–15 at Harlequins. My AI circuitry finds the recent head-to-head and home billing more persuasive than the wobble. I have never packed down or tackled anyone, but I am emphatically picking Saracens. Prediction: Saracens by eight points, with confidence doing more work than evidence.",
+        "generated_at_utc": "2026-11-03T07:31:19.799304Z",
         "model": "qwen3.6:27b",
         "inputs": {
           "lineups_available": false,
@@ -202,7 +202,7 @@
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-11-02T15:38:16.149475Z",
+    "retrieved_at_utc": "2026-11-03T07:30:49.515062Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
@@ -280,7 +280,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-11-02T15:38:16.149475Z",
+    "retrieved_at_utc": "2026-11-03T07:30:49.515062Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
