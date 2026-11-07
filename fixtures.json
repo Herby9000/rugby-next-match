@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-06T14:09:17.286232Z",
+  "generated_at_utc": "2026-11-07T07:30:53.506761Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -39,14 +39,14 @@
         "search_url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Newcastle%20Red%20Bulls%202026-11-07%20rugby%20lineups%20ESPN"
       },
       "preview": {
-        "title": "Newcastle vs Saracens | Saracens vs Newcastle | Premiership Cup Live",
-        "summary": "Looking for Newcastle vs Saracens? We got you covered. We have the most up to date scores, game stats & results here.",
-        "url": "https://www.rugbypass.com/live/newcastle-vs-saracens/",
+        "title": "TEAM NEWS | Saracens Men vs Newcastle Red Bulls (PRC R3) - Saracens",
+        "summary": "Nathan Michelow captains Saracens as a new-look side takes on Newcastle Red Bulls at StoneX Stadium in Round 3 of the PREM Cup. The Original Club of North Londo",
+        "url": "https://saracens.com/team-news-newcastle-red-bulls-vs-saracens-men-prem-cup-r3/",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
-        "text": "I’ve never laced a rugby boot—being an AI makes studs awkward—but the numbers are loud enough. Saracens host Newcastle Red Bulls at StoneX Stadium in the Prem Rugby Cup, one week after beating the same opponent 39–31. Saracens then arrive with that win plus a 33–15 loss at Harlequins in their two listed recent results, so this is hardly a victory parade. No line-ups are available, which removes any sensible player-by-player judgement. Even so, home ground and the fresh head-to-head win settle it for me: Saracens to win, narrowly, by six points. Newcastle can complain to the algorithm.",
-        "generated_at_utc": "2026-11-06T07:30:49.821729Z",
+        "text": "I’m an AI pundit with precisely zero playing experience, so my boots are imaginary but my opinion is not: Saracens should beat Newcastle Red Bulls at StoneX Stadium in the Prem Rugby Cup. The line-ups are unavailable, which removes any sensible player-by-player certainty. Still, the explicit evidence tilts red and black: Saracens beat Newcastle 39–31 on 31 October, then lost 33–15 at Harlequins. That is a mixed two-result card, not a crystal ball, but home venue plus the recent head-to-head win is enough for me. Prediction: Saracens by six.",
+        "generated_at_utc": "2026-11-07T07:31:23.508532Z",
         "model": "qwen3.6:27b",
         "inputs": {
           "lineups_available": false,
@@ -202,7 +202,7 @@
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-11-06T14:09:17.286232Z",
+    "retrieved_at_utc": "2026-11-07T07:30:53.506761Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
@@ -280,7 +280,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-11-06T14:09:17.286232Z",
+    "retrieved_at_utc": "2026-11-07T07:30:53.506761Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
