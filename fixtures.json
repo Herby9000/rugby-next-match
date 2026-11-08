@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-08T07:30:22.694294Z",
+  "generated_at_utc": "2026-11-08T13:14:26.522991Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -19,20 +19,7 @@
       "home_away": "Away",
       "source": "Saracens official fixtures",
       "source_url": "https://saracens.com/fixtures-results/",
-      "recent_results": [
-        {
-          "date": "2026-10-31",
-          "competition": "Gallagher Prem",
-          "result": "W",
-          "score": "Saracens Men 39–31 Newcastle Red Bulls"
-        },
-        {
-          "date": "2026-10-25",
-          "competition": "Gallagher Prem",
-          "result": "L",
-          "score": "Harlequins 33–15 Saracens Men"
-        }
-      ],
+      "recent_results": [],
       "lineup": {
         "available": false,
         "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
@@ -64,20 +51,7 @@
       "home_away": "Home",
       "source": "Saracens official fixtures",
       "source_url": "https://saracens.com/fixtures-results/",
-      "recent_results": [
-        {
-          "date": "2026-10-31",
-          "competition": "Gallagher Prem",
-          "result": "W",
-          "score": "Saracens Men 39–31 Newcastle Red Bulls"
-        },
-        {
-          "date": "2026-10-25",
-          "competition": "Gallagher Prem",
-          "result": "L",
-          "score": "Harlequins 33–15 Saracens Men"
-        }
-      ],
+      "recent_results": [],
       "lineup": {
         "available": false,
         "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
@@ -100,20 +74,7 @@
       "home_away": "Home",
       "source": "Saracens official fixtures",
       "source_url": "https://saracens.com/fixtures-results/",
-      "recent_results": [
-        {
-          "date": "2026-10-31",
-          "competition": "Gallagher Prem",
-          "result": "W",
-          "score": "Saracens Men 39–31 Newcastle Red Bulls"
-        },
-        {
-          "date": "2026-10-25",
-          "competition": "Gallagher Prem",
-          "result": "L",
-          "score": "Harlequins 33–15 Saracens Men"
-        }
-      ],
+      "recent_results": [],
       "lineup": {
         "available": false,
         "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
@@ -136,20 +97,7 @@
       "home_away": "Home",
       "source": "Saracens official fixtures",
       "source_url": "https://saracens.com/fixtures-results/",
-      "recent_results": [
-        {
-          "date": "2026-10-31",
-          "competition": "Gallagher Prem",
-          "result": "W",
-          "score": "Saracens Men 39–31 Newcastle Red Bulls"
-        },
-        {
-          "date": "2026-10-25",
-          "competition": "Gallagher Prem",
-          "result": "L",
-          "score": "Harlequins 33–15 Saracens Men"
-        }
-      ],
+      "recent_results": [],
       "lineup": {
         "available": false,
         "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
@@ -161,34 +109,38 @@
         "url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20La%20Rochelle%20rugby%20match%20preview%202026-12-12",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       }
+    },
+    {
+      "team": "Saracens Men",
+      "opponent": "Gloucester Rugby",
+      "title": "Gloucester Rugby vs Saracens Men",
+      "competition": "Gallagher Prem",
+      "venue": "Kingsholm",
+      "start_utc": "2026-12-19T15:00:00Z",
+      "home_away": "Away",
+      "source": "Saracens official fixtures",
+      "source_url": "https://saracens.com/fixtures-results/",
+      "recent_results": [],
+      "lineup": {
+        "available": false,
+        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
+        "search_url": "https://duckduckgo.com/?q=Gloucester%20Rugby%20vs%20Saracens%20Men%202026-12-19%20rugby%20lineups%20ESPN"
+      },
+      "preview": {
+        "title": "Gloucester Rugby vs Saracens Men preview",
+        "summary": "Saracens Men face Gloucester Rugby in Gallagher Prem at Kingsholm.",
+        "url": "https://duckduckgo.com/?q=Gloucester%20Rugby%20vs%20Saracens%20Men%20rugby%20match%20preview%202026-12-19",
+        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
+      }
     }
   ],
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-11-08T07:30:22.694294Z",
+    "retrieved_at_utc": "2026-11-08T13:14:26.522991Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
-    "recent_results": [
-      {
-        "date": "2026-10-31",
-        "opponent": "Newcastle Red Bulls",
-        "home_away": "Home",
-        "competition": "Gallagher Prem",
-        "venue": "StoneX Stadium",
-        "result": "W",
-        "score": "Saracens Men 39–31 Newcastle Red Bulls"
-      },
-      {
-        "date": "2026-10-25",
-        "opponent": "Harlequins",
-        "home_away": "Away",
-        "competition": "Gallagher Prem",
-        "venue": "Twickenham Stoop",
-        "result": "L",
-        "score": "Harlequins 33–15 Saracens Men"
-      }
-    ],
+    "recent_results": [],
     "upcoming_fixtures": [
       {
         "date": "2026-11-15",
@@ -225,6 +177,15 @@
         "venue": "StoneX Stadium",
         "start_utc": "2026-12-12T17:30:00Z",
         "kickoff_status": "Confirmed"
+      },
+      {
+        "date": "2026-12-19",
+        "opponent": "Gloucester Rugby",
+        "home_away": "Away",
+        "competition": "Gallagher Prem",
+        "venue": "Kingsholm",
+        "start_utc": "2026-12-19T15:00:00Z",
+        "kickoff_status": "Confirmed"
       }
     ]
   },
@@ -235,7 +196,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-11-08T07:30:22.694294Z",
+    "retrieved_at_utc": "2026-11-08T13:14:26.522991Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
