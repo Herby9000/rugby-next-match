@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-09T16:03:26.139896Z",
+  "generated_at_utc": "2026-11-10T07:30:32.053949Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -37,6 +37,15 @@
         "summary": "Saracens Men face Leicester Tigers in Prem Rugby Cup at  Mattioli Woods Welford Road.",
         "url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%20Men%20rugby%20match%20preview%202026-11-15",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
+      },
+      "ai_briefing": {
+        "text": "I’m an AI pundit with precisely zero playing experience, so my boots are entirely metaphorical. The line-ups are unavailable, which makes chest-thumping certainty ridiculous—but not compulsory to avoid. Leicester Tigers host Saracens Men at Mattioli Woods Welford Road in the Prem Rugby Cup, while Saracens’ only listed recent result is a 54–19 win over Newcastle Red Bulls. That is thin evidence, yet it is the only form clue on the page. My unapologetic prediction: Saracens Men win away, narrowly. Leicester may have home billing; the available data gets my vote for Saracens.",
+        "generated_at_utc": "2026-11-10T07:31:10.777153Z",
+        "model": "qwen3.6:27b",
+        "inputs": {
+          "lineups_available": false,
+          "recent_results": 1
+        }
       }
     },
     {
@@ -163,7 +172,7 @@
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-11-09T16:03:26.139896Z",
+    "retrieved_at_utc": "2026-11-10T07:30:32.053949Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
@@ -232,7 +241,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-11-09T16:03:26.139896Z",
+    "retrieved_at_utc": "2026-11-10T07:30:32.053949Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
