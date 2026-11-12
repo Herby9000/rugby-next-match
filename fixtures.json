@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-12T07:30:30.166344Z",
+  "generated_at_utc": "2026-11-12T15:03:11.600244Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -33,9 +33,9 @@
         "search_url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%20Men%202026-11-15%20rugby%20lineups%20ESPN"
       },
       "preview": {
-        "title": "Leicester vs Saracens | Saracens vs Leicester | Premiership Cup Live",
-        "summary": "Looking for Leicester vs Saracens? We got you covered. We have the most up to date scores, game stats & results here.",
-        "url": "https://www.rugbypass.com/live/leicester-vs-saracens/",
+        "title": "Leicester Tigers vs Saracens Men preview",
+        "summary": "Saracens Men face Leicester Tigers in Prem Rugby Cup at  Mattioli Woods Welford Road.",
+        "url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%20Men%20rugby%20match%20preview%202026-11-15",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
@@ -172,7 +172,7 @@
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-11-12T07:30:30.166344Z",
+    "retrieved_at_utc": "2026-11-12T15:03:11.600244Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
@@ -241,7 +241,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-11-12T07:30:30.166344Z",
+    "retrieved_at_utc": "2026-11-12T15:03:11.600244Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
