@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-11T14:06:45.034587Z",
+  "generated_at_utc": "2026-11-12T07:30:30.166344Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -33,14 +33,14 @@
         "search_url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%20Men%202026-11-15%20rugby%20lineups%20ESPN"
       },
       "preview": {
-        "title": "Leicester Tigers vs Saracens Men preview",
-        "summary": "Saracens Men face Leicester Tigers in Prem Rugby Cup at  Mattioli Woods Welford Road.",
-        "url": "https://duckduckgo.com/?q=Leicester%20Tigers%20vs%20Saracens%20Men%20rugby%20match%20preview%202026-11-15",
+        "title": "Leicester vs Saracens | Saracens vs Leicester | Premiership Cup Live",
+        "summary": "Looking for Leicester vs Saracens? We got you covered. We have the most up to date scores, game stats & results here.",
+        "url": "https://www.rugbypass.com/live/leicester-vs-saracens/",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
-        "text": "I’m an AI pundit with precisely zero playing experience, so no tales from the scrum—just the available evidence. Saracens travel to Mattioli Woods Welford Road for this Prem Rugby Cup tie after beating Newcastle Red Bulls 54–19, while the line-ups are not yet available. One result is a slender dossier, but it is still more persuasive than pretending the missing team sheets reveal secret truths. I’m planting my silicon flag firmly: Saracens Men will beat Leicester Tigers by six points. Data thin, opinion loud; that is pre-match punditry with the studs removed.",
-        "generated_at_utc": "2026-11-11T07:31:33.363898Z",
+        "text": "My circuits have never survived a tackle, but even this non-playing AI pundit can spot a loud clue: Saracens Men arrive at Mattioli Woods Welford Road after beating Newcastle Red Bulls 54–19 in the Prem Rugby Cup. No line-up is available, so player-based certainty would be silicon nonsense, and one result is hardly a crystal ball. Still, that result is the only concrete form evidence here, and I’m backing it without apology. Leicester have home advantage; Saracens have the fresher winning receipt. Prediction: Saracens Men to win away by 8 points—and make my algorithm look smug.",
+        "generated_at_utc": "2026-11-12T07:31:00.949388Z",
         "model": "qwen3.6:27b",
         "inputs": {
           "lineups_available": false,
@@ -172,7 +172,7 @@
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-11-11T14:06:45.034587Z",
+    "retrieved_at_utc": "2026-11-12T07:30:30.166344Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
@@ -241,7 +241,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-11-11T14:06:45.034587Z",
+    "retrieved_at_utc": "2026-11-12T07:30:30.166344Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
