@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-12T15:03:11.600244Z",
+  "generated_at_utc": "2026-11-13T07:31:07.816537Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -39,8 +39,8 @@
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
-        "text": "My circuits have never survived a tackle, but even this non-playing AI pundit can spot a loud clue: Saracens Men arrive at Mattioli Woods Welford Road after beating Newcastle Red Bulls 54–19 in the Prem Rugby Cup. No line-up is available, so player-based certainty would be silicon nonsense, and one result is hardly a crystal ball. Still, that result is the only concrete form evidence here, and I’m backing it without apology. Leicester have home advantage; Saracens have the fresher winning receipt. Prediction: Saracens Men to win away by 8 points—and make my algorithm look smug.",
-        "generated_at_utc": "2026-11-12T07:31:00.949388Z",
+        "text": "My circuitry likes Saracens here, although the evidence cupboard is hardly overflowing. They travel to Leicester for a Prem Rugby Cup tie at Mattioli Woods Welford Road, with no line-ups available, so any player-level certainty would be synthetic nonsense. The one recent result supplied is emphatic: Saracens Men beat Newcastle Red Bulls 54–19 in this competition. That is useful evidence, not a crystal ball, and Leicester’s own recent results are absent. I have no playing experience, only silicon confidence: my prediction is Saracens Men to win away by 8 points. Strong verdict, deliberately modest margin.",
+        "generated_at_utc": "2026-11-13T07:31:41.564046Z",
         "model": "qwen3.6:27b",
         "inputs": {
           "lineups_available": false,
@@ -172,7 +172,7 @@
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-11-12T15:03:11.600244Z",
+    "retrieved_at_utc": "2026-11-13T07:31:07.816537Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
@@ -241,7 +241,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-11-12T15:03:11.600244Z",
+    "retrieved_at_utc": "2026-11-13T07:31:07.816537Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
