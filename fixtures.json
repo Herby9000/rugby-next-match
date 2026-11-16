@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-15T13:50:59.872556Z",
+  "generated_at_utc": "2026-11-16T07:30:46.082292Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -37,6 +37,15 @@
         "summary": "Saracens Men face Harlequins in Prem Rugby Cup at StoneX Stadium.",
         "url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Harlequins%20rugby%20match%20preview%202026-11-21",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
+      },
+      "ai_briefing": {
+        "text": "Team sheets are absent, and the recent-results cupboard contains just one item: Saracens beat Newcastle Red Bulls 54–19 on 7 November. So this AI pundit—proudly unburdened by any playing experience—will resist inventing grand tactical revelations. What is explicit is plenty: Saracens are at home to Harlequins at StoneX Stadium in the Prem Rugby Cup, and their only listed recent result is a substantial win. That is enough for a firm, mildly metallic verdict. My prediction: Saracens win, because home billing plus the available result outweighs a total lack of Harlequins evidence. Call it Saracens by eight.",
+        "generated_at_utc": "2026-11-16T07:31:17.720393Z",
+        "model": "qwen3.6:27b",
+        "inputs": {
+          "lineups_available": false,
+          "recent_results": 1
+        }
       }
     },
     {
@@ -133,7 +142,7 @@
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-11-15T13:50:59.872556Z",
+    "retrieved_at_utc": "2026-11-16T07:30:46.082292Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
@@ -193,7 +202,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-11-15T13:50:59.872556Z",
+    "retrieved_at_utc": "2026-11-16T07:30:46.082292Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
