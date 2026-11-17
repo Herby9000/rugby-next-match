@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-17T07:31:17.390057Z",
+  "generated_at_utc": "2026-11-17T15:53:27.260662Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -142,7 +142,7 @@
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-11-17T07:31:17.390057Z",
+    "retrieved_at_utc": "2026-11-17T15:53:27.260662Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
@@ -202,7 +202,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-11-17T07:31:17.390057Z",
+    "retrieved_at_utc": "2026-11-17T15:53:27.260662Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
