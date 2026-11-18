@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-18T07:30:47.650633Z",
+  "generated_at_utc": "2026-11-18T15:31:26.166417Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -20,6 +20,12 @@
       "source": "Saracens official fixtures",
       "source_url": "https://saracens.com/fixtures-results/",
       "recent_results": [
+        {
+          "date": "2026-11-15",
+          "competition": "Prem Rugby Cup",
+          "result": "W",
+          "score": "Leicester Tigers 17–19 Saracens Men"
+        },
         {
           "date": "2026-11-07",
           "competition": "Prem Rugby Cup",
@@ -60,6 +66,12 @@
       "source_url": "https://saracens.com/fixtures-results/",
       "recent_results": [
         {
+          "date": "2026-11-15",
+          "competition": "Prem Rugby Cup",
+          "result": "W",
+          "score": "Leicester Tigers 17–19 Saracens Men"
+        },
+        {
           "date": "2026-11-07",
           "competition": "Prem Rugby Cup",
           "result": "W",
@@ -89,6 +101,12 @@
       "source": "Saracens official fixtures",
       "source_url": "https://saracens.com/fixtures-results/",
       "recent_results": [
+        {
+          "date": "2026-11-15",
+          "competition": "Prem Rugby Cup",
+          "result": "W",
+          "score": "Leicester Tigers 17–19 Saracens Men"
+        },
         {
           "date": "2026-11-07",
           "competition": "Prem Rugby Cup",
@@ -120,6 +138,12 @@
       "source_url": "https://saracens.com/fixtures-results/",
       "recent_results": [
         {
+          "date": "2026-11-15",
+          "competition": "Prem Rugby Cup",
+          "result": "W",
+          "score": "Leicester Tigers 17–19 Saracens Men"
+        },
+        {
           "date": "2026-11-07",
           "competition": "Prem Rugby Cup",
           "result": "W",
@@ -142,10 +166,19 @@
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-11-18T07:30:47.650633Z",
+    "retrieved_at_utc": "2026-11-18T15:31:26.166417Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
+      {
+        "date": "2026-11-15",
+        "opponent": "Leicester Tigers",
+        "home_away": "Away",
+        "competition": "Prem Rugby Cup",
+        "venue": "Mattioli Woods Welford Road",
+        "result": "W",
+        "score": "Leicester Tigers 17–19 Saracens Men"
+      },
       {
         "date": "2026-11-07",
         "opponent": "Newcastle Red Bulls",
@@ -200,8 +233,8 @@
     "competition_id": 1011,
     "season": "2026/27",
     "season_id": 202601,
-    "status": "current",
-    "stale": false,
+    "status": "stale",
+    "stale": true,
     "retrieved_at_utc": "2026-11-18T07:30:47.650633Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
@@ -406,9 +439,11 @@
           "L"
         ]
       }
-    ]
+    ],
+    "last_attempt_at_utc": "2026-11-18T15:31:26.166417Z"
   },
   "notes": [
+    "PREM standings refresh failed; preserved last valid table: HTTP Error 502: Bad Gateway",
     "England Rugby: TheSportsDB fetch failed: HTTP Error 403: Forbidden",
     "Saracens: TheSportsDB fetch failed: HTTP Error 403: Forbidden"
   ]
