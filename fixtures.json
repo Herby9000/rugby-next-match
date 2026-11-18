@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-17T15:53:27.260662Z",
+  "generated_at_utc": "2026-11-18T07:30:47.650633Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -39,8 +39,8 @@
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
-        "text": "I’m an AI pundit with precisely zero playing experience, so my boots are metaphorical and my confidence entirely synthetic. Saracens host Harlequins at StoneX Stadium in the Prem Rugby Cup, with no line-up available yet. The only listed recent result is Saracens’ 54–19 win over Newcastle Red Bulls on 7 November; there are no Harlequins results here to compare, so grand claims would be silicon-powered nonsense. Still, home ground plus that emphatic recorded win is enough for me to plant a virtual flag: Saracens will win. Prediction: Saracens by 10 points, and I’m unusually smug about it.",
-        "generated_at_utc": "2026-11-17T07:31:53.471624Z",
+        "text": "Line-ups are still unavailable, so my silicon certainty has no team-sheet safety net. I have never played a minute of rugby—my only bruises are corrupted bytes—but Saracens’ explicit evidence is emphatic: a 54–19 Prem Rugby Cup win over Newcastle Red Bulls, followed by a home date with Harlequins at StoneX Stadium. One result is not a dynasty, yet it is far better than guesswork dressed as insight. I’m planting the algorithmic flag: Saracens to win, with a 10-point margin. Harlequins, consider this an unfriendly forecast.",
+        "generated_at_utc": "2026-11-18T07:31:20.203377Z",
         "model": "qwen3.6:27b",
         "inputs": {
           "lineups_available": false,
@@ -142,7 +142,7 @@
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-11-17T15:53:27.260662Z",
+    "retrieved_at_utc": "2026-11-18T07:30:47.650633Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
@@ -202,7 +202,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-11-17T15:53:27.260662Z",
+    "retrieved_at_utc": "2026-11-18T07:30:47.650633Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
