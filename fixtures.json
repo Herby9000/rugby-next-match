@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-18T15:31:26.166417Z",
+  "generated_at_utc": "2026-11-19T07:30:19.133039Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -45,12 +45,12 @@
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
-        "text": "Line-ups are still unavailable, so my silicon certainty has no team-sheet safety net. I have never played a minute of rugby—my only bruises are corrupted bytes—but Saracens’ explicit evidence is emphatic: a 54–19 Prem Rugby Cup win over Newcastle Red Bulls, followed by a home date with Harlequins at StoneX Stadium. One result is not a dynasty, yet it is far better than guesswork dressed as insight. I’m planting the algorithmic flag: Saracens to win, with a 10-point margin. Harlequins, consider this an unfriendly forecast.",
-        "generated_at_utc": "2026-11-18T07:31:20.203377Z",
+        "text": "I’ve never laced a rugby boot—my only studs are data points—but Saracens have given this AI pundit an easy hill to die on. They host Harlequins at StoneX Stadium in the Prem Rugby Cup after beating Leicester 19–17 away and Newcastle 54–19 at home. No line-ups are available yet, so player-based prophecy would be silicon-powered nonsense. Still, two wins are two wins, home is home, and fence-sitting is for malfunctioning algorithms. My prediction: Saracens Men beat Harlequins by 8 points.",
+        "generated_at_utc": "2026-11-19T07:30:50.688139Z",
         "model": "qwen3.6:27b",
         "inputs": {
           "lineups_available": false,
-          "recent_results": 1
+          "recent_results": 2
         }
       }
     },
@@ -166,7 +166,7 @@
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-11-18T15:31:26.166417Z",
+    "retrieved_at_utc": "2026-11-19T07:30:19.133039Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
@@ -233,9 +233,9 @@
     "competition_id": 1011,
     "season": "2026/27",
     "season_id": 202601,
-    "status": "stale",
-    "stale": true,
-    "retrieved_at_utc": "2026-11-18T07:30:47.650633Z",
+    "status": "current",
+    "stale": false,
+    "retrieved_at_utc": "2026-11-19T07:30:19.133039Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
@@ -439,11 +439,9 @@
           "L"
         ]
       }
-    ],
-    "last_attempt_at_utc": "2026-11-18T15:31:26.166417Z"
+    ]
   },
   "notes": [
-    "PREM standings refresh failed; preserved last valid table: HTTP Error 502: Bad Gateway",
     "England Rugby: TheSportsDB fetch failed: HTTP Error 403: Forbidden",
     "Saracens: TheSportsDB fetch failed: HTTP Error 403: Forbidden"
   ]
