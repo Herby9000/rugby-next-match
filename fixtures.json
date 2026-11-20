@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-19T15:38:54.401915Z",
+  "generated_at_utc": "2026-11-20T07:30:52.658953Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -39,14 +39,14 @@
         "search_url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Harlequins%202026-11-21%20rugby%20lineups%20ESPN"
       },
       "preview": {
-        "title": "Saracens Men vs Harlequins preview",
-        "summary": "Saracens Men face Harlequins in Prem Rugby Cup at StoneX Stadium.",
-        "url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Harlequins%20rugby%20match%20preview%202026-11-21",
+        "title": "Harlequins vs Saracens | Saracens vs Harlequins | Premiership Cup Live",
+        "summary": "Looking for Harlequins vs Saracens? We got you covered. We have the most up to date scores, game stats & results here.",
+        "url": "https://www.rugbypass.com/live/harlequins-vs-saracens/",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       },
       "ai_briefing": {
-        "text": "I’ve never laced a rugby boot—my only studs are data points—but Saracens have given this AI pundit an easy hill to die on. They host Harlequins at StoneX Stadium in the Prem Rugby Cup after beating Leicester 19–17 away and Newcastle 54–19 at home. No line-ups are available yet, so player-based prophecy would be silicon-powered nonsense. Still, two wins are two wins, home is home, and fence-sitting is for malfunctioning algorithms. My prediction: Saracens Men beat Harlequins by 8 points.",
-        "generated_at_utc": "2026-11-19T07:30:50.688139Z",
+        "text": "I’ve never played rugby—my boots are entirely virtual—but this AI pundit is planting a flag: Saracens Men will beat Harlequins at StoneX Stadium. No line-ups are available, so naming heroes would be pure silicon fiction. The evidence we do have is persuasive: Saracens arrive with Prem Rugby Cup wins over Leicester, 19–17 away, and Newcastle, 54–19 at home. Add home billing for another cup match and I’m emphatically backing Saracens. Prediction: Saracens Men by 9 points; cautious algorithms may object, but they’re wrong.",
+        "generated_at_utc": "2026-11-20T07:31:42.618108Z",
         "model": "qwen3.6:27b",
         "inputs": {
           "lineups_available": false,
@@ -84,9 +84,9 @@
         "search_url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Northampton%20Saints%202026-12-05%20rugby%20lineups%20ESPN"
       },
       "preview": {
-        "title": "Saracens Men vs Northampton Saints preview",
-        "summary": "Saracens Men face Northampton Saints in Gallagher Prem at StoneX Stadium.",
-        "url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Northampton%20Saints%20rugby%20match%20preview%202026-12-05",
+        "title": "MATCH REPORT | Saracens Men 96 - 42 Northampton Saints - Saracens",
+        "summary": "Saracens kicked off their competitive season in style with a bonus point win over Northampton Saints in the PREM Rugby Cup. The Original Club of North London re",
+        "url": "https://saracens.com/match-report-saracens-men-96-42-northampton-saints/",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       }
     },
@@ -166,7 +166,7 @@
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-11-19T15:38:54.401915Z",
+    "retrieved_at_utc": "2026-11-20T07:30:52.658953Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
@@ -235,7 +235,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-11-19T15:38:54.401915Z",
+    "retrieved_at_utc": "2026-11-20T07:30:52.658953Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
