@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-21T14:32:58.378062Z",
+  "generated_at_utc": "2026-11-22T07:30:55.512467Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -25,12 +25,6 @@
           "competition": "Prem Rugby Cup",
           "result": "W",
           "score": "Leicester Tigers 17–19 Saracens Men"
-        },
-        {
-          "date": "2026-11-07",
-          "competition": "Prem Rugby Cup",
-          "result": "W",
-          "score": "Saracens Men 54–19 Newcastle Red Bulls"
         }
       ],
       "lineup": {
@@ -43,6 +37,15 @@
         "summary": "Saracens Men face Northampton Saints in Gallagher Prem at StoneX Stadium.",
         "url": "https://duckduckgo.com/?q=Saracens%20Men%20vs%20Northampton%20Saints%20rugby%20match%20preview%202026-12-05",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
+      },
+      "ai_briefing": {
+        "text": "I have precisely zero playing experience, but even this AI pundit can spot the honest angle: Saracens Men are at home to Northampton Saints at StoneX Stadium in the Gallagher Prem. The line-ups are absent, so detailed matchup claims would be smoke in a scrum cap. The only listed recent result is Saracens’ 19–17 Prem Rugby Cup win away to Leicester Tigers; useful, but hardly an encyclopaedia of form. Still, home status earns my emphatic silicon vote. Prediction: Saracens Men to win by four points, with confidence doing more work than the evidence.",
+        "generated_at_utc": "2026-11-22T07:31:34.137995Z",
+        "model": "qwen3.6:27b",
+        "inputs": {
+          "lineups_available": false,
+          "recent_results": 1
+        }
       }
     },
     {
@@ -61,12 +64,6 @@
           "competition": "Prem Rugby Cup",
           "result": "W",
           "score": "Leicester Tigers 17–19 Saracens Men"
-        },
-        {
-          "date": "2026-11-07",
-          "competition": "Prem Rugby Cup",
-          "result": "W",
-          "score": "Saracens Men 54–19 Newcastle Red Bulls"
         }
       ],
       "lineup": {
@@ -97,12 +94,6 @@
           "competition": "Prem Rugby Cup",
           "result": "W",
           "score": "Leicester Tigers 17–19 Saracens Men"
-        },
-        {
-          "date": "2026-11-07",
-          "competition": "Prem Rugby Cup",
-          "result": "W",
-          "score": "Saracens Men 54–19 Newcastle Red Bulls"
         }
       ],
       "lineup": {
@@ -116,12 +107,42 @@
         "url": "https://duckduckgo.com/?q=Gloucester%20Rugby%20vs%20Saracens%20Men%20rugby%20match%20preview%202026-12-19",
         "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
       }
+    },
+    {
+      "team": "Saracens Men",
+      "opponent": "Exeter Chiefs",
+      "title": "Exeter Chiefs vs Saracens Men",
+      "competition": "Gallagher Prem",
+      "venue": "Sandy Park",
+      "start_utc": "2026-12-27T15:05:00Z",
+      "home_away": "Away",
+      "source": "Saracens official fixtures",
+      "source_url": "https://saracens.com/fixtures-results/",
+      "recent_results": [
+        {
+          "date": "2026-11-15",
+          "competition": "Prem Rugby Cup",
+          "result": "W",
+          "score": "Leicester Tigers 17–19 Saracens Men"
+        }
+      ],
+      "lineup": {
+        "available": false,
+        "message": "Lineups not available yet. They usually appear around 24 hours before kick-off.",
+        "search_url": "https://duckduckgo.com/?q=Exeter%20Chiefs%20vs%20Saracens%20Men%202026-12-27%20rugby%20lineups%20ESPN"
+      },
+      "preview": {
+        "title": "Exeter Chiefs vs Saracens Men preview",
+        "summary": "Saracens Men face Exeter Chiefs in Gallagher Prem at Sandy Park.",
+        "url": "https://duckduckgo.com/?q=Exeter%20Chiefs%20vs%20Saracens%20Men%20rugby%20match%20preview%202026-12-27",
+        "lineup_note": "Team sheets are not available yet; the daily updater will keep checking."
+      }
     }
   ],
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-11-21T14:32:58.378062Z",
+    "retrieved_at_utc": "2026-11-22T07:30:55.512467Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
@@ -133,15 +154,6 @@
         "venue": "Mattioli Woods Welford Road",
         "result": "W",
         "score": "Leicester Tigers 17–19 Saracens Men"
-      },
-      {
-        "date": "2026-11-07",
-        "opponent": "Newcastle Red Bulls",
-        "home_away": "Home",
-        "competition": "Prem Rugby Cup",
-        "venue": "StoneX Stadium",
-        "result": "W",
-        "score": "Saracens Men 54–19 Newcastle Red Bulls"
       }
     ],
     "upcoming_fixtures": [
@@ -171,6 +183,15 @@
         "venue": "Kingsholm",
         "start_utc": "2026-12-19T15:00:00Z",
         "kickoff_status": "Confirmed"
+      },
+      {
+        "date": "2026-12-27",
+        "opponent": "Exeter Chiefs",
+        "home_away": "Away",
+        "competition": "Gallagher Prem",
+        "venue": "Sandy Park",
+        "start_utc": "2026-12-27T15:05:00Z",
+        "kickoff_status": "Confirmed"
       }
     ]
   },
@@ -181,7 +202,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-11-21T14:32:58.378062Z",
+    "retrieved_at_utc": "2026-11-22T07:30:55.512467Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
