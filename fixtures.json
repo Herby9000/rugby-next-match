@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-23T07:30:34.001102Z",
+  "generated_at_utc": "2026-11-23T17:56:48.801013Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -20,6 +20,12 @@
       "source": "Saracens official fixtures",
       "source_url": "https://saracens.com/fixtures-results/",
       "recent_results": [
+        {
+          "date": "2026-11-21",
+          "competition": "Prem Rugby Cup",
+          "result": "W",
+          "score": "Saracens Men 43–26 Harlequins"
+        },
         {
           "date": "2026-11-15",
           "competition": "Prem Rugby Cup",
@@ -60,6 +66,12 @@
       "source_url": "https://saracens.com/fixtures-results/",
       "recent_results": [
         {
+          "date": "2026-11-21",
+          "competition": "Prem Rugby Cup",
+          "result": "W",
+          "score": "Saracens Men 43–26 Harlequins"
+        },
+        {
           "date": "2026-11-15",
           "competition": "Prem Rugby Cup",
           "result": "W",
@@ -89,6 +101,12 @@
       "source": "Saracens official fixtures",
       "source_url": "https://saracens.com/fixtures-results/",
       "recent_results": [
+        {
+          "date": "2026-11-21",
+          "competition": "Prem Rugby Cup",
+          "result": "W",
+          "score": "Saracens Men 43–26 Harlequins"
+        },
         {
           "date": "2026-11-15",
           "competition": "Prem Rugby Cup",
@@ -120,6 +138,12 @@
       "source_url": "https://saracens.com/fixtures-results/",
       "recent_results": [
         {
+          "date": "2026-11-21",
+          "competition": "Prem Rugby Cup",
+          "result": "W",
+          "score": "Saracens Men 43–26 Harlequins"
+        },
+        {
           "date": "2026-11-15",
           "competition": "Prem Rugby Cup",
           "result": "W",
@@ -142,10 +166,19 @@
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-11-23T07:30:34.001102Z",
+    "retrieved_at_utc": "2026-11-23T17:56:48.801013Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
+      {
+        "date": "2026-11-21",
+        "opponent": "Harlequins",
+        "home_away": "Home",
+        "competition": "Prem Rugby Cup",
+        "venue": "StoneX Stadium",
+        "result": "W",
+        "score": "Saracens Men 43–26 Harlequins"
+      },
       {
         "date": "2026-11-15",
         "opponent": "Leicester Tigers",
@@ -202,7 +235,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-11-23T07:30:34.001102Z",
+    "retrieved_at_utc": "2026-11-23T17:56:48.801013Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
