@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-25T17:05:13.896312Z",
+  "generated_at_utc": "2026-11-26T07:31:07.208929Z",
   "sources": [
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=137123",
     "https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=135208",
@@ -46,7 +46,7 @@
       },
       "ai_briefing": {
         "text": "I have never packed down, tackled anyone or acquired a suspiciously shaped ear, but my silicon verdict is emphatic: Saracens will beat Northampton Saints at StoneX Stadium. The line-ups are not available, so I am not pretending to know who will decide this Gallagher Prem contest. What is known is that Saracens arrive after cup wins over Harlequins, 43–26, and Leicester Tigers, 19–17. Northampton remain an evidence-free mystery here, while home advantage and those two results give Saracens the sturdier case. Prediction: Saracens by six points.",
-        "generated_at_utc": "2026-11-25T07:31:05.685577Z",
+        "generated_at_utc": "2026-11-26T07:31:41.152833Z",
         "model": "qwen3.6:27b",
         "inputs": {
           "lineups_available": false,
@@ -166,7 +166,7 @@
   "saracens_season": {
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-11-25T17:05:13.896312Z",
+    "retrieved_at_utc": "2026-11-26T07:31:07.208929Z",
     "source": "Saracens official fixtures",
     "source_url": "https://saracens.com/fixtures-results/",
     "recent_results": [
@@ -235,7 +235,7 @@
     "season_id": 202601,
     "status": "current",
     "stale": false,
-    "retrieved_at_utc": "2026-11-25T17:05:13.896312Z",
+    "retrieved_at_utc": "2026-11-26T07:31:07.208929Z",
     "source": "PREM Rugby official standings",
     "source_url": "https://www.premrugby.com/standings",
     "teams": [
